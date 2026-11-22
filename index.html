@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>O MURLOC — WoW no YouTube</title>
+  <meta name="description" content="Todos os vídeos e Shorts do canal O MURLOC: World of Warcraft, PvP, WoW Forever e o Ready Check semanal." />
+  <meta property="og:title" content="O MURLOC — WoW no YouTube" />
+  <meta property="og:description" content="Vídeos novos, Shorts e os mais assistidos do canal." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#07090d" />
+  <link rel="icon" href="assets/favicon.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/icone.png" />
+  <meta property="og:image" content="assets/og.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,600;0,700;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="#">
+      <img src="assets/icone.png" alt="" width="40" height="40" />
+      <span class="brand-text">O MURLOC</span>
+    </a>
+    <nav>
+      <a href="#novidades">Novidades</a>
+      <a href="#shorts">Shorts</a>
+      <a href="#populares">Mais vistos</a>
+      <a href="#todos">Todos</a>
+    </nav>
+    <a class="btn sub" data-sub href="https://www.youtube.com/@omurloc?sub_confirmation=1" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.7 2.7 0 0 0-1.9-1.9C18 4.8 12 4.8 12 4.8s-6 0-7.7.5a2.7 2.7 0 0 0-1.9 1.9C1.9 8.9 1.9 12 1.9 12s0 3.1.5 4.8a2.7 2.7 0 0 0 1.9 1.9c1.7.5 7.7.5 7.7.5s6 0 7.7-.5a2.7 2.7 0 0 0 1.9-1.9c.5-1.7.5-4.8.5-4.8s0-3.1-.5-4.8zM10 15.1V8.9l5.2 3.1z"/></svg>Inscrever-se</a>
+  </header>
+
+  <main>
+    <section class="scene">
+      <div class="scene-inner">
+        <div class="hero-copy">
+          <p class="kicker">Mrglglglglgllg!</p>
+          <h1>WoW sem enrolação, direto do fundo do lago</h1>
+          <p class="lead">PvP, WoW Forever, hotfix, tuning de classe e o Ready Check toda semana. Saiu vídeo ou Short no canal, aparece aqui.</p>
+          <a class="btn big" data-sub href="https://www.youtube.com/@omurloc?sub_confirmation=1" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22a2.5 2.5 0 0 0 2.4-2h-4.8a2.5 2.5 0 0 0 2.4 2zm7-6V11c0-3.1-1.6-5.6-4.5-6.3V4a1.5 1.5 0 0 0-3 0v.7C8.6 5.4 7 7.9 7 11v5l-2 2v1h14v-1z"/></svg>Inscreva-se e ative o sino</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero" id="novidades">
+      <div class="hero-grid">
+        <article class="feature" id="latest-video" aria-live="polite"></article>
+        <article class="feature-short" id="latest-short"></article>
+      </div>
+    </section>
+
+    <section id="shorts" class="block">
+      <div class="block-head">
+        <h2>Shorts novos</h2>
+        <a class="more" href="https://www.youtube.com/@omurloc/shorts" target="_blank" rel="noopener">Ver todos no YouTube</a>
+      </div>
+      <div class="shorts-row" id="shorts-list"></div>
+    </section>
+
+    <section id="populares" class="block">
+      <div class="block-head">
+        <h2>Mais assistidos</h2>
+        <span class="hint">Comece por aqui se chegou agora</span>
+      </div>
+      <ol class="popular" id="popular-list"></ol>
+    </section>
+
+    <section id="todos" class="block">
+      <div class="block-head">
+        <h2>Todos os vídeos</h2>
+        <div class="tabs" role="tablist">
+          <button role="tab" aria-selected="true" data-filter="all">Tudo</button>
+          <button role="tab" aria-selected="false" data-filter="video">Vídeos</button>
+          <button role="tab" aria-selected="false" data-filter="short">Shorts</button>
+        </div>
+      </div>
+      <div class="grid" id="all-list"></div>
+      <button class="btn ghost" id="load-more" hidden>Carregar mais</button>
+    </section>
+  </main>
+
+  <footer>
+    <span class="brand-text">O MURLOC</span>
+    <a class="btn" href="https://www.youtube.com/@omurloc?sub_confirmation=1" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21.6 7.2a2.7 2.7 0 0 0-1.9-1.9C18 4.8 12 4.8 12 4.8s-6 0-7.7.5a2.7 2.7 0 0 0-1.9 1.9C1.9 8.9 1.9 12 1.9 12s0 3.1.5 4.8a2.7 2.7 0 0 0 1.9 1.9c1.7.5 7.7.5 7.7.5s6 0 7.7-.5a2.7 2.7 0 0 0 1.9-1.9c.5-1.7.5-4.8.5-4.8s0-3.1-.5-4.8zM10 15.1V8.9l5.2 3.1z"/></svg>Inscreva-se no canal</a>
+    <p>O Murloc no <a href="https://www.youtube.com/@omurloc" target="_blank" rel="noopener">YouTube</a>. Site atualizado sozinho a cada hora.</p>
+    <p class="muted" id="updated"></p>
+  </footer>
+
+  <dialog id="player">
+    <div class="player-box">
+      <button class="close" aria-label="Fechar">&times;</button>
+      <div class="frame"></div>
+      <div class="player-meta">
+        <h3></h3>
+        <a class="btn" target="_blank" rel="noopener">Abrir no YouTube</a>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
