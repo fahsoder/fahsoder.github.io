@@ -1,4 +1,405 @@
 {
-  "channel": { "id": "UCQT7eGprwnshcTUS_mXLGBA", "title": "O Murloc", "url": "https://www.youtube.com/@omurloc" },
-  "videos": {}
+  "channel": {
+    "id": "UCQT7eGprwnshcTUS_mXLGBA",
+    "title": "O Murloc",
+    "url": "https://www.youtube.com/channel/UCQT7eGprwnshcTUS_mXLGBA"
+  },
+  "videos": {
+    "pxqyjnOlUmM": {
+      "id": "pxqyjnOlUmM",
+      "title": "WoW Forever: 18 tier sets fabricados, classe por classe",
+      "published": "2026-11-22T14:30:28+00:00",
+      "updated": "2026-11-22T14:57:19+00:00",
+      "description": "A Blizzard liberou as peças fabricadas dos tier sets do WoW Forever, mas só deixa equipar uma por vez. Neste vídeo eu explico como o sistema funciona, o que muda com a abertura das raides em 09/12 e quais são os 18 conjuntos de cada classe.\n\nCapítulos:\n0:00 Abertura\n0:29 O que é ",
+      "views": 372,
+      "likes": 36,
+      "type": "video"
+    },
+    "iEth-2MczJ8": {
+      "id": "iEth-2MczJ8",
+      "title": "WoW Forever: veja isso ANTES de upar sua classe",
+      "published": "2026-11-20T14:30:22+00:00",
+      "updated": "2026-11-20T14:30:23+00:00",
+      "description": "Qual masmorra vale a pena farmar com a sua classe no WoW Forever? Passei pelas 34 masmorras, da mais baixa ao nível 60, com os melhores itens e conjuntos de cada uma e para qual classe eles servem.\n\nTem conjunto novo do Forever (Rotmender nas Ruínas de Lordaeron, Feiticeiro Viole",
+      "views": 14090,
+      "likes": 403,
+      "type": "video",
+      "popularRank": 2
+    },
+    "v3kZCU9YFXA": {
+      "id": "v3kZCU9YFXA",
+      "title": "WoW Forever: Aprenda como e onde pegar sua montaria!",
+      "published": "2026-11-17T21:00:24+00:00",
+      "updated": "2026-11-20T22:01:49+00:00",
+      "description": "Chegou (ou está chegando) no nível 40 no WoW Forever? \n\nNeste vídeo: quanto custa a montaria, quem não paga o treino (Paladino e Bruxo), onde cada raça treina, quais montarias cada uma tem, se dá pra pegar montaria de outra raça e como juntar o ouro enquanto upa.\n\nCAPITULOS\n0:00 ",
+      "views": 10765,
+      "likes": 228,
+      "type": "video",
+      "popularRank": 4
+    },
+    "F-w_fcPx1wc": {
+      "id": "F-w_fcPx1wc",
+      "title": "WoW Forever: você pode PERDER XP nas masmorras",
+      "published": "2026-11-15T15:15:32+00:00",
+      "updated": "2026-11-18T23:45:45+00:00",
+      "description": "WoW Forever: tudo que a Blizzard corrigiu nos hotfixes de 9 a 13 de novembro (XP, masmorras, zonas lotadas) e o que vem por ai, direto das notas oficiais.\n\nNeste video: os problemas que mais apareceram no inicio do Forever, a correcao de cada um com a data do hotfix, o que mudou ",
+      "views": 15214,
+      "likes": 293,
+      "type": "video",
+      "popularRank": 1
+    },
+    "xHcgKvj9igY": {
+      "id": "xHcgKvj9igY",
+      "title": "WoW Forever: nerfaram sua classe? Todos os ajustes de classe do hotfix",
+      "published": "2026-11-13T21:00:02+00:00",
+      "updated": "2026-11-16T23:37:33+00:00",
+      "description": "Todos os ajustes de classes do WoW Forever dos hotfixes de 10 e 11 de novembro, classe por classe, direto das notas oficiais da Blizzard, com o motivo que a propria Blizzard deu.\n\nCapitulos\n00:00 Introducao\n00:31 Antes de comecar\n00:38 O contexto: o aviso do dia 6\n01:31 Xamã Aper",
+      "views": 9761,
+      "likes": 174,
+      "type": "video",
+      "popularRank": 5
+    },
+    "M2R2M1ZyaCg": {
+      "id": "M2R2M1ZyaCg",
+      "title": "O GRANDE PROBLEMA do WoW Forever: Horda x Aliança pode QUEBRAR o jogo?",
+      "published": "2026-11-11T21:00:12+00:00",
+      "updated": "2026-11-14T21:48:42+00:00",
+      "description": "O WoW Forever já nasceu quebrado por causa de Horda x Aliança no PvP? \n\nNeste vídeo eu separo o que a Blizzard confirmou, o que é relato de jogador e o que ninguém sabe ainda, e digo o que eu faria no seu lugar.\n\nCAPITULOS\n0:00 Abertura\n0:47 O problema\n1:38 O que a Blizzard disse",
+      "views": 13206,
+      "likes": 200,
+      "type": "video",
+      "popularRank": 3
+    },
+    "NY_a7a5BFtc": {
+      "id": "NY_a7a5BFtc",
+      "title": "WoW Forever PvP: DESCUBRA a classe que combina com você",
+      "published": "2026-11-10T21:00:31+00:00",
+      "updated": "2026-11-14T00:04:55+00:00",
+      "description": "Qual classe jogar no PvP do WoW Forever? Eu coloquei as 9 classes em 4 niveis de dificuldade, do facil ao mais dificil, e mostro pra que tipo de jogador cada uma serve: quem gosta de jogar de longe, quem gosta de porrada, quem gosta de ajudar o time. No final tem um guia por perf",
+      "views": 3104,
+      "likes": 55,
+      "type": "video",
+      "popularRank": 11
+    },
+    "bh2AlhJ3zYs": {
+      "id": "bh2AlhJ3zYs",
+      "title": "WoW Forever PvP: você PRECISA saber disso antes de começar",
+      "published": "2026-11-07T15:00:31+00:00",
+      "updated": "2026-11-10T22:43:07+00:00",
+      "description": "O rank de PvP voltou no WoW Forever, mas nao funciona como no Classic: tem Honor, Rank Points e um teto de rank por semana. Neste video eu explico o sistema passo a passo, do primeiro battleground ate o topo, e no final mostro uma semana ideal pra nao perder tempo.\n\nO que tem no ",
+      "views": 1825,
+      "likes": 49,
+      "type": "video"
+    },
+    "RIPWhf-dEzo": {
+      "id": "RIPWhf-dEzo",
+      "title": "WoW Forever PvP: NÃO escolha sua classe sem ver isso",
+      "published": "2026-11-05T21:00:18+00:00",
+      "updated": "2026-11-08T22:05:22+00:00",
+      "description": "Qual classe escolher para o PvP do WoW Forever? \n\nEu passo pelas 9 classes, uma por uma, com os pontos fortes, os pontos fracos e a minha opinião, na ordem em que o forte de uma costuma ser o fraco da seguinte (Rogue, Warrior, Mage, Priest, Warlock, Hunter, Druid, Paladin e Shama",
+      "views": 2997,
+      "likes": 66,
+      "type": "video",
+      "popularRank": 13
+    },
+    "BC-W09kMTS4": {
+      "id": "BC-W09kMTS4",
+      "title": "WoW Forever é uma ILUSÃO ou o FUTURO?",
+      "published": "2026-11-04T01:00:22+00:00",
+      "updated": "2026-11-07T00:18:19+00:00",
+      "description": "WoW Forever abre amanhã (04/11) às 20h (horário de Brasília): eu disse que ele era uma ilusão e agora confiro, com fatos, o que acertei, o que errei e o que ainda não dá para saber.\nEu passo por 6 previsões do vídeo anterior, com a fonte de cada fato: ciclo de buff e nerf, a fórm",
+      "views": 842,
+      "likes": 20,
+      "type": "video"
+    },
+    "uZdKPzAKJgw": {
+      "id": "uZdKPzAKJgw",
+      "title": "8 MONTARIAS em World of Warcraft: Midnight SEM depender de sorte",
+      "published": "2026-11-02T14:15:26+00:00",
+      "updated": "2026-11-06T01:48:23+00:00",
+      "description": "8 montarias de Midnight que você pega sem depender de sorte, desde duas de graça em Harandar até uma de 5 milhões de ouro.\nElder Glowmite, Vivid Chloroceros, Emerald Skyfang, Breath of Blight, Breath of Ruin, Venomous Gladiator's Goredrake, Vicious Lightbloom Boar e Sporebearer F",
+      "views": 237,
+      "likes": 12,
+      "type": "video"
+    },
+    "lg_1F-OFPAc": {
+      "id": "lg_1F-OFPAc",
+      "title": "Hunter MM INSANO, Healers Buffados e a Polêmica com a Loja do WoW",
+      "published": "2026-10-31T15:30:12+00:00",
+      "updated": "2026-11-04T02:16:56+00:00",
+      "description": "O Hunter Marksmanship ganhou 40% de dano no Kill Shot em PvP, e o hotfix de 27/10 do WoW Midnight foi o hotfix dos healers. Nesse vídeo eu passo por todas as mudanças de PvP que importam, mostro por que essa é a melhor semana pra gearar alt, o que fazer no Timewalking de Warlords",
+      "views": 969,
+      "likes": 26,
+      "type": "video"
+    },
+    "deAy_dkzyBE": {
+      "id": "deAy_dkzyBE",
+      "title": "CHANCE ÚNICA DE PEGAR OS SETS DE PVP!",
+      "published": "2026-10-24T23:00:36+00:00",
+      "updated": "2026-10-31T19:12:39+00:00",
+      "description": "Conquest sem limites no WoW Midnight: o hotfix de 20 de outubro tirou o limite de Conquest Points e de Bloody Tokens e ainda colocou o buff Spoils of War, com 50% a mais de Conquest e 40% a mais de Honor em Arena e Battleground.\n\nNeste vídeo eu mostro o que mudou no PvP com o pat",
+      "views": 350,
+      "likes": 12,
+      "type": "video"
+    },
+    "7h2MDaGqBSg": {
+      "id": "7h2MDaGqBSg",
+      "title": "Elemental Shaman Solo Shuffle | Midnight Season 2 | Arena World of Warcraft",
+      "published": "2026-10-18T20:00:03+00:00",
+      "updated": "2026-10-31T19:13:09+00:00",
+      "description": "Shaman Elemental em Solo Shuffle na Midnight Season 2 (Patch 12.1) do World of Warcraft!\n\nNeste vídeo jogo Arena Solo Shuffle com Elemental Shaman, mostrando como está a spec no meta atual, burst, pressão constante, controle e utilidade.\n\nGostou do vídeo? Deixa o like e se inscre",
+      "views": 331,
+      "likes": 4,
+      "type": "video"
+    },
+    "cWCP9zk9lgU": {
+      "id": "cWCP9zk9lgU",
+      "title": "Você pode GANHAR um Monitor da Blizzard + Mentoria? | WOW FOREVER | PATCH 12.1.5 |",
+      "published": "2026-10-14T15:00:31+00:00",
+      "updated": "2026-10-18T00:37:54+00:00",
+      "description": "Você já pensou em ganhar um monitor Wacom Cintiq 24, mentoria com artista sênior da Blizzard e assinatura de 1 ano do World of Warcraft?\nHoje eu te trago as principais notícias de WoW:\n• Student Art Contest 2026 aberto\n\n• Hall of Fame do Venomous Abyss fechou\n\n• Mudanças de últim",
+      "views": 604,
+      "likes": 16,
+      "type": "video"
+    },
+    "m0uZZvzzjHE": {
+      "id": "m0uZZvzzjHE",
+      "title": "WoW Forever: o hotfix que mexeu no seu farm de ouro",
+      "published": "2026-11-21T23:30:26+00:00",
+      "updated": "2026-11-22T02:51:10+00:00",
+      "description": "A treta da Gruta Bocanera, explicada neste short: https://www.youtube.com/shorts/T3QwaatT5uc\n\nA Blizzard reduziu de 10 para 5 o maximo de vezes que voce pode resetar e entrar em cada masmorra por hora no WoW Forever (hotfix de 20/11). A Blizzard nao falou de ouro nem de farm; a l",
+      "views": 1273,
+      "likes": 24,
+      "type": "short"
+    },
+    "BwHti5tDrZs": {
+      "id": "BwHti5tDrZs",
+      "title": "WoW Forever: a Blizzard confirmou que o Enclave Escarlate vai voltar #shorts #worldofwarcraft",
+      "published": "2026-11-21T14:45:23+00:00",
+      "updated": "2026-11-21T18:38:49+00:00",
+      "description": "O Enclave Escarlate (Scarlet Enclave), a última raide da Temporada de Descobertas, vai voltar no WoW Forever. Quem disse foi o Aggrend no podcast oficial do Forever, junto com a história da Crematória (Ashbringer). Ainda sem data.\n\nFonte oficial: The WoW: Forever Podcast, episódi",
+      "views": 396,
+      "likes": 14,
+      "type": "short"
+    },
+    "gZRzmvd_Pc8": {
+      "id": "gZRzmvd_Pc8",
+      "title": "EVENTO de ANIVERSÁRIO do WOW! #shorts #worldofwarcraft",
+      "published": "2026-11-19T14:30:35+00:00",
+      "updated": "2026-11-20T17:16:24+00:00",
+      "description": "O evento de aniversário de 22 anos do World of Warcraft vai até 08/12 nas Cavernas do Tempo: +20% de experiência e reputação, conjunto Vigia Leal, armaduras do Tier 2, títulos e armas de PvP de Alterac com Marcas de Honra. Mas tem um detalhe que está dividindo a galera.\n\nFonte of",
+      "views": 1254,
+      "likes": 27,
+      "type": "short"
+    },
+    "XkiPS0snkk8": {
+      "id": "XkiPS0snkk8",
+      "title": "PvP no WoW Forever: essa semana as Ilhas Lançanegra valem mais #shorts #wow",
+      "published": "2026-11-18T21:00:26+00:00",
+      "updated": "2026-11-19T20:22:03+00:00",
+      "description": "Até terça 24/11, o Chamado às Armas do WoW Forever é das Ilhas Lançanegra (Darkspear Islands): mais Honra e bônus de Pontos de Ranque. Como funciona o campo de batalha 15x15, como entrar e as reputações.\n\nFontes oficiais (Blizzard):\n- Batalha pelas Ilhas Lançanegra em World of Wa",
+      "views": 2029,
+      "likes": 77,
+      "type": "short"
+    },
+    "oMxBdoZdVCQ": {
+      "id": "oMxBdoZdVCQ",
+      "title": "Blizzard anunciou alguns números sobre o WoW Forever #shorts #wowforever",
+      "published": "2026-11-18T14:30:17+00:00",
+      "updated": "2026-11-18T16:08:42+00:00",
+      "description": "A Blizzard soltou os números do WoW Forever: mais de 15 milhões de personagens, quase 10 bilhões de inimigos derrotados, quase 200 milhões de mortes de jogador e o chefe que mais matou até agora.\n\nFonte oficial: post do canal World of Warcraft no YouTube (\"By the Numbers\"), 17/11",
+      "views": 7773,
+      "likes": 278,
+      "type": "short"
+    },
+    "T3QwaatT5uc": {
+      "id": "T3QwaatT5uc",
+      "title": "WoW Forever: Blizzard suspendeu contas que estão abusando de BUG #shorts #worldofwarcraft",
+      "published": "2026-11-18T00:30:17+00:00",
+      "updated": "2026-11-20T22:04:16+00:00",
+      "description": "A Blizzard tirou o ouro e suspendeu contas de quem abusou do farm da Gruta Bocanera (Blackmaw Hold) no WoW Forever. Quem só rodou a masmorra algumas vezes não fez nada de errado, segundo a própria Blizzard.\n\nFonte oficial: post de Kaivax (Community Manager), 17/11/2026\nhttps://us",
+      "views": 2579,
+      "likes": 114,
+      "type": "short"
+    },
+    "6gYPdM7vIeg": {
+      "id": "6gYPdM7vIeg",
+      "title": "Mudou de novo a regra da experiência zero nas masmorras do WoW Forever",
+      "published": "2026-11-16T14:45:34+00:00",
+      "updated": "2026-11-22T04:36:46+00:00",
+      "description": "A Blizzard mudou de novo a regra da experiência zero nas masmorras do WoW Forever: agora a experiência só é anulada se o jogador de nível alto estiver mais de 12 níveis acima do monstro (13 ou mais). Fonte oficial: post de Kaivax, 15/11/2026.\n\nEssa atualização saiu depois que eu ",
+      "views": 4147,
+      "likes": 100,
+      "type": "short"
+    },
+    "116FaWCKgu4": {
+      "id": "116FaWCKgu4",
+      "title": "Quando voce para de jogar WoW Forever e volta pro trabalho #shorts",
+      "published": "2026-11-12T22:37:09+00:00",
+      "updated": "2026-11-15T15:12:42+00:00",
+      "description": "A cara de quem precisa sair de Orgrimmar e voltar pro trabalho depois de jogar WoW Forever.\n\nVoce tambem chora assim na hora de deslogar? Conta nos comentarios.\n\nCreditos:\n- Meme do menino chorando: video viral, autor original nao identificado (preencher se souber a origem).\n- Im",
+      "views": 701,
+      "likes": 10,
+      "type": "short"
+    },
+    "HhuZ9a8enn8": {
+      "id": "HhuZ9a8enn8",
+      "title": "POV: Um dia qualquer em Silverpine Forest #shorts",
+      "published": "2026-11-10T14:45:07+00:00",
+      "updated": "2026-11-10T18:28:43+00:00",
+      "description": "Quem passa pelo caminho do Son of Arugal em Silverpine Forest nao costuma voltar inteiro. Esse mob classico de level baixo ja derrubou muito aventureiro desprevenido, e no WoW Forever ele esta de volta.\n\nVoce ja foi pro Spirit Healer por causa dele? Conta nos comentarios.\n\nCredit",
+      "views": 1387,
+      "likes": 29,
+      "type": "short"
+    },
+    "rTaaHKi-nfA": {
+      "id": "rTaaHKi-nfA",
+      "title": "POV: Healer no WoW Forever #shorts",
+      "published": "2026-11-09T14:15:20+00:00",
+      "updated": "2026-11-14T00:04:53+00:00",
+      "description": "Todo healer sabe: voce para dois segundos pra beber e recuperar a mana, e quando olha o grupo ja foi embora. No WoW Forever, ate o tank e os DPS somem antes de a barra de mana encher.\n\nConta nos comentarios: ja te deixaram pra tras na dungeon enquanto voce bebia agua?\n\nCreditos:\n",
+      "views": 2454,
+      "likes": 62,
+      "type": "short"
+    },
+    "Pq601NF56CQ": {
+      "id": "Pq601NF56CQ",
+      "title": "Todo DPS quando acha um tank no WoW Forever #shorts",
+      "published": "2026-11-08T23:30:01+00:00",
+      "updated": "2026-11-09T16:49:24+00:00",
+      "description": "Todo DPS sabe: a fila da dungeon sem tank e a solidao do Burro. Eu, de Shadow Priest, nivel 16, atras de um tank nivel 20 no WoW Forever.\n\nConta nos comentarios: quanto tempo voce ja ficou esperando um tank?\n\nCena: Shrek (DreamWorks Animation). Uso em humor e comentario, sem mone",
+      "views": 2246,
+      "likes": 57,
+      "type": "short"
+    },
+    "890QsdRFCww": {
+      "id": "890QsdRFCww",
+      "title": "MONTARIAS do Trading Post de novembro #shorts #worldofwarcraft",
+      "published": "2026-11-08T14:00:01+00:00",
+      "updated": "2026-11-11T23:29:52+00:00",
+      "description": "O Trading Post de novembro tem 3 montarias a 500 Trader's Tender cada: Aubergine Warturkey (nova), Hot Motocross Bunmover 4400 (nova) e Highlands Gobbler (de volta de 2025). Completando o Traveler's Log do mês também dá para ganhar uma outra versão da moto como bônus.\n\nFontes:\nBl",
+      "views": 1338,
+      "likes": 22,
+      "type": "short"
+    },
+    "hOgH-WFWgxE": {
+      "id": "hOgH-WFWgxE",
+      "title": "WoW Forever: Conheça o primeiro jogador a chegar no nível 60! #wowforever #shorts",
+      "published": "2026-11-08T01:00:39+00:00",
+      "updated": "2026-11-10T22:43:17+00:00",
+      "description": "O Jokerd foi o primeiro 60 do mundo no Classic em 2019 e, agora, o primeiro 60 do WoW Forever. O grupo dele tinha 5 jogadores da Horda (3 Mages, 1 Paladin e 1 Shaman) e subiu com grind em área.\n\nFontes:\nIcy Veins: https://www.icy-veins.com/wow-forever/news/three-mages-a-paladin-a",
+      "views": 13793,
+      "likes": 268,
+      "type": "short"
+    },
+    "pV2nJicTFwY": {
+      "id": "pV2nJicTFwY",
+      "title": "WoW Forever pode ficar ainda mais bonito! #shorts #wowforever",
+      "published": "2026-11-07T21:30:32+00:00",
+      "updated": "2026-11-10T22:40:33+00:00",
+      "description": "Antes e depois no mesmo lugar, so mudando 8 comandos de console. Cole no chat do jogo, um por vez.\n\nComandos para melhorar o visual:\n/console groundEffectDensity 128\n/console groundEffectDist 350\n/console groundEffectFade 340\n/console horizonStart 4000\n/console terrainLodDist 650",
+      "views": 2254,
+      "likes": 56,
+      "type": "short"
+    },
+    "O-Fa-jDR9jQ": {
+      "id": "O-Fa-jDR9jQ",
+      "title": "WoW Forever Original Night Elf Hunter!! #wowforever #shorts",
+      "published": "2026-11-06T21:00:13+00:00",
+      "updated": "2026-11-09T23:40:36+00:00",
+      "description": "O Night Elf com o nome mais original do WoW Forever: Legolas Greenleaf. Ou Legolas alguma coisa. Ou Legolas Greenleaf2. Quem nunca? Qual nome você tentou? Conta aqui nos comentários.\n\nNo Forever o nome é primeiro nome mais sobrenome, e o par tem que ser único. Então todo mundo te",
+      "views": 3289,
+      "likes": 38,
+      "type": "short"
+    },
+    "ik-Xeyo9RCE": {
+      "id": "ik-Xeyo9RCE",
+      "title": "Estão te vendendo uma ilusão com o WoW Forever",
+      "published": "2026-09-18T20:00:21+00:00",
+      "updated": "2026-11-20T13:19:39+00:00",
+      "description": "O WoW Forever realmente veio para salvar a franquia ou estamos caindo em uma ilusão criada pela Blizzard?\n\nNeste vídeo, analisamos os motivos pelos quais essa novidade pode repetir os mesmos erros do passado e acelerar ainda mais a divisão da comunidade de World of Warcraft. Deix",
+      "views": 20371,
+      "likes": 522,
+      "type": "video",
+      "popularRank": 0
+    },
+    "af2-mqldrXg": {
+      "id": "af2-mqldrXg",
+      "title": "Posto Comercial: 300 itens na promoção pra você aproveitar",
+      "published": "2026-09-02T18:30:24+00:00",
+      "updated": "2026-11-19T07:47:09+00:00",
+      "description": "O Posto Comercial de setembro abriu um Outlet de BlizzCon com mais de 300 itens de volta, e pela primeira vez dá pra comprar as recompensas de bônus mensal de meses passados usando Trader's Tender. O problema é que a conta não fecha: você recebe 1.000 Tender no mês e só os mounts",
+      "views": 9691,
+      "likes": 172,
+      "type": "video",
+      "popularRank": 6
+    },
+    "7fqguxorr0c": {
+      "id": "7fqguxorr0c",
+      "title": "Cria de Vyranoth: GARANTA a MONTARIA antes que SEJA TARDE!",
+      "published": "2026-07-11T23:32:51+00:00",
+      "updated": "2026-11-21T03:07:54+00:00",
+      "description": "A Cria de Vyranoth é o dragão de gelo exclusivo dos Percursos Temporais\nTurbulentos — e tem prazo. Nesse guia rápido eu mostro o que você precisa fazer\npra garantir a montaria e o que dá pra aproveitar no evento enquanto isso.\n\nResumão:\n\n\nMontaria: Cria de Vyranoth (só do evento,",
+      "views": 8728,
+      "likes": 164,
+      "type": "video",
+      "popularRank": 7
+    },
+    "TabF8Cs97Ic": {
+      "id": "TabF8Cs97Ic",
+      "title": "BLIZZCON 2026: MONTARIA DE GRAÇA e as 4 RECOMPENSAS | Programação Completa",
+      "published": "2026-09-11T15:26:23+00:00",
+      "updated": "2026-11-21T04:20:53+00:00",
+      "description": "A BlizzCon 2026 começa sábado e dá 4 recompensas de graça só por assistir — incluindo uma montaria. Mas tem um passo que precisa ser feito ANTES de você começar a assistir, senão nada conta. Nesse vídeo eu mostro esse passo, a tabela completa das recompensas, as pegadinhas da let",
+      "views": 7397,
+      "likes": 189,
+      "type": "video",
+      "popularRank": 8
+    },
+    "OnBm17DJSUo": {
+      "id": "OnBm17DJSUo",
+      "title": "42 Minutes of Ele Shaman DESTROYING in Arena! Just Vibes & Lightning ⚡",
+      "published": "2026-06-05T20:51:56+00:00",
+      "updated": "2026-11-17T07:02:25+00:00",
+      "description": "⚡ Pure Elemental Shaman arena gameplay — no commentary, no edits, just game sounds and a lot of lightning dropping on enemies' heads. This was the first video on the channel, so welcome!\n\n42 minutes of 2v2 and 3v3 Arena in WoW Midnight Season 1. If you enjoy chill Shaman PvP game",
+      "views": 7386,
+      "likes": 34,
+      "type": "video",
+      "popularRank": 9
+    },
+    "-loRF86RR98": {
+      "id": "-loRF86RR98",
+      "title": "1500 CRÉDITOS DO POSTO COMERCIAL DE GRAÇA NO WOW | Posto Comercial Setembro",
+      "published": "2026-09-09T01:18:39+00:00",
+      "updated": "2026-11-20T14:19:05+00:00",
+      "description": "500 Créditos do Comerciante de graça no WoW, sem farm e sem missão: o evento Ventos da Fortuna Misteriosa voltou e trouxe uma Façanha nova que paga só por você logar 5 dias diferentes até 22 de setembro.\n\nNesse vídeo eu junto todas as fontes de Créditos do Comerciante abertas em ",
+      "views": 5158,
+      "likes": 130,
+      "type": "video",
+      "popularRank": 10
+    },
+    "EN4HQ67ikSk": {
+      "id": "EN4HQ67ikSk",
+      "title": "Thunderfury Has Never Been Easier to Get!",
+      "published": "2026-07-09T02:56:07+00:00",
+      "updated": "2026-11-20T00:55:28+00:00",
+      "description": "Want to unlock Thunderfury, Blessed Blade of the Windseeker in World of Warcraft? This updated guide shows you the fastest way to farm both Bindings, complete the questline, and unlock the legendary transmog.\n\nIn this video you'll learn:\n⚡ Where to farm the Bindings\n⚡ How to reac",
+      "views": 3097,
+      "likes": 62,
+      "type": "video",
+      "popularRank": 12
+    },
+    "WIOXS6YUEz8": {
+      "id": "WIOXS6YUEz8",
+      "title": "SHADOW PRIEST IS UNDERRATED AND I PROVE IT AT ELITE",
+      "published": "2026-08-04T03:15:50+00:00",
+      "updated": "2026-10-14T06:45:07+00:00",
+      "description": "Elite arena games on Shadow Priest, and here is the truth: if you are\nthinking about rerolling before Season 2, stop looking. Shadow brings\ninsane sustained damage, Mass Dispel to break Ice Block and Divine Shield,\nPower Infusion to set up kills, and utility no other caster packs",
+      "views": 2574,
+      "likes": 16,
+      "type": "video",
+      "popularRank": 14
+    }
+  },
+  "updatedAt": "2026-11-22T17:10:20.338Z"
 }
