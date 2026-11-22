@@ -21,7 +21,7 @@
   const isNew = (v) => Date.now() - new Date(v.published) < NEW_DAYS * 864e5;
   const thumb = (v, hi) => `https://i.ytimg.com/vi/${v.id}/${hi ? "maxresdefault" : "hqdefault"}.jpg`;
   const ytUrl = (v) => (v.type === "short" ? `https://www.youtube.com/shorts/${v.id}` : `https://www.youtube.com/watch?v=${v.id}`);
-  const meta = (v) => [fmtViews(v.views), ago(v.published)].filter(Boolean).join(" · ");
+  const meta = (v) => ago(v.published) || "";
 
   const thumbBtn = (v, hi) => `
     <button class="thumb" data-play="${v.id}" aria-label="Assistir: ${esc(v.title)}">
