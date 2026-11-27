@@ -1,0 +1,49 @@
+/* Paginas de ferramentas (guias interativos) — mesma identidade do site */
+.tool { padding-top: 28px; }
+.tool-head { max-width: 860px; padding: 24px 0 8px; }
+.tool-head h1 { font-size: clamp(28px, 5vw, 46px); line-height: 1.1; margin: 0 0 12px; }
+.tool-head .lead { color: #dfe4ea; font-size: 17px; }
+.facts { color: var(--muted); font-size: 14px; border-left: 3px solid var(--gold); padding-left: 12px; }
+.facts b { color: var(--yellow); }
+.note { color: var(--muted); max-width: 860px; margin: 0 0 16px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.chips button { cursor: pointer; padding: 9px 16px; border-radius: 999px; border: 2px solid var(--line); background: var(--panel); color: var(--text); font: italic 800 14px var(--font); text-transform: uppercase; }
+.chips button[aria-pressed="true"] { border-color: var(--yellow); color: var(--yellow); background: var(--brown); }
+.picker { background: var(--panel); border: 2px solid var(--gold); border-radius: var(--radius); padding: 20px; }
+.sel { display: flex; align-items: center; gap: 10px; color: var(--muted); font-weight: 700; margin-bottom: 14px; flex-wrap: wrap; }
+.sel select { background: #0b0e14; color: var(--text); border: 2px solid var(--line); border-radius: 10px; padding: 8px 12px; font: 600 15px var(--font); }
+.answer .pick { font: italic 900 clamp(22px, 4vw, 30px) var(--font); color: var(--yellow); -webkit-text-stroke: 1px var(--brown); paint-order: stroke fill; text-transform: uppercase; margin: 6px 0; }
+.answer p { margin: 6px 0; color: #dfe4ea; }
+.answer .also { color: var(--muted); font-size: 14px; }
+.legacy { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 10px; }
+.leg { display: flex; align-items: center; gap: 10px; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; }
+.leg img { border: 2px solid var(--gold); border-radius: 8px; }
+.leg span { flex: 1; font-weight: 700; }
+.leg label { display: flex; align-items: center; gap: 4px; color: var(--muted); font-size: 14px; cursor: pointer; }
+.leg input { accent-color: #ffd21f; width: 18px; height: 18px; }
+.total { font: italic 800 20px var(--font); margin-top: 14px; }
+.total b { color: var(--yellow); font-size: 28px; }
+.table-wrap { overflow-x: auto; }
+.camp { width: 100%; border-collapse: collapse; background: var(--panel); border-radius: var(--radius); overflow: hidden; }
+.camp th, .camp td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.camp th { color: var(--yellow); font: italic 900 14px var(--font); text-transform: uppercase; background: #0b0e14; }
+.camp td:first-child { font-weight: 700; white-space: nowrap; }
+.profs { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.prof { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; }
+.prof header { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.prof header img { border: 2px solid var(--gold); border-radius: 10px; }
+.prof h3 { margin: 0; font: italic 900 22px var(--font); color: var(--yellow); text-transform: uppercase; -webkit-text-stroke: 1px var(--brown); paint-order: stroke fill; }
+.prof .tag { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .08em; font-weight: 700; }
+.prof dl { margin: 0; }
+.prof dt { color: var(--yellow); font: italic 800 13px var(--font); text-transform: uppercase; margin-top: 10px; }
+.prof dd { margin: 2px 0 0; color: #dfe4ea; font-size: 15px; }
+.ad-slot { margin: 28px 0; min-height: 90px; }
+.cta-video { text-align: center; }
+.cta-video p { color: var(--muted); }
+.sources { color: var(--muted); font-size: 13px; margin: 30px 0 10px; }
+.tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+.tool-card { display: block; text-decoration: none; background: var(--panel); border: 2px solid var(--gold); border-radius: var(--radius); padding: 20px; transition: transform .15s, box-shadow .15s; }
+.tool-card:hover { transform: translateY(-2px); box-shadow: 0 0 24px #ffd21f30; }
+.tool-card h3 { margin: 0 0 6px; font: italic 900 22px var(--font); color: var(--yellow); text-transform: uppercase; -webkit-text-stroke: 1px var(--brown); paint-order: stroke fill; }
+.tool-card p { margin: 0; color: var(--muted); }
+@media (max-width: 720px) { .top nav { display: none; } .leg { flex-wrap: wrap; } }

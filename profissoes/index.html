@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>WoW Forever: qual profissão escolher? Guia das 12 profissões — O MURLOC</title>
+  <meta name="description" content="Guia de profissões do WoW Forever: qual escolher pra upar, fazer ouro, raide e PvP, o que mudou em relação ao Classic, como upar do 1 ao 300, calculadora de Legado e bônus da fogueira do acampamento." />
+  <meta property="og:title" content="WoW Forever: qual profissão escolher?" />
+  <meta property="og:description" content="Escolha a profissão pelo seu objetivo, calcule seus pontos de Legado e veja o que mudou em cada uma das 12 profissões." />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="../assets/og.jpg" />
+  <meta name="theme-color" content="#07090d" />
+  <link rel="canonical" href="https://omurloc.com.br/profissoes/" />
+  <link rel="icon" href="../assets/favicon.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,600;0,700;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="../tools.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1590515754889833" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="../">
+      <img src="../assets/icone.png" alt="" width="40" height="40" />
+      <span class="brand-text">O MURLOC</span>
+    </a>
+    <nav>
+      <a href="../">Vídeos</a>
+      <a href="#escolher">Qual escolher</a>
+      <a href="#legado">Legado</a>
+      <a href="#fogueira">Fogueira</a>
+      <a href="#todas">As 12</a>
+    </nav>
+    <a class="btn sub" href="https://www.youtube.com/@omurloc?sub_confirmation=1" target="_blank" rel="noopener">Inscrever-se</a>
+  </header>
+
+  <main class="tool">
+    <section class="tool-head">
+      <p class="kicker">Guia · WoW Forever</p>
+      <h1>Qual profissão escolher no WoW Forever?</h1>
+      <p class="lead">As profissões do Forever não são as do Classic: os bônus de raça mudaram, a coleta ganhou materiais Escassos, chegou o Legado, o acampamento com a fogueira e as poções de cura foram para os Primeiros Socorros. Aqui você escolhe pela sua meta, calcula seus pontos e vê cada profissão.</p>
+      <p class="facts"><b>2</b> principais por personagem · <b>3</b> secundárias que não ocupam vaga (Culinária, Primeiros Socorros e Pesca) · teto <b>300</b> · faixas no nível 1, 10, 20 e 35 (Artífice) · <b>600+</b> receitas novas · item sempre igual, sem qualidade variável.</p>
+    </section>
+
+    <section id="escolher" class="block">
+      <div class="block-head"><h2>Qual escolher</h2><span class="hint">Escolha sua meta e sua classe</span></div>
+      <div class="picker">
+        <div class="chips" id="meta">
+          <button data-v="upar" aria-pressed="true">Upar rápido</button>
+          <button data-v="ouro">Fazer ouro</button>
+          <button data-v="raide">Raide</button>
+          <button data-v="pvp">PvP</button>
+        </div>
+        <label class="sel">Sua classe
+          <select id="classe">
+            <option value="">Tanto faz</option>
+            <option>Druida</option><option>Caçador</option><option>Ladino</option><option>Xamã</option>
+            <option>Mago</option><option>Sacerdote</option><option>Bruxo</option>
+            <option>Paladino</option><option>Guerreiro</option>
+          </select>
+        </label>
+        <div class="answer" id="resposta" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1590515754889833" data-ad-format="auto" data-full-width-responsive="true"></ins></div>
+
+    <section id="legado" class="block">
+      <div class="block-head"><h2>Calculadora de Legado</h2><span class="hint">1 ponto em 150, 225 e 300 em cada profissão de produção · máximo 18</span></div>
+      <p class="note">Desaprender a profissão não tira o ponto. Por isso subir Alquimia e Encantamento até 225 e trocar é o jeito mais barato de juntar pontos. Os pontos vão numa árvore de talentos (mais chance de perícia, mais material Escasso e até comida extra).</p>
+      <div class="legacy" id="legacy"></div>
+      <p class="total">Seus pontos de Legado: <b id="leg-total">0</b> de 18</p>
+    </section>
+
+    <section id="fogueira" class="block">
+      <div class="block-head"><h2>Bônus da fogueira</h2><span class="hint">Fique 1 minuto sentado ou fabricando perto dela</span></div>
+      <p class="note">A Culinária faz a fogueira, que aguenta 3, 5 ou 10 objetos conforme o nível. Cada jogador põe o objeto da sua profissão. Os bônus imitam os de classe e não acumulam com eles. O primeiro objeto vem de missão ou do instrutor; os de 140 e de 300 caem de chefe de masmorra.</p>
+      <div class="table-wrap"><table class="camp" id="camp"><thead><tr><th>Profissão</th><th>Objeto</th><th>Bônus</th></tr></thead><tbody></tbody></table></div>
+    </section>
+
+    <div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1590515754889833" data-ad-format="auto" data-full-width-responsive="true"></ins></div>
+
+    <section id="todas" class="block">
+      <div class="block-head"><h2>As 12 profissões</h2><span class="hint">O que mudou, como upar, como fazer ouro</span></div>
+      <div class="filters chips" id="tipo">
+        <button data-v="todas" aria-pressed="true">Todas</button>
+        <button data-v="coleta">Coleta</button>
+        <button data-v="producao">Produção</button>
+        <button data-v="secundaria">Secundárias</button>
+      </div>
+      <div class="profs" id="profs"></div>
+    </section>
+
+    <section class="block cta-video">
+      <h2>Prefere em vídeo?</h2>
+      <p>O guia completo, profissão por profissão, está no canal.</p>
+      <a class="btn big" href="https://www.youtube.com/@omurloc/videos" target="_blank" rel="noopener">Ver no YouTube</a>
+    </section>
+
+    <p class="sources">Fontes: Blizzard (hotfixes e anúncio do acampamento) e guias de profissões do Wowhead para o WoW Forever. Informação conferida em novembro de 2026; o jogo recebe ajustes frequentes.</p>
+  </main>
+
+  <footer>
+    <span class="brand-text">O MURLOC</span>
+    <p><a href="../">Voltar para os vídeos</a> · <a href="../#apoie">Apoie o canal</a></p>
+  </footer>
+  <script src="profissoes.js" defer></script>
+</body>
+</html>
