@@ -86,7 +86,9 @@
 
   // Player em janela, sem sair do site
   const dlg = $("#player");
+  const ROOT = document.body.dataset.root || "";
   function openPlayer(id) {
+    if (!dlg) return;
     const v = all.find((x) => x.id === id);
     if (!v) return;
     const frame = dlg.querySelector(".frame");
@@ -97,9 +99,11 @@
     dlg.showModal();
   }
   const closePlayer = () => { dlg.close(); };
-  dlg.addEventListener("close", () => { dlg.querySelector(".frame").innerHTML = ""; });
-  dlg.querySelector(".close").addEventListener("click", closePlayer);
-  dlg.addEventListener("click", (e) => { if (e.target === dlg) closePlayer(); });
+  if (dlg) {
+    dlg.addEventListener("close", () => { dlg.querySelector(".frame").innerHTML = ""; });
+    dlg.querySelector(".close").addEventListener("click", closePlayer);
+    dlg.addEventListener("click", (e) => { if (e.target === dlg) closePlayer(); });
+  }
   document.addEventListener("click", (e) => {
     const b = e.target.closest("[data-play]");
     if (b) openPlayer(b.dataset.play);
@@ -113,9 +117,9 @@
       renderAll();
     })
   );
-  $("#load-more").addEventListener("click", () => { shown += PAGE; renderAll(); });
+  if ($("#load-more")) $("#load-more").addEventListener("click", () => { shown += PAGE; renderAll(); });
 
-  fetch(`data/videos.json?t=${Date.now()}`)
+  fetch(`${ROOT}data/videos.json?t=${Date.now()}`)
     .then((r) => r.json())
     .then((db) => {
       all = Object.values(db.videos || {}).sort((a, b) => new Date(b.published) - new Date(a.published));
@@ -127,18 +131,19 @@
         return ra !== rb ? ra - rb : (b.views || 0) - (a.views || 0);
       });
 
-      renderFeature($("#latest-video"), videos[0], "video");
       if (videos[0]) document.querySelectorAll("[data-latest]").forEach((a) => { a.href = `https://www.youtube.com/watch?v=${videos[0].id}`; });
+      if (!$("#all-list")) return;  // pagina inicial: so os links do video novo
+      renderFeature($("#latest-video"), videos[0], "video");
       renderFeature($("#latest-short"), shorts[0], "short");
       renderShorts(shorts);
       renderPopular(ranked.slice(0, 6));
       renderAll();
 
-      if (db.updatedAt) $("#updated").textContent = `Última novidade detectada ${ago(db.updatedAt)}.`;
+      if (db.updatedAt && $("#updated")) $("#updated").textContent = `Última novidade detectada ${ago(db.updatedAt)}.`;
       const newest = all[0];
       if (newest && isNew(newest)) document.title = `Novo: ${newest.title} — O MURLOC`;
     })
     .catch(() => {
-      $("#latest-video").innerHTML = `<div class="empty">Não deu pra carregar os vídeos agora. Tenta de novo em instantes.</div>`;
+      if ($("#latest-video")) $("#latest-video").innerHTML = `<div class="empty">Não deu pra carregar os vídeos agora. Tenta de novo em instantes.</div>`;
     });
 })();

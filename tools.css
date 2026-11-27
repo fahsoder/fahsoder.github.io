@@ -54,3 +54,21 @@
 .doc p, .doc li { color: #dfe4ea; }
 .doc a { color: var(--yellow); }
 .doc .muted { color: var(--muted); }
+.class-card { display: flex; gap: 14px; align-items: center; }
+.class-card img, .h1-ic { border: 2px solid var(--gold); border-radius: 12px; }
+.h1-ic { display: inline-block; vertical-align: middle; margin-right: 14px; width: 56px; height: 56px; }
+.sets { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
+.set { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; }
+.set h3 { margin: 0; font: italic 900 20px var(--font); color: var(--yellow); text-transform: uppercase; -webkit-text-stroke: 1px var(--brown); paint-order: stroke fill; }
+.set .tag { color: var(--muted); font-size: 13px; font-weight: 700; margin: 4px 0 8px; }
+.set ul { margin: 0; padding-left: 18px; color: #dfe4ea; font-size: 15px; }
+.set li { margin: 4px 0; }
+.set details { margin-top: 10px; color: var(--muted); }
+.set summary { cursor: pointer; color: var(--yellow); font-weight: 700; }
+.set .pcs { font-size: 14px; }
+.set .btn { margin-top: 10px; }
+.rules { color: var(--muted); max-width: 900px; margin-top: 16px; }
+.rules li { margin: 4px 0; }
+.other { color: var(--muted); margin-top: 20px; }
+.other a, .note a { color: var(--yellow); }
+.muted { color: var(--muted); }

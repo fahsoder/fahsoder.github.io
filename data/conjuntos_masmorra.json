@@ -1,0 +1,1457 @@
+[
+{
+"n": "The Gladiator",
+"req": 52,
+"bonus": [
+[
+2,
+"Reduces the hit chance of Fear effects against you by 8%."
+],
+[
+3,
+"+20 Attack Power."
+],
+[
+4,
+"Chance on hit to gain 5% attack speed for 10 sec. Attacks while no allies are within 20 yds are 2 times as likely to activate this effect."
+],
+[
+5,
+"Improves your chance to get a critical strike by 1.0%."
+]
+],
+"pecas": [
+{
+"n": "Savage Gladiator Greaves",
+"src": [
+[
+"Abismo Rocha Negra",
+"Anub'shiah"
+]
+],
+"slot": "feet",
+"tipo": "mail"
+},
+{
+"n": "Savage Gladiator Grips",
+"src": [
+[
+"Abismo Rocha Negra",
+"Eviscerator"
+]
+],
+"slot": "hands",
+"tipo": "mail"
+},
+{
+"n": "Savage Gladiator Chain",
+"src": [
+[
+"Abismo Rocha Negra",
+"Gorosh the Dervish"
+]
+],
+"slot": "chest",
+"tipo": "mail"
+},
+{
+"n": "Savage Gladiator Helm",
+"src": [
+[
+"Abismo Rocha Negra",
+"Hedrum the Creeper"
+]
+],
+"slot": "head",
+"tipo": "mail"
+},
+{
+"n": "Savage Gladiator Leggings",
+"src": [
+[
+"Abismo Rocha Negra",
+"Ok'thor the Breaker"
+]
+],
+"slot": "legs",
+"tipo": "mail"
+}
+],
+"tipo": [
+"mail"
+]
+},
+{
+"n": "Ironweave Battlesuit",
+"req": 56,
+"bonus": [
+[
+2,
+"+200 Armor."
+],
+[
+3,
+"Decreases the magical resistances of your spell targets by 5."
+],
+[
+4,
+"Reduces the hit chance of Silence and Interrupt effects against you by 10%."
+],
+[
+5,
+"Increases damage and healing done by magical spells and effects by up to 23."
+],
+[
+6,
+"The Ironweave hardens under duress, reducing damage taken while Stunned by 15%."
+]
+],
+"pecas": [
+{
+"n": "Ironweave Mantle",
+"src": [
+[
+"Abismo Rocha Negra",
+"Trash"
+]
+],
+"slot": "shoulder",
+"tipo": "cloth"
+},
+{
+"n": "Ironweave Bracers",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Halycon"
+]
+],
+"slot": "wrist",
+"tipo": "cloth"
+},
+{
+"n": "Ironweave Belt",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Mor Grayhoof"
+]
+],
+"slot": "waist",
+"tipo": "cloth"
+},
+{
+"n": "Ironweave Boots",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"The Beast"
+]
+],
+"slot": "feet",
+"tipo": "cloth"
+},
+{
+"n": "Ironweave Cowl",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"Lord Valthalak"
+]
+],
+"slot": "head",
+"tipo": "cloth"
+},
+{
+"n": "Ironweave Gloves",
+"src": [
+[
+"Gládio Cruel - Leste",
+"Isalien"
+]
+],
+"slot": "hands",
+"tipo": "cloth"
+}
+],
+"tipo": [
+"cloth"
+]
+},
+{
+"n": "Embrace of the Viper",
+"req": 16,
+"bonus": [
+[
+2,
+"+10 Intellect."
+],
+[
+3,
+"+10 Attack Power."
+],
+[
+4,
+"Taking damage while at or below 25% health causes you to restore 100 health and mana over 5 sec. This effect can only trigger once every 5 min. (5m cooldown)"
+],
+[
+5,
+"Grants your melee attacks a chance to inflict Dream Venom, stunning the target for 1 sec."
+]
+],
+"pecas": [
+{
+"n": "Belt of the Fang",
+"src": [
+[
+"Caverna Ululante",
+"Lady Anacondra"
+]
+],
+"slot": "waist",
+"tipo": "leather"
+},
+{
+"n": "Leggings of the Fang",
+"src": [
+[
+"Caverna Ululante",
+"Lord Cobrahn"
+]
+],
+"slot": "legs",
+"tipo": "leather"
+},
+{
+"n": "Armor of the Fang",
+"src": [
+[
+"Caverna Ululante",
+"Lord Pythas"
+]
+],
+"slot": "chest",
+"tipo": "leather"
+},
+{
+"n": "Footpads of the Fang",
+"src": [
+[
+"Caverna Ululante",
+"Lord Serpentis"
+]
+],
+"slot": "feet",
+"tipo": "leather"
+},
+{
+"n": "Gloves of the Fang",
+"src": [
+[
+"Caverna Ululante",
+"Trash"
+]
+],
+"slot": "hands",
+"tipo": "leather"
+}
+],
+"tipo": [
+"leather"
+]
+},
+{
+"n": "Violet Sorcerer's Vestments",
+"req": 27,
+"bonus": [
+[
+2,
+"+5 Arcane Resistance."
+],
+[
+3,
+"+10 Spirit."
+],
+[
+4,
+"Chance on damaging spell to allow 15% of your Mana regeneration to continue while casting for 15 sec. This Mana Regeneration is doubled in Strongholds and Cities."
+],
+[
+5,
+"Chance on damaging spell to summon an Arcane elemental to aid you in combat. (15s cooldown)"
+]
+],
+"pecas": [
+{
+"n": "Violet Sorcerer's Robes",
+"src": [
+[
+"Dalaran",
+"Arcanic Enigma"
+]
+],
+"slot": "chest",
+"tipo": "cloth"
+},
+{
+"n": "Violet Sorcerer's Mantle",
+"src": [
+[
+"Dalaran",
+"Shade of the Archmage"
+]
+],
+"slot": "shoulder",
+"tipo": "cloth"
+}
+],
+"tipo": [
+"cloth"
+]
+},
+{
+"n": "Krol'dok Battlegear",
+"req": 41,
+"bonus": [
+[
+2,
+"+100 Armor."
+],
+[
+3,
+"Increased Defense +5."
+],
+[
+4,
+"Chance on block to heal for 14 to 23. Healing is doubled in Strongholds and Cities. (1s cooldown)"
+],
+[
+5,
+"Taking damage has a high chance to increase your Stamina by 1 for 30 sec, stacking up to 20 times. (3s cooldown)"
+]
+],
+"pecas": [
+{
+"n": "Krol'dok Warplate Chest",
+"src": [
+[
+"Fortaleza de Krol'Dok",
+"Nar'gurk"
+]
+],
+"slot": "chest",
+"tipo": "plate"
+},
+{
+"n": "Krol'dok Warplate Helmet",
+"src": [
+[
+"Fortaleza de Krol'Dok",
+"Nar'gurk"
+]
+],
+"slot": "head",
+"tipo": "plate"
+},
+{
+"n": "Krol'dok Warplate Legplates",
+"src": [
+[
+"Fortaleza de Krol'Dok",
+"Trash Drop"
+]
+],
+"slot": "legs",
+"tipo": "plate"
+}
+],
+"tipo": [
+"plate"
+]
+},
+{
+"n": "Partners in Crime",
+"req": 17,
+"bonus": [
+[
+2,
+"Chance on melee swing to become Angry, increasing Strength by 50 for 10 sec. (100ms cooldown)"
+],
+[
+2,
+"+22 Strength."
+]
+],
+"pecas": [
+{
+"n": "First Mate Band",
+"src": [
+[
+"Minas Mortas",
+"Mr. Smite"
+]
+],
+"slot": "finger",
+"tipo": ""
+}
+],
+"tipo": []
+},
+{
+"n": "Defias Leather",
+"req": 17,
+"bonus": [
+[
+2,
+"+5 Arcane Resistance."
+],
+[
+3,
+"+15 Attack Power against Humanoids."
+],
+[
+4,
+"Grants your melee attacks a 5% chance when striking from behind to hit a vital point, causing the target to Bleed for 68 to 83 Physical damage over 5 sec. (Proc chance: 5%)"
+],
+[
+5,
+"Increased Daggers +1."
+]
+],
+"pecas": [
+{
+"n": "Blackened Defias Belt",
+"src": [
+[
+"Minas Mortas",
+"Captain Greenskin"
+]
+],
+"slot": "waist",
+"tipo": "leather"
+},
+{
+"n": "Blackened Defias Armor",
+"src": [
+[
+"Minas Mortas",
+"Edwin VanCleef"
+]
+],
+"slot": "chest",
+"tipo": "leather"
+},
+{
+"n": "Blackened Defias Boots",
+"src": [
+[
+"Minas Mortas",
+"Trash"
+]
+],
+"slot": "feet",
+"tipo": "leather"
+},
+{
+"n": "Blackened Defias Leggings",
+"src": [
+[
+"Minas Mortas",
+"Trash"
+]
+],
+"slot": "legs",
+"tipo": "leather"
+},
+{
+"n": "Blackened Defias Gloves",
+"src": [
+[
+"Minas Mortas",
+"Trash"
+]
+],
+"slot": "hands",
+"tipo": "leather"
+}
+],
+"tipo": [
+"leather"
+]
+},
+{
+"n": "Chain of the Scarlet Crusade",
+"req": 34,
+"bonus": [
+[
+2,
+"+10 Shadow Resistance."
+],
+[
+3,
+"+30 Attack Power against Undead."
+],
+[
+4,
+"Taking damage has a 15% chance to grant Enraging Light for 10 sec, causing your melee attacks to deal 20 Holy damage. Deals 3 times as much damage to Undead. (Proc chance: 15%, 15s cooldown)"
+],
+[
+5,
+"Improves your chance to hit by 1.0%."
+],
+[
+6,
+"Taking damage while at or below 20% health grants you a shield, absorbing 480 damage for 10 sec. This effect can only trigger once every 4 min. (4m cooldown)"
+]
+],
+"pecas": [
+{
+"n": "Scarlet Chestpiece",
+"src": [
+[
+"Monastério Escarlate - Cemitério",
+"Trash"
+],
+[
+"Monastério Escarlate - Biblioteca",
+"Trash"
+],
+[
+"Monastério Escarlate - Armaria",
+"Trash"
+],
+[
+"Monastério Escarlate - Catedral",
+"Trash"
+]
+],
+"slot": "chest",
+"tipo": "mail"
+},
+{
+"n": "Scarlet Gauntlets",
+"src": [
+[
+"Monastério Escarlate - Cemitério",
+"Trash"
+],
+[
+"Monastério Escarlate - Biblioteca",
+"Trash"
+],
+[
+"Monastério Escarlate - Armaria",
+"Trash"
+],
+[
+"Monastério Escarlate - Catedral",
+"Trash"
+]
+],
+"slot": "hands",
+"tipo": "mail"
+},
+{
+"n": "Scarlet Belt",
+"src": [
+[
+"Monastério Escarlate - Cemitério",
+"(2%)"
+],
+[
+"Monastério Escarlate - Biblioteca",
+"(2%)"
+],
+[
+"Monastério Escarlate - Armaria",
+"(2%)"
+],
+[
+"Monastério Escarlate - Catedral",
+"(2%)"
+]
+],
+"slot": "waist",
+"tipo": "mail"
+},
+{
+"n": "Scarlet Wristguards",
+"src": [
+[
+"Monastério Escarlate - Cemitério",
+"(2%)"
+],
+[
+"Monastério Escarlate - Biblioteca",
+"(2%)"
+],
+[
+"Monastério Escarlate - Armaria",
+"(2%)"
+],
+[
+"Monastério Escarlate - Catedral",
+"(2%)"
+]
+],
+"slot": "wrist",
+"tipo": "mail"
+},
+{
+"n": "Scarlet Boots",
+"src": [
+[
+"Monastério Escarlate - Cemitério",
+"(2%)"
+],
+[
+"Monastério Escarlate - Biblioteca",
+"(2%)"
+],
+[
+"Monastério Escarlate - Armaria",
+"(2%)"
+],
+[
+"Monastério Escarlate - Catedral",
+"(2%)"
+]
+],
+"slot": "feet",
+"tipo": "mail"
+},
+{
+"n": "Scarlet Leggings",
+"src": [
+[
+"Monastério Escarlate - Catedral",
+"Scarlet Commander Mograine"
+]
+],
+"slot": "legs",
+"tipo": "mail"
+}
+],
+"tipo": [
+"mail"
+]
+},
+{
+"n": "The Elements",
+"req": 54,
+"bonus": [
+[
+2,
+"+8 All Resistances."
+],
+[
+3,
+"Increases damage and healing done by magical spells and effects by up to 18."
+],
+[
+4,
+"When struck in melee combat, has a 5% chance of Disarming the attacker for 4 sec. Can only occur once every 60 sec. (Proc chance: 5%, 1m cooldown)"
+],
+[
+5,
+"Chance on melee autoattack and spellcast to increase your damage and healing done by magical spells and effects by up to 65 for 10 sec."
+],
+[
+6,
+"Restores 8 mana per 5 sec."
+]
+],
+"pecas": [
+{
+"n": "Boots of Elements",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Highlord Omokk"
+]
+],
+"slot": "feet",
+"tipo": "mail"
+},
+{
+"n": "Cord of Elements",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Trash"
+],
+[
+"Pico da Rocha Negra Superior",
+"Trash"
+]
+],
+"slot": "waist",
+"tipo": "mail"
+},
+{
+"n": "Gauntlets of Elements",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"Pyroguard Emberseer"
+]
+],
+"slot": "hands",
+"tipo": "mail"
+},
+{
+"n": "Pauldrons of Elements",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"Gyth"
+]
+],
+"slot": "shoulder",
+"tipo": "mail"
+},
+{
+"n": "Vest of Elements",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"General Drakkisath"
+]
+],
+"slot": "chest",
+"tipo": "mail"
+}
+],
+"tipo": [
+"mail"
+]
+},
+{
+"n": "Shadowcraft Armor",
+"req": 54,
+"bonus": [
+[
+2,
+"+8 All Resistances."
+],
+[
+3,
+"+30 Attack Power."
+],
+[
+4,
+"When struck in combat, has a 5% chance to remove a Snare effect from yourself. Can only occur once every 60 sec. (Proc chance: 5%, 1m cooldown)"
+],
+[
+5,
+"Chance on melee attack to restore 20 Energy."
+],
+[
+6,
+"Restores 15 health per 5 sec."
+]
+],
+"pecas": [
+{
+"n": "Shadowcraft Gloves",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Shadow Hunter Vosh'gajin"
+]
+],
+"slot": "hands",
+"tipo": "leather"
+},
+{
+"n": "Shadowcraft Belt",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Trash"
+],
+[
+"Pico da Rocha Negra Superior",
+"Trash"
+]
+],
+"slot": "waist",
+"tipo": "leather"
+},
+{
+"n": "Shadowcraft Tunic",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"General Drakkisath"
+]
+],
+"slot": "chest",
+"tipo": "leather"
+}
+],
+"tipo": [
+"leather"
+]
+},
+{
+"n": "Beaststalker Armor",
+"req": 54,
+"bonus": [
+[
+2,
+"+8 All Resistances."
+],
+[
+3,
+"+30 Attack Power."
+],
+[
+4,
+"When struck in combat, has a 8% chance to remove a Root effect from yourself. Can only occur once every 60 sec. (Proc chance: 8%, 1m cooldown)"
+],
+[
+5,
+"Your melee and ranged autoattacks have a 5% chance to energize you for 200 mana. (Proc chance: 5%)"
+],
+[
+6,
+"Restores 8 mana per 5 sec."
+]
+],
+"pecas": [
+{
+"n": "Beaststalker's Gloves",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"War Master Voone"
+]
+],
+"slot": "hands",
+"tipo": "mail"
+},
+{
+"n": "Beaststalker's Mantle",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"(<1%)"
+]
+],
+"slot": "shoulder",
+"tipo": "mail"
+},
+{
+"n": "Beaststalker's Belt",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Trash"
+],
+[
+"Pico da Rocha Negra Superior",
+"Trash"
+]
+],
+"slot": "waist",
+"tipo": "mail"
+},
+{
+"n": "Beaststalker's Tunic",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"General Drakkisath"
+]
+],
+"slot": "chest",
+"tipo": "mail"
+}
+],
+"tipo": [
+"mail"
+]
+},
+{
+"n": "Spider's Kiss",
+"req": 55,
+"bonus": [
+[
+2,
+"Chance on Hit: Immobilizes the target and lowers their armor by 100 for 10 sec. (Proc chance: 5%)"
+]
+],
+"pecas": [
+{
+"n": "Venomspitter",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Mother Smolderweb"
+]
+],
+"slot": "one-hand",
+"tipo": "mace"
+},
+{
+"n": "Fang of the Crystal Spider",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Crystal Fang"
+]
+],
+"slot": "one-hand",
+"tipo": "dagger"
+}
+],
+"tipo": [
+"dagger",
+"mace"
+]
+},
+{
+"n": "Wildheart Raiment",
+"req": 54,
+"bonus": [
+[
+2,
+"+8 All Resistances."
+],
+[
+3,
+"Increases damage and healing done by magical spells and effects by up to 18."
+],
+[
+3,
+"+30 Attack Power."
+],
+[
+4,
+"When struck in combat, has a 5% chance to increase your movement speed by 10% for 8 sec. Can only occur once every 60 sec. (Proc chance: 5%, 1m cooldown)"
+],
+[
+5,
+"Chance on spellcast to restore 200 Mana, on melee attack to regenerate 20 Energy over 5 sec, and when struck by a melee attack to generate 10 Rage."
+],
+[
+6,
+"Restores 8 mana per 5 sec."
+]
+],
+"pecas": [
+{
+"n": "Wildheart Boots",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Mother Smolderweb"
+]
+],
+"slot": "feet",
+"tipo": "leather"
+},
+{
+"n": "Wildheart Spaulders",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Gizrul the Slavener"
+]
+],
+"slot": "shoulder",
+"tipo": "leather"
+},
+{
+"n": "Wildheart Gloves",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Trash"
+],
+[
+"Pico da Rocha Negra Superior",
+"Trash"
+]
+],
+"slot": "hands",
+"tipo": "leather"
+},
+{
+"n": "Wildheart Vest",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"General Drakkisath"
+]
+],
+"slot": "chest",
+"tipo": "leather"
+}
+],
+"tipo": [
+"leather"
+]
+},
+{
+"n": "Vestments of the Devout",
+"req": 53,
+"bonus": [
+[
+2,
+"+8 All Resistances."
+],
+[
+3,
+"Increases damage and healing done by magical spells and effects by up to 18."
+],
+[
+4,
+"When struck in combat has a 2% chance of shielding the wearer in a protective shield which will absorb 488 damage. Can only occur once every 60 sec. (Proc chance: 2%, 1m cooldown)"
+],
+[
+5,
+"Your spellcasts have a 5% chance to energize you for 200 mana. (Proc chance: 5%)"
+],
+[
+6,
+"Restores 8 mana per 5 sec."
+]
+],
+"pecas": [
+{
+"n": "Devout Belt",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Trash"
+],
+[
+"Pico da Rocha Negra Superior",
+"Trash"
+]
+],
+"slot": "waist",
+"tipo": "cloth"
+},
+{
+"n": "Devout Mantle",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"Solakar Flamewreath"
+]
+],
+"slot": "shoulder",
+"tipo": "cloth"
+},
+{
+"n": "Devout Robe",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"General Drakkisath"
+]
+],
+"slot": "chest",
+"tipo": "cloth"
+}
+],
+"tipo": [
+"cloth"
+]
+},
+{
+"n": "Magister's Regalia",
+"req": 52,
+"bonus": [
+[
+2,
+"+8 All Resistances."
+],
+[
+3,
+"Increases damage and healing done by magical spells and effects by up to 18."
+],
+[
+4,
+"When struck in combat has a 2% chance of freezing the attacker in place for 3 sec. Can only occur once every 60 sec. (Proc chance: 2%, 1m cooldown)"
+],
+[
+5,
+"Your spellcasts have a 5% chance to energize you for 200 mana. (Proc chance: 5%)"
+],
+[
+6,
+"Restores 8 mana per 5 sec."
+]
+],
+"pecas": [
+{
+"n": "Magister's Bindings",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Trash"
+],
+[
+"Pico da Rocha Negra Superior",
+"Trash"
+]
+],
+"slot": "wrist",
+"tipo": "cloth"
+},
+{
+"n": "Magister's Robes",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"General Drakkisath"
+]
+],
+"slot": "chest",
+"tipo": "cloth"
+}
+],
+"tipo": [
+"cloth"
+]
+},
+{
+"n": "Dreadmist Raiment",
+"req": 52,
+"bonus": [
+[
+2,
+"+8 All Resistances."
+],
+[
+3,
+"Increases damage and healing done by magical spells and effects by up to 18."
+],
+[
+4,
+"When struck in combat has a 2% chance of causing the attacker to flee in terror for 2 sec. Can only occur once every 60 sec. (Proc chance: 2%, 1m cooldown)"
+],
+[
+5,
+"Your spellcasts have a 5% chance to heal you for 270 to 330. (Proc chance: 5%)"
+],
+[
+6,
+"Restores 8 mana per 5 sec."
+]
+],
+"pecas": [
+{
+"n": "Dreadmist Bracers",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Trash"
+],
+[
+"Pico da Rocha Negra Superior",
+"Trash"
+]
+],
+"slot": "wrist",
+"tipo": "cloth"
+},
+{
+"n": "Dreadmist Robe",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"General Drakkisath"
+]
+],
+"slot": "chest",
+"tipo": "cloth"
+}
+],
+"tipo": [
+"cloth"
+]
+},
+{
+"n": "Battlegear of Valor",
+"req": 52,
+"bonus": [
+[
+2,
+"+8 All Resistances."
+],
+[
+3,
+"+15 Strength."
+],
+[
+4,
+"When struck in combat, has a 10% chance to remove a Disarm effect from yourself. Can only occur once every 60 sec. (Proc chance: 10%, 1m cooldown)"
+],
+[
+5,
+"Chance on melee attack to heal for 88 to 132 and generate 10 Rage"
+],
+[
+6,
+"Restores 15 health per 5 sec."
+]
+],
+"pecas": [
+{
+"n": "Bracers of Valor",
+"src": [
+[
+"Pico da Rocha Negra Inferior",
+"Trash"
+],
+[
+"Pico da Rocha Negra Superior",
+"Trash"
+]
+],
+"slot": "wrist",
+"tipo": "plate"
+},
+{
+"n": "Spaulders of Valor",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"Warchief Rend Blackhand"
+]
+],
+"slot": "shoulder",
+"tipo": "plate"
+},
+{
+"n": "Breastplate of Valor",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"General Drakkisath"
+]
+],
+"slot": "chest",
+"tipo": "plate"
+}
+],
+"tipo": [
+"plate"
+]
+},
+{
+"n": "Dal'Rend's Arms",
+"req": 58,
+"bonus": [
+[
+2,
+"+50 Attack Power."
+]
+],
+"pecas": [
+{
+"n": "Dal'Rend's Tribal Guardian",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"Warchief Rend Blackhand"
+]
+],
+"slot": "off hand",
+"tipo": "sword"
+},
+{
+"n": "Dal'Rend's Sacred Charge",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"Warchief Rend Blackhand"
+]
+],
+"slot": "main hand",
+"tipo": "sword"
+}
+],
+"tipo": [
+"sword"
+]
+},
+{
+"n": "Lightforge Armor",
+"req": 55,
+"bonus": [
+[
+2,
+"+8 All Resistances."
+],
+[
+3,
+"Increases damage and healing done by magical spells and effects by up to 18."
+],
+[
+4,
+"When struck by a harmful spell, has a 7% chance of Silencing the caster for 3 sec. Can only occur once every 60 sec. (Proc chance: 7%, 1m cooldown)"
+],
+[
+5,
+"Chance on melee autoattack and spellcast to increase your damage and healing done by magical spells and effects by up to 65 for 10 sec."
+],
+[
+6,
+"Restores 8 mana per 5 sec."
+]
+],
+"pecas": [
+{
+"n": "Lightforge Spaulders",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"The Beast"
+]
+],
+"slot": "shoulder",
+"tipo": "plate"
+},
+{
+"n": "Lightforge Breastplate",
+"src": [
+[
+"Pico da Rocha Negra Superior",
+"General Drakkisath"
+]
+],
+"slot": "chest",
+"tipo": "plate"
+}
+],
+"tipo": [
+"plate"
+]
+},
+{
+"n": "Defias Enforcer's Garb",
+"req": 48,
+"bonus": [
+[
+2,
+"+10 Fire Resistance."
+],
+[
+3,
+"+15 Stamina."
+],
+[
+4,
+"Increased Swords +1."
+],
+[
+5,
+"Melee attacks have a chance to increase your Critical Strike chance by 2% for 20 sec. This effect is doubled in swamps."
+]
+],
+"pecas": [
+{
+"n": "Defias Enforcer's Shoulderpads",
+"src": [
+[
+"Prisão de Alcaz",
+"The Questioner"
+]
+],
+"slot": "shoulder",
+"tipo": "leather"
+}
+],
+"tipo": [
+"leather"
+]
+},
+{
+"n": "Rotmender's Raiment",
+"req": 17,
+"bonus": [
+[
+2,
+"+5 Shadow Resistance."
+],
+[
+3,
+"+10 Intellect."
+],
+[
+4,
+"When your Mana falls below 15%, restore 200 Mana over 10 sec. Restores twice as much Mana in Haunted and Wasteland areas. May only occur once every 5 min. (5m cooldown)"
+],
+[
+5,
+"Grants your healing spells a chance to heal for an additional 40 Health every 3 sec for 15 sec. (2s cooldown)"
+]
+],
+"pecas": [
+{
+"n": "Rotmender's Leggings",
+"src": [
+[
+"Ruínas de Lordaeron",
+"The Abandoned"
+]
+],
+"slot": "legs",
+"tipo": "cloth"
+},
+{
+"n": "Rotmender's Treads",
+"src": [
+[
+"Ruínas de Lordaeron",
+"Rath'mael"
+]
+],
+"slot": "feet",
+"tipo": "cloth"
+},
+{
+"n": "Rotmender's Garb",
+"src": [
+[
+"Ruínas de Lordaeron",
+"Trash"
+]
+],
+"slot": "chest",
+"tipo": "cloth"
+},
+{
+"n": "Rotmender's Gloves",
+"src": [
+[
+"Ruínas de Lordaeron",
+"Trash"
+]
+],
+"slot": "hands",
+"tipo": "cloth"
+},
+{
+"n": "Rotmender's Sash",
+"src": [
+[
+"Ruínas de Lordaeron",
+"Trash"
+]
+],
+"slot": "waist",
+"tipo": "cloth"
+}
+],
+"tipo": [
+"cloth"
+]
+}
+]

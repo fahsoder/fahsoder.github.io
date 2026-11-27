@@ -1,0 +1,237 @@
+{
+ "_fonte": "Wowhead (banco de dados do WoW Forever) e hotfix que liberou os atributos dos tier sets fabricados; bonus PROVISORIOS segundo a Blizzard ao Wowhead. Conferido em 20-22/11/2026.",
+ "_regras": [
+  "18 conjuntos fabricados, separados por especialização.",
+  "Toda peça fabricada é 'Unique-Equipped: Artisan's Tier (1)': só dá pra usar 1 peça fabricada por vez.",
+  "A Vagem Desperta (Rousing Seed Pod), vendida em Hyjal com Guardiões de Hyjal em Reverenciado, sobe o limite para 2.",
+  "As receitas exigem a profissão no 300 e a Essência da Natureza Maleável, que só sai desencantando itens do Pico Hyjal ou das Profundezas Tumulares.",
+  "As raides abrem em 09/12/2026: Profundezas Tumulares (10 jogadores), Pico Hyjal (20) e Covil da Onyxia (40)."
+ ],
+ "classes": {
+  "Druida": {
+   "prof": "Couraria",
+   "sets": [
+    [
+     "Grovekeeper Raiment",
+     "Restauração",
+     [
+      "+10 de Espírito",
+      "Barkskin 10 s mais rápido",
+      "+26 de cura e +9 de dano em feitiços",
+      "Swiftmend 3 s mais rápido"
+     ]
+    ],
+    [
+     "Grovekeeper Rage",
+     "Feral (tanque)",
+     [
+      "+7 de Defesa",
+      "Rebirth usável em forma de Urso, conjuração 2 s menor",
+      "-1,2% de chance de esquivarem ou aparem seus golpes",
+      "Berserk 15 s mais rápido"
+     ]
+    ],
+    [
+     "Grovekeeper Eclipse",
+     "Equilíbrio",
+     [
+      "+1% de acerto",
+      "Nature's Grasp 15 s mais rápido",
+      "+21 de dano mágico contra Demônios",
+      "Insect Swarm dura +3 s"
+     ]
+    ],
+    [
+     "Grovekeeper Ferocity",
+     "Feral (dano)",
+     [
+      "+1% de velocidade de ataque e conjuração",
+      "Hibernate usável em forma de Gato, conjuração 1,5 s menor (recarga de 15 s)",
+      "+36 de Poder de Ataque contra Demônios",
+      "Shifting Power 1 s mais rápido"
+     ]
+    ]
+   ]
+  },
+  "Caçador": {
+   "prof": "Couraria",
+   "sets": [
+    [
+     "Wildstalker Armor",
+     "Todas",
+     [
+      "+1% de velocidade de ataque e conjuração",
+      "Freezing Trap e Frost Trap 3 s mais rápidas",
+      "+36 de Poder de Ataque contra Feras",
+      "Aimed Shot e Multi-Shot 1 s mais rápidos"
+     ]
+    ]
+   ]
+  },
+  "Mago": {
+   "prof": "Alfaiataria",
+   "sets": [
+    [
+     "Manaflare Regalia",
+     "Todas",
+     [
+      "+1% de acerto",
+      "Counterspell 5 s mais rápido",
+      "+21 de dano contra Elementais",
+      "Frostfire Bolt: +10% de chance de Missile Barrage, +10% de crítico com Combustion e +10% de chance de Fingers of Frost"
+     ]
+    ]
+   ]
+  },
+  "Paladino": {
+   "prof": "Ferraria",
+   "sets": [
+    [
+     "Justice Battlegear",
+     "Retribuição",
+     [
+      "+1% de velocidade de ataque e conjuração",
+      "Hammer of Justice 5 s mais rápido",
+      "+36 de Poder de Ataque contra Mortos-vivos",
+      "Judgement 0,5 s mais rápido"
+     ]
+    ],
+    [
+     "Justice Armor",
+     "Sagrado",
+     [
+      "+10 de Espírito",
+      "Blessing of Protection 30 s mais rápido",
+      "+26 de cura e +9 de dano em feitiços",
+      "Holy Shock 1 s mais rápido"
+     ]
+    ],
+    [
+     "Justice Battleplate",
+     "Proteção",
+     [
+      "+7 de Defesa",
+      "Turn Undead com conjuração 1,5 s menor",
+      "-1,2% de chance de esquivarem ou aparem seus golpes",
+      "Forbearance 10 s menor"
+     ]
+    ]
+   ]
+  },
+  "Sacerdote": {
+   "prof": "Alfaiataria",
+   "sets": [
+    [
+     "Raiments of Conviction",
+     "Sombra",
+     [
+      "+1% de acerto",
+      "Shackle Undead dura +10 s",
+      "+21 de dano contra Mortos-vivos",
+      "Devouring Plague 60 s mais rápido"
+     ]
+    ],
+    [
+     "Vestments of Conviction",
+     "Cura",
+     [
+      "+10 de Espírito",
+      "Fear Ward 60 s mais rápido",
+      "+26 de cura e +9 de dano em feitiços",
+      "Penance e Prayer of Mending 1 s mais rápidos"
+     ]
+    ]
+   ]
+  },
+  "Ladino": {
+   "prof": "Couraria",
+   "sets": [
+    [
+     "Grimstitch Armor",
+     "Todas",
+     [
+      "+1% de acerto",
+      "Kidney Shot 3 s mais rápido",
+      "+36 de Poder de Ataque contra Humanoides",
+      "Eviscerate e Death Mark custam 5 de energia a menos"
+     ]
+    ]
+   ]
+  },
+  "Xamã": {
+   "prof": "Couraria",
+   "sets": [
+    [
+     "The Spiritcaller's Rage",
+     "Aperfeiçoamento",
+     [
+      "+1% de velocidade de ataque e conjuração",
+      "Totens de Ar e Terra com +10 jardas",
+      "+36 de Poder de Ataque contra Elementais",
+      "Stormstrike 0,5 s mais rápido"
+     ]
+    ],
+    [
+     "The Spiritcaller",
+     "Restauração",
+     [
+      "+10 de Espírito",
+      "Totens de Fogo e Água com +10 jardas",
+      "+26 de cura e +9 de dano em feitiços",
+      "Riptide 1 s mais rápido"
+     ]
+    ],
+    [
+     "The Spiritcaller's Storm",
+     "Elemental",
+     [
+      "+1% de acerto",
+      "Earthbind Totem 2 s mais rápido",
+      "+21 de dano contra Elementais",
+      "Lava Burst 1 s mais rápido"
+     ]
+    ]
+   ]
+  },
+  "Bruxo": {
+   "prof": "Alfaiataria",
+   "sets": [
+    [
+     "Demonheart Raiment",
+     "Todas",
+     [
+      "+1% de acerto",
+      "Banish com conjuração 1,5 s menor",
+      "+21 de dano contra Demônios",
+      "Life Tap dá +20% de mana sem custo extra de vida"
+     ]
+    ]
+   ]
+  },
+  "Guerreiro": {
+   "prof": "Ferraria",
+   "sets": [
+    [
+     "Battlegear of Glory",
+     "Dano",
+     [
+      "+1% de velocidade de ataque e conjuração",
+      "Intimidating Shout 30 s mais rápido",
+      "+36 de Poder de Ataque contra Humanoides",
+      "Recklessness 30 s mais rápido"
+     ]
+    ],
+    [
+     "Battleplate of Glory",
+     "Tanque",
+     [
+      "+7 de Defesa",
+      "Intervene 10 s mais rápido",
+      "-1,2% de chance de esquivarem ou aparem seus golpes",
+      "Shield Wall 30 s mais rápido"
+     ]
+    ]
+   ]
+  }
+ }
+}
