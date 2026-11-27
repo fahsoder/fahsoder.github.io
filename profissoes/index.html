@@ -60,7 +60,7 @@
             <option>Paladino</option><option>Guerreiro</option>
           </select>
         </label>
-        <div class="answer" id="resposta" aria-live="polite"></div>
+        <div class="answer" id="resposta" aria-live="polite"><p class="pick">Couraria ou Engenharia</p><p>A Barraca da Couraria enche o descanso até 5% de um nível; a Engenharia põe um vendedor (Robô de Reagentes) no acampamento. Junte com uma de coleta pra bancar os materiais.</p><p class="also">E as três secundárias (Culinária, Primeiros Socorros e Pesca) todo mundo deveria ter: não ocupam vaga.</p></div><!--/resposta-->
       </div>
     </section>
 
@@ -69,14 +69,20 @@
     <section id="legado" class="block">
       <div class="block-head"><h2>Calculadora de Legado</h2><span class="hint">1 ponto em 150, 225 e 300 em cada profissão de produção · máximo 18</span></div>
       <p class="note">Desaprender a profissão não tira o ponto. Por isso subir Alquimia e Encantamento até 225 e trocar é o jeito mais barato de juntar pontos. Os pontos vão numa árvore de talentos (mais chance de perícia, mais material Escasso e até comida extra).</p>
-      <div class="legacy" id="legacy"></div>
+      <div class="legacy" id="legacy"><div class="leg"><img src="../assets/prof/alquimia.jpg" alt="" width="36" height="36" loading="lazy"><span>Alquimia</span>
+    <label><input type="checkbox" data-i="0" data-lv="150">150</label><label><input type="checkbox" data-i="0" data-lv="225">225</label><label><input type="checkbox" data-i="0" data-lv="300">300</label></div><div class="leg"><img src="../assets/prof/ferraria.jpg" alt="" width="36" height="36" loading="lazy"><span>Ferraria</span>
+    <label><input type="checkbox" data-i="1" data-lv="150">150</label><label><input type="checkbox" data-i="1" data-lv="225">225</label><label><input type="checkbox" data-i="1" data-lv="300">300</label></div><div class="leg"><img src="../assets/prof/encantamento.jpg" alt="" width="36" height="36" loading="lazy"><span>Encantamento</span>
+    <label><input type="checkbox" data-i="2" data-lv="150">150</label><label><input type="checkbox" data-i="2" data-lv="225">225</label><label><input type="checkbox" data-i="2" data-lv="300">300</label></div><div class="leg"><img src="../assets/prof/engenharia.jpg" alt="" width="36" height="36" loading="lazy"><span>Engenharia</span>
+    <label><input type="checkbox" data-i="3" data-lv="150">150</label><label><input type="checkbox" data-i="3" data-lv="225">225</label><label><input type="checkbox" data-i="3" data-lv="300">300</label></div><div class="leg"><img src="../assets/prof/couraria.jpg" alt="" width="36" height="36" loading="lazy"><span>Couraria</span>
+    <label><input type="checkbox" data-i="4" data-lv="150">150</label><label><input type="checkbox" data-i="4" data-lv="225">225</label><label><input type="checkbox" data-i="4" data-lv="300">300</label></div><div class="leg"><img src="../assets/prof/alfaiataria.jpg" alt="" width="36" height="36" loading="lazy"><span>Alfaiataria</span>
+    <label><input type="checkbox" data-i="5" data-lv="150">150</label><label><input type="checkbox" data-i="5" data-lv="225">225</label><label><input type="checkbox" data-i="5" data-lv="300">300</label></div></div><!--/legacy-->
       <p class="total">Seus pontos de Legado: <b id="leg-total">0</b> de 18</p>
     </section>
 
     <section id="fogueira" class="block">
       <div class="block-head"><h2>Bônus da fogueira</h2><span class="hint">Fique 1 minuto sentado ou fabricando perto dela</span></div>
       <p class="note">A Culinária faz a fogueira, que aguenta 3, 5 ou 10 objetos conforme o nível. Cada jogador põe o objeto da sua profissão. Os bônus imitam os de classe e não acumulam com eles. O primeiro objeto vem de missão ou do instrutor; os de 140 e de 300 caem de chefe de masmorra.</p>
-      <div class="table-wrap"><table class="camp" id="camp"><thead><tr><th>Profissão</th><th>Objeto</th><th>Bônus</th></tr></thead><tbody></tbody></table></div>
+      <div class="table-wrap"><table class="camp" id="camp"><thead><tr><th>Profissão</th><th>Objeto</th><th>Bônus</th></tr></thead><tbody><tr><td>Mineração</td><td>Magnetita</td><td>Poder de Ataque</td></tr><tr><td>Herborismo</td><td>Vela de Incenso</td><td>Intelecto</td></tr><tr><td>Esfolamento</td><td>Cadeira de Acampamento</td><td>2% de crítico</td></tr><tr><td>Alquimia</td><td>Poço de Mana</td><td>29 de mana a cada 5 s (não acumula com Bênção de Sabedoria)</td></tr><tr><td>Ferraria</td><td>Roda de Afiar</td><td>Força</td></tr><tr><td>Encantamento</td><td>Alaúde Encantado</td><td>308 de armadura, 13 em todos os atributos, 22 em resistências (não acumula com Marca do Indomado)</td></tr><tr><td>Engenharia</td><td>Robô de Reagentes</td><td>Vendedor no meio do acampamento</td></tr><tr><td>Couraria</td><td>Barraca</td><td>Enche o descanso até 5% de um nível</td></tr><tr><td>Alfaiataria</td><td>Estandarte de Facção</td><td>Espírito</td></tr><tr><td>Culinária</td><td>A própria fogueira</td><td>Recebe os objetos das outras</td></tr><tr><td>Primeiros Socorros</td><td>Kit</td><td>Vigor</td></tr><tr><td>Pesca</td><td>Aquário</td><td>8% em todos os atributos (não acumula com Bênção dos Reis)</td></tr></tbody></table></div>
     </section>
 
     <div class="ad-slot"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1590515754889833" data-ad-format="auto" data-full-width-responsive="true"></ins></div>
@@ -89,7 +95,43 @@
         <button data-v="producao">Produção</button>
         <button data-v="secundaria">Secundárias</button>
       </div>
-      <div class="profs" id="profs"></div>
+      <div class="profs" id="profs"><article class="prof" id="mineracao">
+      <header><img src="../assets/prof/mineracao.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Mineração</h3><span class="tag">Coleta</span></div></header>
+      <dl><dt>O que mudou</dt><dd>Veio de Tório Pesado, só no Monte Hyjal, e a Barra de Azerótio, nova. As Calças de Fundição (dropam nas Minas Mortas) cortam 25% do tempo pra fundir cobre, estanho, bronze e prata.</dd><dt>Como upar (1 a 300)</dt><dd>Cobre na zona inicial até 65; Vale Gris e Sertões; Arathi e Desolação; Tanaris e Azshara; no fim mitril, veraprata e tório. Fundir dá ponto até 185.</dd><dt>Como fazer ouro</dt><dd>Minerar e vender minério e barras no leilão. Custo zero; as barras de fim de jogo entram no conjunto da Ferraria e na munição.</dd>
+      <dt>Combina com</dt><dd>Ferraria e Engenharia</dd><dt>Na fogueira</dt><dd>Magnetita: Poder de Ataque</dd></dl></article><article class="prof" id="herborismo">
+      <header><img src="../assets/prof/herborismo.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Herborismo</h3><span class="tag">Coleta</span></div></header>
+      <dl><dt>O que mudou</dt><dd>A erva agora vai pra Alquimia e para os Primeiros Socorros (poções de cura). Tem sementes pra plantar na Estufa do acampamento e o Misturador de Semente. Ervas novas: Marefolha, Demonissálvia e Lótus-da-morte.</dd><dt>Como upar (1 a 300)</dt><dd>Zona inicial até 70; Costa Negra e Loch Modan; Eira dos Montes e Pantanal; Espinhaço e Arathi; no fim Tanaris e as ervas de alto nível, até o Lótus Preto no 300.</dd><dt>Como fazer ouro</dt><dd>Colher e vender no leilão. Agora tem procura dupla: Alquimia e Primeiros Socorros.</dd>
+      <dt>Combina com</dt><dd>Alquimia e Primeiros Socorros</dd><dt>Na fogueira</dt><dd>Vela de Incenso: Intelecto</dd></dl></article><article class="prof" id="esfolamento">
+      <header><img src="../assets/prof/esfolamento.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Esfolamento</h3><span class="tag">Coleta</span></div></header>
+      <dl><dt>O que mudou</dt><dd>Dá pra aprender já na zona inicial, como recompensa de missão. Dá pra esfolar o bicho que outro jogador matou.</dd><dt>Como upar (1 a 300)</dt><dd>Zona inicial até 75; Sertões e Loch Modan; Vale Gris e Floresta do Crepúsculo; Arathi e Mil Agulhas; no fim Feralas, Un'Goro e Hibérnia.</dd><dt>Como fazer ouro</dt><dd>Uma das mais fáceis: esfola enquanto upa e vende o couro pra quem faz Couraria. O Couro Vil entra no conjunto da Couraria.</dd>
+      <dt>Combina com</dt><dd>Couraria</dd><dt>Na fogueira</dt><dd>Cadeira de Acampamento: 2% de crítico</dd></dl></article><article class="prof" id="alquimia">
+      <header><img src="../assets/prof/alquimia.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Alquimia</h3><span class="tag">Produção</span></div></header>
+      <dl><dt>O que mudou</dt><dd>Perdeu as poções de cura, ganhou as tinturas (usadas por outras profissões). Frascos Naturais novos: 30 de Vigor em qualquer lugar e +2% de acerto, crítico ou outro atributo só em Hyjal e nas Profundezas Tumulares.</dd><dt>Como upar (1 a 300)</dt><dd>Elixires e poções de mana até 225; faça a Pedra Filosofal (guarde, precisa dela pra transmutar); do 270 ao 300, Poção Elevada Descolorida de Cura.</dd><dt>Como fazer ouro</dt><dd>Transmutar Arcanita, que vai em todo o conjunto da Ferraria.</dd>
+      <dt>Combina com</dt><dd>Herborismo</dd><dt>Na fogueira</dt><dd>Poço de Mana: 29 de mana a cada 5 s (não acumula com Bênção de Sabedoria)</dd></dl></article><article class="prof" id="ferraria">
+      <header><img src="../assets/prof/ferraria.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Ferraria</h3><span class="tag">Produção</span></div></header>
+      <dl><dt>O que mudou</dt><dd>O trecho final (279 a 300) é um punhal com a Barra de Azerótio, nova. Faz o conjunto de raide do Paladino e do Guerreiro e a melhor arma fabricada pra Caçador e Ladino.</dd><dt>Como upar (1 a 300)</dt><dd>Pedras; depois cobre, bronze, ferro, mitril e tório; do 279 ao 300, o punhal de Azerótio.</dd><dt>Como fazer ouro</dt><dd>Pedras de afiar e contrapesos no leilão e armas pra quem upa. Armadura vinculada no vendedor passou a valer menos.</dd>
+      <dt>Combina com</dt><dd>Mineração</dd><dt>Na fogueira</dt><dd>Roda de Afiar: Força</dd></dl></article><article class="prof" id="encantamento">
+      <header><img src="../assets/prof/encantamento.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Encantamento</h3><span class="tag">Produção</span></div></header>
+      <dl><dt>O que mudou</dt><dd>Agora faz cajados, itens de mão secundária e relíquias, além das varinhas, e tem encanto de colar. A Essência da Natureza Maleável (receitas do conjunto de raide) só sai desencantando item do Pico Hyjal ou das Profundezas Tumulares.</dd><dt>Como upar (1 a 300)</dt><dd>Desencantar dá ponto até 20; depois varinhas e braçadeiras. Guarde todos os bastões.</dd><dt>Como fazer ouro</dt><dd>Serviço: encantar o item dos outros e receber gorjeta. Só o encantador consegue a Essência.</dd>
+      <dt>Combina com</dt><dd>Alfaiataria</dd><dt>Na fogueira</dt><dd>Alaúde Encantado: 308 de armadura, 13 em todos os atributos, 22 em resistências (não acumula com Marca do Indomado)</dd></dl></article><article class="prof" id="engenharia">
+      <header><img src="../assets/prof/engenharia.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Engenharia</h3><span class="tag">Produção</span></div></header>
+      <dl><dt>O que mudou</dt><dd>Especializações Gnômica e Goblin confirmadas. Munição nova de raide (Flecha Penaveloz e Projétil Tiroveloz) agora negociável. Óculos Ígneos com 17 de resistência a fogo.</dd><dt>Como upar (1 a 300)</dt><dd>Pólvoras, bombas e tubos, com a Chave de Arco Voltaico e o Micro-ajustador Giromático no caminho.</dd><dt>Como fazer ouro</dt><dd>Munição nova pros Caçadores e bombas e dinamite pra quem faz PvP. A Granada de Ferro no vendedor foi nerfada.</dd>
+      <dt>Combina com</dt><dd>Mineração</dd><dt>Na fogueira</dt><dd>Robô de Reagentes: Vendedor no meio do acampamento</dd></dl></article><article class="prof" id="couraria">
+      <header><img src="../assets/prof/couraria.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Couraria</h3><span class="tag">Produção</span></div></header>
+      <dl><dt>O que mudou</dt><dd>A que tem mais conjunto de raide: 9 conjuntos (Druida, Caçador, Ladino e Xamã). No 225 escolhe especialização; a Dracônica ficou separada por função (preta: Poder de Ataque, azul: Intelecto, verde: regeneração de mana).</dd><dt>Como upar (1 a 300)</dt><dd>Couro leve e kits; depois cintos e luvas; do 270 ao 300, Elmo Escorpídeo Pesado.</dd><dt>Como fazer ouro</dt><dd>Kits de armadura no leilão, que todo mundo usa enquanto upa.</dd>
+      <dt>Combina com</dt><dd>Esfolamento</dd><dt>Na fogueira</dt><dd>Barraca: Enche o descanso até 5% de um nível</dd></dl></article><article class="prof" id="alfaiataria">
+      <header><img src="../assets/prof/alfaiataria.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Alfaiataria</h3><span class="tag">Produção</span></div></header>
+      <dl><dt>O que mudou</dt><dd>Bolsas maiores desde 11/11 e bolsa de reagente nova. Faz o conjunto de raide do Mago, do Sacerdote e do Bruxo. Não precisa de coleta: o tecido cai dos móbs.</dd><dt>Como upar (1 a 300)</dt><dd>Linho, lã, seda, magitrama e runatrama. A Veste do Poder é um dos trechos mais caros (uns 20 de cada Elemental).</dd><dt>Como fazer ouro</dt><dd>Junto com o Encantamento: desencantar o que você fabrica vira material de encantamento.</dd>
+      <dt>Combina com</dt><dd>Encantamento</dd><dt>Na fogueira</dt><dd>Estandarte de Facção: Espírito</dd></dl></article><article class="prof" id="culinaria">
+      <header><img src="../assets/prof/culinaria.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Culinária</h3><span class="tag">Secundária</span></div></header>
+      <dl><dt>O que mudou</dt><dd>Quase toda comida dá Bem Alimentado: +5% de experiência por abate, mas dura só 15 minutos. Em 23/11 a Sopa de Barbatana de Murloc ficou mais forte. É a dona da fogueira.</dd><dt>Como upar (1 a 300)</dt><dd>Dá pra ir só cozinhando peixe, cinco tipos do começo ao fim.</dd><dt>Como fazer ouro</dt><dd>Comida em todos os níveis, com o bônus de experiência.</dd>
+      <dt>Combina com</dt><dd>Pesca</dd><dt>Na fogueira</dt><dd>A própria fogueira: Recebe os objetos das outras</dd></dl></article><article class="prof" id="primeirossocorros">
+      <header><img src="../assets/prof/primeiros.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Primeiros Socorros</h3><span class="tag">Secundária</span></div></header>
+      <dl><dt>O que mudou</dt><dd>Agora faz as poções de cura, da menor até a do Monte Hyjal, além de ataduras e curativos novos: Cataplasma Simples (doença) e Torniquete de Lã (sangramento).</dd><dt>Como upar (1 a 300)</dt><dd>Ataduras de linho, lã, seda, magitrama e runatrama.</dd><dt>Como fazer ouro</dt><dd>Qualquer classe pode virar o fornecedor de poção da guilda.</dd>
+      <dt>Combina com</dt><dd>Herborismo</dd><dt>Na fogueira</dt><dd>Kit: Vigor</dd></dl></article><article class="prof" id="pesca">
+      <header><img src="../assets/prof/pesca.jpg" alt="" width="48" height="48" loading="lazy"><div><h3>Pesca</h3><span class="tag">Secundária</span></div></header>
+      <dl><dt>O que mudou</dt><dd>No Torneio de Pesca do Espinhaço, os 250 primeiros ganham a Vara de Pescar de Arcanita.</dd><dt>Como upar (1 a 300)</dt><dd>Conta o número de peixes, não a zona: zona inicial até 75; capitais até 150; Pântano Vadeoso ou Espinhaço até 225; Tanaris até 300.</dd><dt>Como fazer ouro</dt><dd>Custo zero: pescar e vender pra quem upa Culinária.</dd>
+      <dt>Combina com</dt><dd>Culinária</dd><dt>Na fogueira</dt><dd>Aquário: 8% em todos os atributos (não acumula com Bênção dos Reis)</dd></dl></article></div><!--/profs-->
     </section>
 
     <section class="block cta-video">
@@ -103,7 +145,7 @@
 
   <footer>
     <span class="brand-text">O MURLOC</span>
-    <p><a href="../">Voltar para os vídeos</a> · <a href="../#apoie">Apoie o canal</a></p>
+    <p><a href="../">Voltar para os vídeos</a> · <a href="../#apoie">Apoie o canal</a> · <a href="../sobre/">Sobre</a> · <a href="../privacidade/">Privacidade</a></p>
   </footer>
   <script src="profissoes.js" defer></script>
 </body>
