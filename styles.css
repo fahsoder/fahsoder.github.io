@@ -206,3 +206,20 @@ dialog::backdrop { background: #000000e0; backdrop-filter: blur(4px); }
   .popular li:first-child::before { font-size: 48px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; scroll-behavior: auto !important; } }
+
+/* Apoie o canal (27/11): clubes do canal + outras formas de apoiar */
+.tiers { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; margin-bottom: 22px; }
+.tier { background: var(--panel); border: 2px solid var(--gold); border-radius: var(--radius); padding: 22px; display: flex; flex-direction: column; gap: 10px; }
+.tier.top-tier { border-color: var(--yellow); box-shadow: 0 0 28px #ffd21f26; }
+.tier-tag { margin: 0; color: var(--muted); font: italic 700 12px var(--font); text-transform: uppercase; letter-spacing: .08em; }
+.tier h3, .way h3 { margin: 0; font: italic 900 26px var(--font); text-transform: uppercase; color: var(--yellow); -webkit-text-stroke: 1px var(--brown); paint-order: stroke fill; }
+.way h3 { font-size: 18px; }
+.price { margin: 0; font: italic 900 30px var(--font); color: var(--text); }
+.price span { font-size: 14px; color: var(--muted); margin-left: 4px; }
+.tier ul { margin: 4px 0 8px; padding-left: 18px; color: #dfe4ea; flex: 1; }
+.tier li { margin: 4px 0; }
+.tier .btn { align-self: flex-start; }
+.ways { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.way { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; display: flex; flex-direction: column; gap: 8px; }
+.way p { margin: 0; color: var(--muted); font-size: 14px; flex: 1; }
+.way .btn { align-self: flex-start; margin-top: 6px; }

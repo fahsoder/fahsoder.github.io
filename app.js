@@ -128,6 +128,7 @@
       });
 
       renderFeature($("#latest-video"), videos[0], "video");
+      if (videos[0]) document.querySelectorAll("[data-latest]").forEach((a) => { a.href = `https://www.youtube.com/watch?v=${videos[0].id}`; });
       renderFeature($("#latest-short"), shorts[0], "short");
       renderShorts(shorts);
       renderPopular(ranked.slice(0, 6));
