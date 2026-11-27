@@ -72,3 +72,4 @@
 .other { color: var(--muted); margin-top: 20px; }
 .other a, .note a { color: var(--yellow); }
 .muted { color: var(--muted); }
+.addons td:first-child a { color: var(--yellow); font-weight: 800; } .addons td:last-child { font-size: 13px; }

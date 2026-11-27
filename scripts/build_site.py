@@ -149,7 +149,47 @@ def build_guias():
                                                 nav_extra=nav_extra().replace("{up}", "../")), encoding="utf-8")
 
 
+def build_addons():
+    f = R / "data" / "addons.json"
+    if not f.exists(): return
+    a = json.load(open(f, encoding="utf-8"))
+    idx = " · ".join(f'<a href="#c{i}">{E(c["cat"])}</a>' for i, c in enumerate(a["categorias"]))
+    b = f"""    <section class="tool-head"><p class="kicker">Addons · WoW Forever</p><h1>Addons do WoW Forever</h1>
+      <p class="lead">Os addons que já têm versão para o WoW Forever, separados por categoria, com o que cada um faz e o link oficial. Só entra aqui o addon cuja página lista o Forever entre as versões, com arquivo para baixar (conferido em {a["conferido"]}).</p>
+      <ul class="rules">{"".join(f"<li>{E(x)}</li>" for x in a["dicas"])}</ul>
+      <p class="other">Pular para: {idx}</p></section>
+"""
+    for i, c in enumerate(a["categorias"]):
+        rows = "".join(f'<tr><td><a href="{E(x["link"])}" target="_blank" rel="noopener nofollow">{E(x["n"])}</a></td><td>{E(x["faz"])}</td><td class="muted">{E(x["evid"])}</td></tr>' for x in c["addons"])
+        b += f'    <section class="block" id="c{i}"><div class="block-head"><h2>{E(c["cat"])}</h2><span class="hint">{len(c["addons"])} addons</span></div><div class="table-wrap"><table class="camp addons"><thead><tr><th>Addon</th><th>O que faz</th><th>Versão do Forever</th></tr></thead><tbody>{rows}</tbody></table></div></section>\n'
+        if i in (1, 4): b += "    " + AD + "\n"
+    rows = "".join(f'<tr><td><a href="{E(x["link"])}" target="_blank" rel="noopener nofollow">{E(x["n"])}</a></td><td>{E(x["situacao"])}</td></tr>' for x in a["sem_confirmacao"])
+    b += f'    <section class="block"><div class="block-head"><h2>Ainda sem versão confirmada</h2><span class="hint">Não garantimos que funcionam</span></div><div class="table-wrap"><table class="camp addons"><thead><tr><th>Addon</th><th>Situação</th></tr></thead><tbody>{rows}</tbody></table></div></section>\n'
+    b += '    <p class="sources">Fontes: ' + "; ".join(E(x) for x in a["fontes"]) + '. Os addons são de seus autores; o O MURLOC só indica. Baixe sempre do link oficial.</p>'
+    (R / "addons").mkdir(exist_ok=True)
+    (R / "addons" / "index.html").write_text(page("Addons do WoW Forever: lista dos que funcionam (2026) — O MURLOC",
+        "Lista de addons que funcionam no WoW Forever: Questie, Auctionator, DBM, Details, ForeverAuras e mais, por categoria, com link oficial e versão conferida.",
+        "addons/", b, 1, nav_extra=nav_extra().replace("{up}", "../")), encoding="utf-8")
+
+
+def build_home():
+    p = R / "index.html"; s = p.read_text(encoding="utf-8")
+    import re
+    cards = ""; nav = ""
+    if (R / "data" / "talentos.json").exists():
+        cards += '<a class="tool-card" href="talentos/"><h3>Talentos</h3><p>Builds de talento de cada classe e especialização do Forever, com link pra abrir pronta no calculador.</p></a>'
+        nav += '<a href="talentos/">Talentos</a>'
+    if (R / "data" / "addons.json").exists():
+        cards += '<a class="tool-card" href="addons/"><h3>Addons</h3><p>Os addons que já funcionam no WoW Forever, por categoria, com o link oficial e a versão conferida.</p></a>'
+        nav += '<a href="addons/">Addons</a>'
+    s = re.sub(r"<!--CARDS_EXTRA-->.*?<!--/CARDS_EXTRA-->|<!--CARDS_EXTRA-->", f"<!--CARDS_EXTRA-->{cards}<!--/CARDS_EXTRA-->", s, flags=re.S)
+    s = re.sub(r"<!--NAV_EXTRA-->.*?<!--/NAV_EXTRA-->|<!--NAV_EXTRA-->", f"<!--NAV_EXTRA-->{nav}<!--/NAV_EXTRA-->", s, flags=re.S)
+    p.write_text(s, encoding="utf-8")
+
+
 if __name__ == "__main__":
     build_classes()
     build_guias()
+    build_addons()
+    build_home()
     print("ok classes")

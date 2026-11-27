@@ -1,0 +1,327 @@
+{
+ "conferido": "27/11/2026",
+ "dicas": [
+  "No app da CurseForge (ou no WowUp/Wago), escolha a instalação WoW Forever no topo antes de baixar. Addon da versão errada (Classic Era, Retail) não carrega. A pasta é World of Warcraft\\_forever_\\Interface\\AddOns.",
+  "Os addons do Classic comum não servem no Forever. O Forever tem número de interface próprio (16001; o Classic Era usa 11509) e roda sobre o cliente moderno, então o autor precisa lançar uma versão própria. A CurseForge marca o jogo como versão 1.60.1.",
+  "O Forever já vem com medidor de dano, gerenciador de recargas, timer de golpe e modo de edição da interface. Alguns addons podem não fazer falta."
+ ],
+ "categorias": [
+  {
+   "cat": "Interface",
+   "addons": [
+    {
+     "n": "EllesmereUI",
+     "faz": "Interface completa e leve: são 20 módulos e você liga só os que quiser.",
+     "link": "https://www.curseforge.com/wow/addons/ellesmereui",
+     "evid": "CurseForge: flavor Forever, v9.9.6 de 27/11/2026. Indicado no blog da CurseForge (12/11/2026)."
+    },
+    {
+     "n": "Bartender4",
+     "faz": "Deixa você mover, redimensionar e esconder as barras de ação.",
+     "link": "https://www.curseforge.com/wow/addons/bartender4",
+     "evid": "CurseForge: flavor Forever, 4.19.2 de 19/11/2026."
+    },
+    {
+     "n": "Plater Nameplates",
+     "faz": "Placas de nome (as barras de vida em cima dos bichos e jogadores) bem personalizáveis.",
+     "link": "https://www.curseforge.com/wow/addons/plater-nameplates",
+     "evid": "CurseForge: flavor Forever, Plater-v664 de 15/11/2026."
+    },
+    {
+     "n": "BetterBlizzPlates",
+     "faz": "Melhora as placas de nome padrão e mostra seus debuffs e controles.",
+     "link": "https://www.curseforge.com/wow/addons/betterblizzplates",
+     "evid": "CurseForge: flavor Forever, v2.2.5c de 20/11/2026 (página diz \"WoW Forever ready\")."
+    },
+    {
+     "n": "Classic UI for Forever",
+     "faz": "Traz de volta o visual clássico: barras, quadros de personagem e minimapa.",
+     "link": "https://www.curseforge.com/wow/addons/classic-ui-for-forever",
+     "evid": "CurseForge: flavor Forever, ForeverClassicUI-0.7.29 de 17/11/2026."
+    },
+    {
+     "n": "Chattynator",
+     "faz": "Troca o chat por um mais moderno, com histórico salvo e horário nas mensagens.",
+     "link": "https://www.curseforge.com/wow/addons/chattynator",
+     "evid": "CurseForge: flavor Forever, 12.1.5 de 22/11/2026."
+    },
+    {
+     "n": "Advanced Interface Options",
+     "faz": "Libera opções escondidas do jogo, como texto de combate e configurações de chat.",
+     "link": "https://www.curseforge.com/wow/addons/advancedinterfaceoptions",
+     "evid": "CurseForge: flavor Forever, 2.1.14 de 27/09/2026. Citado pelo games.gg (atualizado em 25/11/2026)."
+    },
+    {
+     "n": "DynamicCam",
+     "faz": "Deixa a câmera mais dinâmica e cinematográfica.",
+     "link": "https://www.curseforge.com/wow/addons/dynamiccam",
+     "evid": "CurseForge: flavor Forever, 2.22.0 de 14/11/2026."
+    },
+    {
+     "n": "Immersion",
+     "faz": "Mostra os diálogos das missões num estilo de conversa, mais imersivo.",
+     "link": "https://www.curseforge.com/wow/addons/immersion",
+     "evid": "CurseForge: flavor Forever, 1.4.61 de 24/09/2026."
+    },
+    {
+     "n": "Easy Controller Forever",
+     "faz": "Permite jogar com controle (gamepad) no Forever.",
+     "link": "https://www.curseforge.com/wow/addons/easy-controller-forever",
+     "evid": "CurseForge: só Forever, 1.26.0 de 25/11/2026."
+    }
+   ]
+  },
+  {
+   "cat": "Missões e upar",
+   "addons": [
+    {
+     "n": "Questie",
+     "faz": "Marca no mapa onde pegar, fazer e entregar cada missão. Precisa do QuestieDB, que já vem junto.",
+     "link": "https://www.curseforge.com/wow/addons/questie",
+     "evid": "CurseForge: flavor Forever, v12.15.0 de 25/11/2026. O GitHub tem notas \"[Forever]\" nessa versão."
+    },
+    {
+     "n": "OneForAll",
+     "faz": "Addon tudo-em-um do Forever: missões, masmorras, profissões, pets de caçador e calculadora de talentos.",
+     "link": "https://www.curseforge.com/wow/addons/oneforall-forever",
+     "evid": "CurseForge: só Forever, 6.2.17 de 25/11/2026 (3,2 milhões de downloads)."
+    },
+    {
+     "n": "Forever Quest Tint",
+     "faz": "Destaca com cor as missões que são novas do Forever.",
+     "link": "https://www.curseforge.com/wow/addons/forever-quest-tint",
+     "evid": "CurseForge: só Forever, 0.7.6 de 16/11/2026."
+    },
+    {
+     "n": "Quest XP Tracker",
+     "faz": "Mostra no diário quanto de XP cada missão dá.",
+     "link": "https://www.curseforge.com/wow/addons/quest-xp-tracker",
+     "evid": "CurseForge: flavor Forever, QuestXP-1.60.1.6 de 22/10/2026."
+    },
+    {
+     "n": "What's Training?",
+     "faz": "Lista as habilidades que você já pode aprender no treinador.",
+     "link": "https://www.curseforge.com/wow/addons/whats-training",
+     "evid": "CurseForge: flavor Forever, 11.4.11 de 26/11/2026."
+    },
+    {
+     "n": "DungeonJournal",
+     "faz": "Mostra as missões de cada masmorra, onde pegar e o que cada chefe dropa.",
+     "link": "https://www.curseforge.com/wow/addons/dungeonjournal",
+     "evid": "CurseForge: flavor Forever, 2.1.7 de 26/11/2026."
+    }
+   ]
+  },
+  {
+   "cat": "Profissões, ouro e leilão",
+   "addons": [
+    {
+     "n": "Auctionator",
+     "faz": "Facilita comprar e vender na Casa de Leilões e mostra o preço de cada item.",
+     "link": "https://www.curseforge.com/wow/addons/auctionator",
+     "evid": "CurseForge: flavor Forever, 12.1.5 de 25/11/2026."
+    },
+    {
+     "n": "TradeSkillMaster (TSM)",
+     "faz": "Ferramenta avançada de leilão e ouro: preços, postagem em massa e lucros.",
+     "link": "https://www.curseforge.com/wow/addons/tradeskill-master",
+     "evid": "CurseForge: lista \"WoW Forever\" com v4.15.9 de 20/11/2026. Atenção: alguns guias de terceiros dizem que o TSM não tem versão Forever, então vale testar."
+    },
+    {
+     "n": "SkillUp Forever",
+     "faz": "Mostra a chance de subir a profissão, o custo das receitas e a rota para upar.",
+     "link": "https://www.curseforge.com/wow/addons/skillup-forever",
+     "evid": "CurseForge: só Forever, v1.15.3-forever de 27/11/2026."
+    },
+    {
+     "n": "GatherLite",
+     "faz": "Marca no mapa onde tem erva, minério, baú e cardume de pesca.",
+     "link": "https://www.curseforge.com/wow/addons/gatherlite",
+     "evid": "CurseForge: flavor Forever, 8.4.18 de 27/11/2026."
+    },
+    {
+     "n": "GatherMate2",
+     "faz": "Guarda no mapa os pontos onde você já coletou erva e minério.",
+     "link": "https://www.curseforge.com/wow/addons/gathermate2",
+     "evid": "CurseForge: flavor Forever, 1.52.7 de 13/11/2026."
+    }
+   ]
+  },
+  {
+   "cat": "Combate e raide",
+   "addons": [
+    {
+     "n": "Deadly Boss Mods (DBM)",
+     "faz": "Avisa e marca o tempo das habilidades dos chefes.",
+     "link": "https://www.curseforge.com/wow/addons/deadly-boss-mods",
+     "evid": "CurseForge: flavor Forever, 12.1.26 de 27/11/2026. Em meados de novembro já tinha os arquivos das masmorras novas, mas ainda sem avisos específicos dos chefes (games.gg)."
+    },
+    {
+     "n": "BigWigs Bossmods",
+     "faz": "Alternativa ao DBM: alertas e barras de tempo dos chefes.",
+     "link": "https://www.curseforge.com/wow/addons/big-wigs",
+     "evid": "CurseForge: flavor Forever, v429 de 26/11/2026. Em meados de novembro ainda não tinha módulos de chefe do Forever (games.gg)."
+    },
+    {
+     "n": "Details! Damage Meter",
+     "faz": "Mostra dano, cura e outras estatísticas de cada luta.",
+     "link": "https://www.curseforge.com/wow/addons/details",
+     "evid": "CurseForge: flavor Forever, arquivo de 24/11/2026."
+    },
+    {
+     "n": "ForeverAuras",
+     "faz": "Versão do WeakAuras feita para o Forever: mostra buffs, debuffs e recargas na tela.",
+     "link": "https://www.curseforge.com/wow/addons/foreverauras",
+     "evid": "CurseForge: só Forever, 1.4.15 de 27/11/2026."
+    },
+    {
+     "n": "PP Forever",
+     "faz": "Organiza os buffs do grupo, como o antigo Pally Power (Paladino, Sacerdote, Mago e Druida).",
+     "link": "https://www.curseforge.com/wow/addons/pp-forever",
+     "evid": "CurseForge: só Forever, 1.0.141 de 18/11/2026."
+    }
+   ]
+  },
+  {
+   "cat": "PvP",
+   "addons": [
+    {
+     "n": "Capping Battleground Timers",
+     "faz": "Mostra os timers dos objetivos e da fila nos campos de batalha.",
+     "link": "https://www.curseforge.com/wow/addons/capping-bg-timers",
+     "evid": "CurseForge: flavor Forever, v12.1.17 de 26/11/2026. Indicado no guia de PvP da Skill Capped (13/11/2026)."
+    },
+    {
+     "n": "MiniAuras (antigo MiniCC)",
+     "faz": "Avisa na tela quando você ou o inimigo usa controle, defesa ou feitiço importante.",
+     "link": "https://www.curseforge.com/wow/addons/minicc",
+     "evid": "CurseForge: flavor Forever, 5.45.0 de 22/11/2026. Indicado pela Skill Capped (13/11/2026)."
+    }
+   ]
+  },
+  {
+   "cat": "Bolsas e inventário",
+   "addons": [
+    {
+     "n": "Baganator",
+     "faz": "Junta todas as bolsas numa janela só, com busca e organização.",
+     "link": "https://www.curseforge.com/wow/addons/baganator",
+     "evid": "CurseForge: flavor Forever, 12.1.5 de 26/11/2026."
+    },
+    {
+     "n": "Bagnon",
+     "faz": "Outra opção para juntar as bolsas e o banco numa janela com busca.",
+     "link": "https://www.curseforge.com/wow/addons/bagnon",
+     "evid": "CurseForge: flavor Forever, 12.1.13 de 25/11/2026."
+    },
+    {
+     "n": "Pawn",
+     "faz": "Diz se um item é melhor do que o que você está usando.",
+     "link": "https://www.curseforge.com/wow/addons/pawn",
+     "evid": "CurseForge: flavor Forever, 2.14.8 de 21/11/2026."
+    }
+   ]
+  },
+  {
+   "cat": "Mapa",
+   "addons": [
+    {
+     "n": "Leatrix Maps",
+     "faz": "Mostra o mapa inteiro sem névoa e melhora o mapa-múndi.",
+     "link": "https://www.curseforge.com/wow/addons/leatrix-maps",
+     "evid": "CurseForge: flavor Forever, 1.60.38-forever de 26/11/2026."
+    },
+    {
+     "n": "TomTom",
+     "faz": "Coloca uma seta na tela apontando para coordenadas do mapa. Combina com o Questie.",
+     "link": "https://www.curseforge.com/wow/addons/tomtom",
+     "evid": "CurseForge: flavor Forever, v4.4.1 de 07/11/2026."
+    },
+    {
+     "n": "Forever Flight Times",
+     "faz": "Grava o tempo de cada voo e mostra uma contagem regressiva nas próximas viagens.",
+     "link": "https://www.curseforge.com/wow/addons/forever-flight-times",
+     "evid": "CurseForge: só Forever, 0.6 de 07/11/2026."
+    }
+   ]
+  },
+  {
+   "cat": "Utilidade",
+   "addons": [
+    {
+     "n": "Leatrix Plus",
+     "faz": "Vários ajustes de conforto: vende lixo, conserta equipamento, saque rápido e mais.",
+     "link": "https://www.curseforge.com/wow/addons/leatrix-plus",
+     "evid": "CurseForge: flavor Forever, 1.60.38-forever de 26/11/2026. Atenção: a página antiga \"leatrix-plus-classic\" está desatualizada, então use esta."
+    },
+    {
+     "n": "ForeverPlus",
+     "faz": "Pacote de conforto do Forever: aviso de buff e consumível, automação de missão e vendedor, filtro de erros.",
+     "link": "https://www.curseforge.com/wow/addons/foreverplus",
+     "evid": "CurseForge: só Forever, 1.1.11 de 23/11/2026."
+    },
+    {
+     "n": "BugSack",
+     "faz": "Guarda os erros de addon numa lista, em vez de jogar a mensagem na sua tela.",
+     "link": "https://www.curseforge.com/wow/addons/bugsack",
+     "evid": "CurseForge: flavor Forever, v12.1.9 de 26/10/2026."
+    },
+    {
+     "n": "BugGrabber",
+     "faz": "Captura os erros de addon. É usado junto com o BugSack.",
+     "link": "https://www.curseforge.com/wow/addons/bug-grabber",
+     "evid": "CurseForge: flavor Forever, v12.1.1 de 21/10/2026."
+    }
+   ]
+  }
+ ],
+ "sem_confirmacao": [
+  {
+   "n": "WeakAuras",
+   "situacao": "Não tem versão Forever. A CurseForge lista Retail e Classic, com a última versão 5.22.1 de 10/10/2026. O games.gg diz que o Forever esconde dados de combate que ele usa. Use o ForeverAuras.",
+   "link": "https://www.curseforge.com/wow/addons/weakauras-2"
+  },
+  {
+   "n": "OmniCC",
+   "situacao": "A página não lista o Forever. Última versão é de 14/12/2025.",
+   "link": "https://www.curseforge.com/wow/addons/omni-cc"
+  },
+  {
+   "n": "Shadowed Unit Frames",
+   "situacao": "A página não lista o Forever e diz que não será mais atualizado.",
+   "link": "https://www.curseforge.com/wow/addons/shadowed-unit-frames"
+  },
+  {
+   "n": "Postal",
+   "situacao": "A página não lista o Forever. Retail de 02/10/2026; Classic de 2025.",
+   "link": "https://www.curseforge.com/wow/addons/postal"
+  },
+  {
+   "n": "AtlasLootClassic",
+   "situacao": "A página não lista o Forever. Última atualização em 2023.",
+   "link": "https://www.curseforge.com/wow/addons/atlaslootclassic"
+  },
+  {
+   "n": "ElvUI",
+   "situacao": "Não achei nenhuma confirmação oficial (Tukui/GitHub) de versão Forever. Existem plugins de terceiros para Forever que exigem o ElvUI, mas isso não é prova.",
+   "link": "https://github.com/tukui-org"
+  },
+  {
+   "n": "Gladius Reloaded",
+   "situacao": "Recomendado pelo blog da CurseForge (12/11/2026), mas a página do projeto não abriu na checagem, então a versão não foi confirmada.",
+   "link": "https://www.curseforge.com/wow/addons/gladius-reloaded"
+  },
+  {
+   "n": "Interaction, Mapzeroth",
+   "situacao": "Citados no blog da CurseForge (12/11/2026), mas a página de cada um não foi checada.",
+   "link": "https://www.curseforge.com/wow/addons/interaction"
+  }
+ ],
+ "fontes": [
+  "Páginas de cada addon na CurseForge, conferidas em 27/11/2026 (versão \"Forever\" e data do arquivo)",
+  "Blog da CurseForge, \"WoW Forever useful addon list\" (12/11/2026)",
+  "games.gg, guia de addons do WoW Forever (atualizado em 25/11/2026)",
+  "Skill Capped, guia de addons e interface de PvP do WoW Forever (13/11/2026)",
+  "Notas de versão do Questie no GitHub"
+ ]
+}
