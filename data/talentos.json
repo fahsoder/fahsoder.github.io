@@ -1,0 +1,1254 @@
+{
+ "Guerreiro": {
+  "builds": [
+   {
+    "spec": "Armas",
+    "objetivo": "Upar 1-60",
+    "pontos": "36/15/0",
+    "chave": "Improved Overpower (Subjugar Aprimorado), Bloodthrill (Euforia Sanguínea), Improved Slam (Batida Aprimorada), Mortal Strike (Golpe Mortal), Enrage (Enfurecer); foca em sobreviver e gerar Raiva",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/vkndmh05323213132215201-05500005_t0_r95/0CbbFEHgbjKmnmpnQrt1BCH0rbbD",
+    "fonte": "Wowhead leveling Armas, 18/11"
+   },
+   {
+    "spec": "Armas",
+    "objetivo": "Upar (variante da pág. de talentos)",
+    "pontos": "35/16/0",
+    "chave": "Igual à de raide, mas sem Improved Bloodrage (Fúria Sanguinária Aprimorada) e Improved Heroic Strike (Golpe Heroico Aprimorado); põe Deflection (Deflexão) e Improved Charge (Investida Aprimorada)",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/vkndmh05323213032215201-05500105_t0_r95/0CbbFEHgdKMNpqqrqqqrt1BChhhfhh0dbbb",
+    "fonte": "Wowhead talentos Armas, 04/11"
+   },
+   {
+    "spec": "Armas",
+    "objetivo": "Raide/masmorra",
+    "pontos": "32/17/2",
+    "chave": "Mortal Strike (Golpe Mortal); ponto flexível em Enrage (Enfurecer), que pode ir para Booming Voice (Voz Estrondosa) ou Unbridled Wrath (Ira Descontrolada)",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/vkndmh30303213132215201-05500005002-2_t0_r95/0ACFEHgMKpNQRt2A1B0j1CHM",
+    "fonte": "Wowhead talentos Armas, 04/11 (o Warcraft Tavern e o Icy Veins também dão 32/17/2)"
+   },
+   {
+    "spec": "Armas",
+    "objetivo": "PvP",
+    "pontos": "35/16/0",
+    "chave": "Deflection (Deflexão) no lugar de Improved Heroic Strike; flexíveis: Improved Slam, Spearing Strike (Golpe Lanceador), Enrage",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/vkndmh03303213132215231-55000105_t0_r95/0CbbFEgHbMKjNQSpt1BAfH0R",
+    "fonte": "Wowhead talentos Armas, 04/11"
+   },
+   {
+    "spec": "Fúria",
+    "objetivo": "Upar 1-60",
+    "pontos": "11/40/0",
+    "chave": "Corre para Gore Drinker (Bebedor de Sangue) e Bloodthirst (Sede de Sangue), depois Flurry (Ímpeto) e Deflection (Deflexão) em Armas",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/vkndmh0500321-050530355122120231_t0/1BDhhGkjjjjpQjhTSvhhE0B1MN0FEg",
+    "fonte": "Wowhead leveling Fúria, 18/11"
+   },
+   {
+    "spec": "Fúria",
+    "objetivo": "Raide",
+    "pontos": "17/34/0",
+    "chave": "Death Wish (Desejo de Matar), Bloodthirst (Sede de Sangue), Flurry (Ímpeto), Improved Overpower (Subjugar Aprimorado), Impale (Empalar)",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v230303213002-050530045122100231_t0_r95/0CaaEafHgfM1BDEhhJkMpNSTvhh",
+    "fonte": "Wowhead talentos Fúria, 04/11 (Warcraft Tavern/Icy Veins: 18/33/0, outra distribuição e sem link)"
+   },
+   {
+    "spec": "Fúria",
+    "objetivo": "Masmorra",
+    "pontos": "17/34/0",
+    "chave": "Igual à de raide, mas troca Improved Berserker Rage (Raiva Incontrolada Aprimorada) por Lingering Rage (Raiva Duradoura) e Enrage 5/5",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v230303213002-051530055120100231_t0_r95/0CaaEafHgfM1BDEhhJkpSTvhhhMc",
+    "fonte": "Wowhead talentos Fúria, 04/11"
+   },
+   {
+    "spec": "Fúria",
+    "objetivo": "PvP",
+    "pontos": "17/34/0",
+    "chave": "Improved Berserker Rage (tira root/lentidão), Improved Intercept (Interceptar Aprimorado). O guia diz que Fúria é fraco no PvP perto de Armas",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v203303213002-550011350102122231_t0_r95/0CbbEFHgbM1BAfGekhhhhQRNpTvSh",
+    "fonte": "Wowhead talentos Fúria, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Upar (Prot fundo, recomendado)",
+    "pontos": "0/19/32",
+    "chave": "Build de Proteção funda, \"mais tranquila\"",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/vkndmh-55000135-250033120301021351_t0/2BEffHfgknkkArSqTvq1BAHfG",
+    "fonte": "Wowhead leveling Prot, 06/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Upar (rota Armas, p/ experientes)",
+    "pontos": "28/5/18",
+    "chave": "Sweeping Strikes (Golpes a Esmo) + Cleave (Cutilada) + Revenge (Revanche), alternando posturas",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v2353030130020152-05-050033120301_t0/0bbbb2BEffHKngf0bCAHEgMpQ1B0R",
+    "fonte": "Wowhead leveling Prot, 06/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Raide (padrão)",
+    "pontos": "4/15/32",
+    "chave": "Enrage 5/5 (Enfurecer), Deflection 4 (Deflexão), Anticipation (Antecipação), Focused Rage (Raiva Concentrada); pula quase todos os talentos de redução de custo de Raiva",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v204-05050005-050530120301021351_t0_r95/2BEddHgKndddQrssTv1BDH0bbbb2s",
+    "fonte": "Wowhead talentos Prot, 04/11 (Conquest Capped 26/11: também 4/15/32)"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Raide (Impale)",
+    "pontos": "17/2/32",
+    "chave": "Impale (Empalar), Deep Wounds (Feridas Profundas), Improved Rend (Dilacerar Aprimorado: Rend agora escala com Poder de Ataque), Vanguard (Vanguarda)",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v235301003002-02-050530120301021351_t0_r95/2BEddHgKndddQrssTv0BCeHa1bb0aaM2s",
+    "fonte": "Wowhead talentos Prot, 04/11 (Conquest Capped: também 17/2/32)"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Raide (Fury-prot)",
+    "pontos": "3/31/17",
+    "chave": "Flurry (Ímpeto), Bloodthirst (Sede de Sangue), Death Wish (Desejo de Matar) + Shield Slam (Escudada); só compensa se fizer a fase de Execute",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v23-050501350122120031-050230120301_t0_r95/0A1BDGHkMpQfTNv2BEddgHKn",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Situacional (duas armas, contra elementais)",
+    "pontos": "20/31/0",
+    "chave": "O guia avisa: +50% de dano recebido; use só contra inimigo de ataque não bloqueável",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v235303013002-050530055120100031_t0_r95/0A1BDHkMpTvEJ0BCEgHM",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Masmorra (Prot fundo)",
+    "pontos": "4/15/32",
+    "chave": "Defensive Stance (Postura de Defesa) com Enrage alto contra vários alvos; opção de Piercing Howl (Uivo Perfurante)",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v204-05050005-050233120301021351_t0_r95/2BEffHfkknkgddrSqTvq1BDH0bbbb",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Masmorra (cleave)",
+    "pontos": "28/5/18",
+    "chave": "Sweeping Strikes (Golpes a Esmo) espalha Revenge e Cleave; o guia chama de \"o tanque de maior dano do jogo\"",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v2353030130020152-05-050033120301_t0/0bbbb2BEffHKngf0bCAHEgMpQ1B0R",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "PvP",
+    "pontos": "0/19/32",
+    "chave": "Concussion Blow (Pancada de Concussão), Improved Shield Bash (Trombada com Escudo Aprimorada), Shield Slam (dissipa magia), Blood Craze (Fervor Sangrento)",
+    "link": "https://www.wowhead.com/forever/talent-calc/warrior/v2-05050135-055030123001201351_t0_r95/1B2BCEgHJnPSrTv1DGHf",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   }
+  ],
+  "mudancas": [
+   "Árvores de Fúria e Proteção muito refeitas (01/10). Talentos novos: Lingering Rage (Raiva Duradoura), Furious Precision e Gore Drinker (Bebedor de Sangue). Depois vieram Reckless Swings (Golpes Imprudentes) e Improved Whirlwind. Flurry não depende mais de Death Wish. Bloodthrill foi refeito. Rend escala com Poder de Ataque. Spearing Strike (Golpe Lanceador) é novo.",
+   "Raiva: a geração de Raiva é normalizada pela velocidade da arma e está bem mais baixa que no Classic, segundo o Warcraft Tavern. O Slam tem recarga de 15 s. A Defensive Stance dá +80% de ameaça."
+  ],
+  "fonte": "guias de talentos e de upar do Wowhead para o WoW Forever (patch 1.60.1, editados entre 04/11 e 26/11/2026) e notas de desenvolvimento da Blizzard. Builds de raide ainda são estimativa até as raides abrirem em 09/12."
+ },
+ "Druida": {
+  "builds": [
+   {
+    "spec": "Equilíbrio",
+    "objetivo": "Upar (núcleo de 44 pts + 7 livres)",
+    "pontos": "31/0/13",
+    "chave": "Ordem: Starlight Wrath (Ira Aprimorada), Moonglow (Brilho da Lua), Moon and Stars (Fogo Lunar Aprimorado), Nature's Majesty, Insect Swarm, Vengeance, Eclipse, Genesis, Moonkin Form aos 40; depois Naturalist (Naturalista) e Reflection (Reflexão) em Resto",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vgakgd5532220115001301--5053_t0/0ACDEhFjKQpBs2ADC",
+    "fonte": "Wowhead leveling e talentos Equilíbrio, 26/11"
+   },
+   {
+    "spec": "Equilíbrio",
+    "objetivo": "Raide/masmorra (controle)",
+    "pontos": "38/0/13",
+    "chave": "Núcleo + Improved Entangling Roots (Raízes Enredantes Aprimoradas), Overgrowth (Exuberância), Improved Starfire (Fogo Estelar Aprimorado)",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vgakgd5532223115221301--5053_t0/0ACDEhFjKQpBsNG2ADC0M",
+    "fonte": "Wowhead talentos Equilíbrio, 26/11"
+   },
+   {
+    "spec": "Equilíbrio",
+    "objetivo": "Raide (AoE / controle de ameaça)",
+    "pontos": "35/0/16",
+    "chave": "Núcleo + Dreamstate (Estado Onírico) + Subtlety (Subterfúgio)",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vgakgd5532220115001341--505303_t0/0ACDEhFjkkkkQpkBs2ADCF0rrrr",
+    "fonte": "Wowhead talentos Equilíbrio, 26/11"
+   },
+   {
+    "spec": "Equilíbrio",
+    "objetivo": "PvP",
+    "pontos": "33/0/18",
+    "chave": "Overgrowth (Exuberância), Swiftmend (Recomposição Rápida), Bloom (Florir), Natural Shapeshifter (Metamorfo Natural)",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vgakgd5532220115021301--50533001001_t0/2ACDEhm0AFCDEhjKQpNbbbsbb",
+    "fonte": "Wowhead talentos Equilíbrio, 26/11"
+   },
+   {
+    "spec": "Feral DPS",
+    "objetivo": "Upar 1-60",
+    "pontos": "0/34/17",
+    "chave": "Feral funda + Restauração para economizar mana",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vkndmh-50232002123112125011-05533000001_t0/1ACDjHKpQnmrSmmTzw2BEDCm1E",
+    "fonte": "Wowhead leveling Feral DPS, 19/11"
+   },
+   {
+    "spec": "Feral DPS",
+    "objetivo": "Mundo aberto (muita regen de mana)",
+    "pontos": "9/33/9",
+    "chave": "Foco em regenerar mana para beber menos",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/v2050022-55200002123112124011-054_t0/0BEF1ABCHjKQnMrSttttwpz2Bcccc",
+    "fonte": "Wowhead talentos Feral DPS, 04/11"
+   },
+   {
+    "spec": "Feral DPS",
+    "objetivo": "Raide/masmorra",
+    "pontos": "9/32/10",
+    "chave": "Dano puro em Cat Form (Forma de Felino); pega quase tudo que precisa para tanquar se for preciso",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/v2050022-53200032123012124001-055_t0/0BEF2BC1ACbbbGHjKMpQrStttzt",
+    "fonte": "Wowhead talentos Feral DPS, 04/11"
+   },
+   {
+    "spec": "Feral DPS",
+    "objetivo": "PvP",
+    "pontos": "0/35/16",
+    "chave": "Feral funda + Swiftmend (Recomposição Rápida) e talentos de mana em Resto",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/v2-55202002123112124011-05433000001_t0/1ABCHjKQnMrSttttwpz2BccccDEm1E",
+    "fonte": "Wowhead talentos Feral DPS, 04/11"
+   },
+   {
+    "spec": "Feral tanque",
+    "objetivo": "Upar 1-60 (eficiente em mana)",
+    "pontos": "0/34/17",
+    "chave": "Feral primeiro, depois Resto; o Bloom (Florir) é \"experimental\"",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vkndmh-55200002123112125011-05533000001_t0/1AbbbCjHKnpMrSqbttttbwz2BCEDm1tq",
+    "fonte": "Wowhead leveling Feral tanque, 18/11"
+   },
+   {
+    "spec": "Feral tanque",
+    "objetivo": "Upar (mais ofensiva)",
+    "pontos": "8/32/11",
+    "chave": "Nature's Majesty (Majestade da Natureza) + Nature's Reach (Alcance da Natureza)",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vkndmh050012-54200002123111125011-05500001_t0/1AbbbCjHKnMprSqbTwz2BCh0BFe",
+    "fonte": "Wowhead leveling Feral tanque, 18/11"
+   },
+   {
+    "spec": "Feral tanque",
+    "objetivo": "Raide/masmorra (híbrido urso+gato)",
+    "pontos": "9/32/10",
+    "chave": "Joga como urso; no gato usa Claw (Garra) em vez de Shredding Attacks; em masmorra, opção de passar Thick Hide (Pelego Grosso) para Blood Frenzy (Frenesi de Sangue)",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/v2050022-50230302123110124011-055_t0/0BEF1AC2BC1DFHjKnprSMttttwz",
+    "fonte": "Wowhead talentos Feral tanque, 04/11"
+   },
+   {
+    "spec": "Feral tanque",
+    "objetivo": "Raide (urso puro)",
+    "pontos": "9/32/10",
+    "chave": "+1 em Rend and Tear (Rasgar e Despedaçar) + Blood Frenzy (Frenesi de Sangue)",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/v2050022-5023030212310112501-055_t0/0BEF1AC2BC1DFHjKnrSMttttwtq",
+    "fonte": "Wowhead talentos Feral tanque, 04/11"
+   },
+   {
+    "spec": "Feral tanque",
+    "objetivo": "PvP",
+    "pontos": "16/11/24",
+    "chave": "Espalhada nas 3 árvores, estilo defensivo, parecido com o druida do Classic original",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/v2053222011-052120001-555330010011_t0/0BEFchccDj2ABEDCnmh1BCdEjj",
+    "fonte": "Wowhead talentos Feral tanque, 04/11"
+   },
+   {
+    "spec": "Restauração",
+    "objetivo": "Upar solo (\"HoTs e DoTs\")",
+    "pontos": "23/0/28",
+    "chave": "Starlight Wrath (Ira Aprimorada), Reflection (Reflexão), Bloom (Florir), Insect Swarm (Nuvem de Insetos), Nature's Grace (Graça da Natureza), Overgrowth",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vkndmh5530203110021--505300510311103_t0_r6/0A2ADcch0EbbbhGbjbCpN2ggggmgcccnKprrr",
+    "fonte": "Wowhead leveling Resto, 25/11"
+   },
+   {
+    "spec": "Restauração",
+    "objetivo": "Upar só curando em masmorra",
+    "pontos": "13/0/38",
+    "chave": "Corre para Wild Growth (Crescimento Silvestre), depois Improved Regrowth (Recrescimento Aprimorado), Nature's Splendor, Genesis",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vkndmh55002001--5553005103113051_t0/0A2ADccchccgmKgnPgRs0Ebbbhbb2ggB",
+    "fonte": "Wowhead leveling Resto, 25/11"
+   },
+   {
+    "spec": "Restauração",
+    "objetivo": "Raide (Resto fundo, recomendada)",
+    "pontos": "18/0/33",
+    "chave": "Wild Growth (Crescimento Silvestre, cura em grupo, coeficiente dobrado num buff recente), Nature's Splendor (Esplendor da Natureza), Swiftmend, Nature's Swiftness (Rapidez da Natureza)",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vkndmh552022011--0553005103113051_t0",
+    "fonte": "Wowhead talentos Resto, 25/11"
+   },
+   {
+    "spec": "Restauração",
+    "objetivo": "Raide (NG/RG)",
+    "pontos": "21/0/30",
+    "chave": "Nature's Grace (Graça da Natureza) + Improved Regrowth (Recrescimento Aprimorado): Regrowth acelerado para dano pontual",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vkndmh5530203110001--055300510311105_t0",
+    "fonte": "Wowhead talentos Resto, 25/11"
+   },
+   {
+    "spec": "Restauração",
+    "objetivo": "Masmorra (Restokin, mais dano)",
+    "pontos": "30/0/21",
+    "chave": "Cura e entre as curas casta Wrath e Starfire; o guia diz para NÃO usar Moonkin Form",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vgakgd55322201150013--055300510011_t0",
+    "fonte": "Wowhead talentos Resto, 25/11"
+   },
+   {
+    "spec": "Restauração",
+    "objetivo": "Masmorra (Restocat)",
+    "pontos": "0/32/19",
+    "chave": "Furor + Shifting Power (Poder Cambiante): cura e entra em gato para combos",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vkndmh-55000032023012125001-05530011031_t0",
+    "fonte": "Wowhead talentos Resto, 25/11"
+   },
+   {
+    "spec": "Restauração",
+    "objetivo": "PvP",
+    "pontos": "16/11/24",
+    "chave": "Improved Entangling Roots, Insect Swarm, Feral Charge (Investida Feral), Nature's Swiftness",
+    "link": "https://www.wowhead.com/forever/talent-calc/druid/vkndmh500222311-052021001-555330010011_t0",
+    "fonte": "Wowhead talentos Resto, 25/11"
+   }
+  ],
+  "mudancas": [
+   "Wild Growth (Crescimento Silvestre): é o capstone de Resto, com 3 s de conjuração.",
+   "Bloom (Florir): entrou no lugar de Gift of the Earthmother.",
+   "Genesis, Eclipse e Shifting Power (Poder Cambiante, linha 4) também são novos.",
+   "Primal Bite substituiu o Mangle.",
+   "Removidos: Tiger's Fury, King of the Jungle e Berserk.",
+   "Swiftmend agora exige um HoT seu no alvo.",
+   "Leader of the Pack e Moonkin Aura viraram buff de raide inteira, só de crítico.",
+   "Lacerate foi para Feral.",
+   "O bônus de ameaça do urso subiu para 115%.",
+   "O dano base do Starfire subiu cerca de 40%.",
+   "O guia de Equilíbrio cita o \"Spellbear\" (urso com Thorns) do beta, que perdeu força."
+  ],
+  "fonte": "guias de talentos e de upar do Wowhead para o WoW Forever (patch 1.60.1, editados entre 04/11 e 26/11/2026) e notas de desenvolvimento da Blizzard. Builds de raide ainda são estimativa até as raides abrirem em 09/12."
+ },
+ "Caçador": {
+  "builds": [
+   {
+    "spec": "Domínio das Feras",
+    "objetivo": "Upar 1-60",
+    "pontos": "31/16/4",
+    "chave": "Desce a árvore de BM de cima para baixo, depois Precisão; os 3 primeiros pontos são livres (Pathfinding, Improved Revive Pet, Endurance Training)",
+    "link": "https://www.wowhead.com/forever/talent-calc/hunter/v25320001505101251-0053052001-4_t0_r4/0ACbbbghhhhmhkkkpQkkRs1CFDGk2aaaa",
+    "fonte": "Wowhead leveling BM, 20/11"
+   },
+   {
+    "spec": "Domínio das Feras",
+    "objetivo": "Raide/masmorra",
+    "pontos": "31/20/0",
+    "chave": "Dano do ajudante + mana; em Precisão: Lethal Attacks (Ataques Letais), Careful Aim (Mira Cuidadosa), Trueshot Aura (Aura de Tiro Certeiro); Improved Tracking (Rastreamento Aprimorado) rende mais que Mortal Shots",
+    "link": "https://www.wowhead.com/forever/talent-calc/hunter/vkndmh5320001505101251-00530520014_t0_r4/0ACbbbghhhhmhkkkQkkpRs1CFDGkmmmm",
+    "fonte": "Wowhead talentos BM, 16/11"
+   },
+   {
+    "spec": "Domínio das Feras",
+    "objetivo": "PvP",
+    "pontos": "31/16/4",
+    "chave": "Improved Concussive Shot, Improved Aspect of the Monkey (Aspecto do Macaco Aprimorado), Summon Hawk (Evocar Falcão), que funciona sem distância mínima",
+    "link": "https://www.wowhead.com/forever/talent-calc/hunter/v25023001505101251-0550050001-4_t0_r4/0ACghhhhmhkkkQkkprDrrrrs1Cffff2aaaa1fBk",
+    "fonte": "Wowhead talentos BM, 16/11"
+   },
+   {
+    "spec": "Precisão",
+    "objetivo": "Upar 1-60",
+    "pontos": "15/36/0",
+    "chave": "Sem Lone Wolf no leveling (você precisa do ajudante para tanquar)",
+    "link": "https://www.wowhead.com/forever/talent-calc/hunter/v253200014-005055250152015_t0_r4/1CFGeeekmmmmNmeeR0ACbbbg1q0hhhh1H",
+    "fonte": "Wowhead leveling MM, 20/11"
+   },
+   {
+    "spec": "Precisão",
+    "objetivo": "Raide/masmorra",
+    "pontos": "5/41/5",
+    "chave": "Lone Wolf (Lobo Solitário, sem ajudante), Sniper Shot (Tiro de Franco-atirador, o novo talento 31), Efficiency (Eficiência) funda por causa da mana; Deadly Aspects (Aspectos Mortais) e Improved Tracking",
+    "link": "https://www.wowhead.com/forever/talent-calc/hunter/v25-0053552511521051-5_t0_r4/1CFjGhhkMNhhRsh0A1E2A1Dp",
+    "fonte": "Wowhead talentos MM, 04/11"
+   },
+   {
+    "spec": "Precisão",
+    "objetivo": "PvP",
+    "pontos": "0/40/11",
+    "chave": "Improved Concussive Shot, Improved Stings, Scatter Shot (Tiro de Dispersão), Survivalist (Sobrevivencialista), Deterrence (Coibição); build de \"tudo ou nada\"",
+    "link": "https://www.wowhead.com/forever/talent-calc/hunter/v2-0553050511503151-500050001_t0_r4/1CFjDMkPRs2A1HqB2Ej",
+    "fonte": "Wowhead talentos MM, 04/11"
+   },
+   {
+    "spec": "Sobrevivência",
+    "objetivo": "Upar 1-60",
+    "pontos": "16/9/26",
+    "chave": "Árvore de SV primeiro, Strider Kick (Chute de Moa) assim que liberar no 30, depois BM até Summon Hawk (Evocar Falcão), fim em Precisão",
+    "link": "https://www.wowhead.com/forever/talent-calc/hunter/v253200014001-005004-5002301310512201_t0_r4/2ADeeejHgnmmmmsPmQ0ACbbbghhhhm1Cffff",
+    "fonte": "Wowhead leveling SV, 20/11"
+   },
+   {
+    "spec": "Sobrevivência",
+    "objetivo": "Raide/masmorra (corpo a corpo)",
+    "pontos": "16/10/25",
+    "chave": "Dano corpo a corpo + mana; Summon Hawk; o guia diz que Lightning Reflexes e Lacerating Strikes estão fracos",
+    "link": "https://www.wowhead.com/forever/talent-calc/hunter/vkndmh51202005001-005005-5002302300502201_t0_r4/2ADeeeHGMsQ0ACEbHm1cccc2P1cF",
+    "fonte": "Wowhead talentos SV, 17/11"
+   },
+   {
+    "spec": "Sobrevivência",
+    "objetivo": "Raide/masmorra (weaving: distância + corpo a corpo)",
+    "pontos": "0/20/31",
+    "chave": "Lacerating Strikes (Ataques Lacerantes) com arma de 2 mãos, que aumenta o Mongoose Bite (Mordida de Mangusto)",
+    "link": "https://www.wowhead.com/forever/talent-calc/hunter/v2-00530501114-500230230050220151_t0_r4/2ADeeeHGMQs1Cfff2PTv1ffDhjkmmmm",
+    "fonte": "Wowhead talentos SV, 17/11"
+   },
+   {
+    "spec": "Sobrevivência",
+    "objetivo": "PvP",
+    "pontos": "22/0/29",
+    "chave": "Summon Hawk, Deflection, Deterrence, Surefooted (Firmeza), Strider Kick, Counterattack (Contra-ataque)",
+    "link": "https://www.wowhead.com/forever/talent-calc/hunter/vkndmh5023001504101--5022030310512221_t0_r4/2ADFjHcnmmmmsQR0ACDghhhhm2c0hkkkp2m0k2P",
+    "fonte": "Wowhead talentos SV, 17/11"
+   }
+  ],
+  "mudancas": [
+   "Talentos novos: Sniper Shot (novo talento de 31 pontos de Precisão, com alcance maior), Lone Wolf (jogar sem ajudante), Summon Hawk, Strider Kick, Lacerating Strikes e Deadly Aspects.",
+   "Todas as armadilhas dividem uma recarga de 30 s.",
+   "Aimed Shot quase dobrou o dano bônus.",
+   "Arcane Shot e Serpent Sting foram fortalecidos."
+  ],
+  "fonte": "guias de talentos e de upar do Wowhead para o WoW Forever (patch 1.60.1, editados entre 04/11 e 26/11/2026) e notas de desenvolvimento da Blizzard. Builds de raide ainda são estimativa até as raides abrirem em 09/12."
+ },
+ "Mago": {
+  "builds": [
+   {
+    "spec": "Arcano",
+    "objetivo": "Upar 1-60",
+    "pontos": "36/12/3",
+    "chave": "Ordem flexível; opção de Improved Counterspell (Contrafeitiço Aprimorado) no 59-60 para PvP no mundo",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/vkndmh250205223100311531-550000002-003_t0/0A2c0bbbGDbkbfffqffP2c0SrJT1BA0v2c0H1J",
+    "fonte": "Wowhead leveling Arcano, 24/11"
+   },
+   {
+    "spec": "Arcano",
+    "objetivo": "Raide/masmorra (Arcano com Fogo, a melhor)",
+    "pontos": "32/16/3",
+    "chave": "Missile Barrage (Salva de Mísseis), Arcane Wrath (Ira Arcana), Arcane Meditation, o novo Arcane Blast, Arcane Power (Poder Arcano); em Fogo, Improved Fire Blast (Impacto de Fogo Aprimorado) acumula Heating Up (Aquecendo) para o Pyroblast (Ignimpacto)",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/v2050205203100311531-525000012001-003_t0/2C1bbAChJn0BDFGJkqPrSTv",
+    "fonte": "Wowhead talentos Arcano, 18/11"
+   },
+   {
+    "spec": "Arcano",
+    "objetivo": "Raide (Arcano puro, chefe imune a Fogo)",
+    "pontos": "35/13/3",
+    "chave": "Pontos livres em Improved Flamestrike, Improved Counterspell, Arcane Geometry (Geometria Arcana)",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/v2050205223101311531-5500003-003_t0/0BDFGHJkqPnrSTv1AB2C1G",
+    "fonte": "Wowhead talentos Arcano, 18/11"
+   },
+   {
+    "spec": "Arcano",
+    "objetivo": "Raide (luta longa, conceito)",
+    "pontos": "29/19/3",
+    "chave": "Sem Arcane Power, mais sustentação de mana; o guia diz que é \"mais conceito que build esperada\"",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/v205020520310020153-505002012301-003_t0/2C0BDFGkppJSrT1AChJffKn",
+    "fonte": "Wowhead talentos Arcano, 18/11"
+   },
+   {
+    "spec": "Arcano",
+    "objetivo": "PvP (\"Pyro PoM Pyro\")",
+    "pontos": "32/19/0",
+    "chave": "Presence of Mind (Presença de Espírito) + Pyroblast, Arcane Wrath, Heating Up, Impact (Impacto)",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/v2050205220102211531-505230012001_t0/0BffffgfgkDNHrppTssssq1DcccchJcAnE0vs",
+    "fonte": "Wowhead talentos Arcano, 18/11"
+   },
+   {
+    "spec": "Fogo",
+    "objetivo": "Upar 1-60",
+    "pontos": "18/31/2",
+    "chave": "Pega só 4% de acerto (o que garante acertar mob do mesmo nível)",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/vkndmh0502052001003-55520301200103031-002_t0/1B2c1AhJccnccc0BGD1DQfSfft2c0FkP",
+    "fonte": "Wowhead leveling Fogo, 24/11"
+   },
+   {
+    "spec": "Fogo",
+    "objetivo": "Raide/masmorra (Fogo fundo, Fireball)",
+    "pontos": "16/32/3",
+    "chave": "Fireball (Bola de Fogo) como principal + Missile Barrage do Arcano; dá para trocar Master of Elements (Domínio dos Elementos) por Blast Wave (Onda de Impacto) ou Flame Throwing (Arremesso Flamejante)",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/v20502052001001-55500001230133031-003_t0/1bbb2C1bbChaaaanKJQpSppta0BGDfkffffp",
+    "fonte": "Wowhead talentos Fogo, 04/11"
+   },
+   {
+    "spec": "Fogo",
+    "objetivo": "Raide/masmorra (Frostfire)",
+    "pontos": "0/29/22",
+    "chave": "Frostfire Bolt (Seta de Fogofrio) + Shatter (Estilhaçar) + Fingers of Frost (Dedos Glaciais); sem mana, tire 2 de Incineration (Incineração) e ponha em Master of Elements",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/v2-5550000123011303-2035000311113002_t0/2C1B2DkHPn1ChJaanKpQS2jAmS1aaa",
+    "fonte": "Wowhead talentos Fogo, 04/11"
+   },
+   {
+    "spec": "Fogo",
+    "objetivo": "PvP",
+    "pontos": "21/28/2",
+    "chave": "PoM + Pyroblast, Improved Fire Blast de alcance longo, Improved Scorch (Calcinar Aprimorado), Improved Counterspell",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/v2050205220002201-35523001230103-002_t0/1aaaBChJnqqe0BfDfGfffNpp1K0rH1q2cc1Dee",
+    "fonte": "Wowhead talentos Fogo, 04/11"
+   },
+   {
+    "spec": "Gélido",
+    "objetivo": "Upar 1-60",
+    "pontos": "7/0/44",
+    "chave": "Gélido fundo; depois de Fingers of Frost, opção de tirar Wand Specialization para chegar antes ao Ice Barrier",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/vkndmh2032--053530333121331251_t0/0A2BEcckjdddPddSrqqTvnqcjjHGM0CD",
+    "fonte": "Wowhead leveling Gélido, 18/11"
+   },
+   {
+    "spec": "Gélido",
+    "objetivo": "Raide",
+    "pontos": "18/0/33",
+    "chave": "Gélido fundo sem Frostfire; 1 ponto em Improved Blizzard; Arcane Meditation, Arcane Impact e Frost Channeling são flexíveis",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/vkndmh2032250100003--053500020120331251_t5_l58_r5/0ACDEFhP2BCDkhPhmrQSTvm",
+    "fonte": "Wowhead talentos Gélido, 24/11"
+   },
+   {
+    "spec": "Gélido",
+    "objetivo": "Masmorra / mundo aberto",
+    "pontos": "18/0/33",
+    "chave": "Também serve como build \"para tudo\" no mundo",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/vkndmh2032250100003--053530001100331251_t5_l58_r5/0ACDEFhP2BCDjEPrQkSTv",
+    "fonte": "Wowhead talentos Gélido, 24/11"
+   },
+   {
+    "spec": "Gélido",
+    "objetivo": "Masmorra (AoE, mobs agrupados para Blizzard)",
+    "pontos": "19/0/32",
+    "chave": "Sem Frostbite (para não separar os mobs); o guia repete o título \"Dungeon Build\" nesta seção",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/vkndmh2032250200003--053500333121301101_t5_l58_r5/2BCDJPMrHksgg0ACDEFhP2gv0h2n",
+    "fonte": "Wowhead talentos Gélido, 24/11"
+   },
+   {
+    "spec": "Gélido",
+    "objetivo": "PvP",
+    "pontos": "17/0/34",
+    "chave": "Ice Block, Permafrost, Frostbite, Improved Frost Nova; o autor diz que é ponto de partida",
+    "link": "https://www.wowhead.com/forever/talent-calc/mage/vkndmh203204220002--050530300121331241_t5/0ACDGfHfffN2BDEggMnkPSrQttvtgt",
+    "fonte": "Wowhead talentos Gélido, 24/11"
+   }
+  ],
+  "mudancas": [
+   "Hot Streak foi renomeado para Heating Up (Aquecendo).",
+   "Arcane Blast foi redesenhado, e entrou Arcane Wrath (talento de 16 pontos).",
+   "Fire Power foi redesenhado para 3 pontos.",
+   "Também existem Frostfire Bolt, Fingers of Frost e Missile Barrage.",
+   "Removidos: Frost Blast e Piercing Ice. O Ice Barrier agora aumenta o dano Gélido.",
+   "Precision (ex-Elemental Precision) dá 2/4/6% de acerto.",
+   "Ice Lance tem recarga de 8 s, dividida com o Fire Blast.",
+   "Critical Mass voltou para 3 pontos.",
+   "Fonte: Blizzard dev notes (01/10, 16/10 e 03/11)."
+  ],
+  "fonte": "guias de talentos e de upar do Wowhead para o WoW Forever (patch 1.60.1, editados entre 04/11 e 26/11/2026) e notas de desenvolvimento da Blizzard. Builds de raide ainda são estimativa até as raides abrirem em 09/12."
+ },
+ "Paladino": {
+  "builds": [
+   {
+    "spec": "Sagrado",
+    "objetivo": "Upar 1-60",
+    "pontos": "34/5/12",
+    "chave": "No começo, escolha entre Reverence (Reverência, para mana) e Pursuit of Justice (Busca de Justiça, para correr mais)",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/vkndmh50320015222121251-5-052300002_t0/0AD2BCDJ0CHgMnkqRkpStpJJ",
+    "fonte": "Wowhead leveling Sagrado, 18/11"
+   },
+   {
+    "spec": "Sagrado",
+    "objetivo": "Raide",
+    "pontos": "31/7/13",
+    "chave": "Vai até Light's Vigil (Luz Zelosa) com todos os aumentos de cura; Divine Intellect (Intelecto Divino) em Prot; Conviction (Convicção) em Ret; Pursuit of Justice e Sacred Duty (Dever Sagrado)",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/v250320115022101251-50002-050330002_t0/0ADCHgMnkqRkfSt1A2BDeeJe1E",
+    "fonte": "Wowhead talentos Sagrado, 04/11"
+   },
+   {
+    "spec": "Sagrado",
+    "objetivo": "Masmorra",
+    "pontos": "34/5/12",
+    "chave": "Pega talentos ligados à Consecration (Consagração) para o AoE",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/v250320015222121251-5-052300002_t0/0ADCHgMnkqRkpSt1A2BD0pJ2CJ",
+    "fonte": "Wowhead talentos Sagrado, 04/11"
+   },
+   {
+    "spec": "Sagrado",
+    "objetivo": "PvP",
+    "pontos": "32/7/12",
+    "chave": "O guia não descreve; só traz o link",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/v250320215022101251-5002-052300002_t0/0ADCHMgnkqRkfSt1A2BDCJ1D0f",
+    "fonte": "Wowhead talentos Sagrado, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Upar 1-60",
+    "pontos": "0/32/19",
+    "chave": "Sanctified Judgement (Julgamento Santificado) contra um alvo; Shield Specialization (Especialização em Escudo) contra vários; Shieldsworn (Juramentado do Escudo): use Holy Shield antes de Holy Strike",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/vkndmh-05322102313001531-05233300201_t0/2BEddJ1BCDfHjjkMjqRSet2Cfmffd1e",
+    "fonte": "Wowhead leveling Prot, 06/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Raide (padrão)",
+    "pontos": "0/35/16",
+    "chave": "Shieldsworn (novo: Holy Strike com recarga de 6 s), Iron Creed (Doutrina do Ferro) perto de 100% do tempo, Improved Righteous Fury, Sacred Arbiter (Arbítrio Sagrado), Anticipation, Pursuit of Justice",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/v2-05302102313501531-50233000201_t0/1BCEfHjjkMnqRSnt2ACDEJm1nnnj",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Raide (Shockprot, mais ameaça)",
+    "pontos": "23/28/0",
+    "chave": "Holy Shock (Choque Sagrado), Consecrated Ground (Solo Consagrado), Divine Precision (Precisão Divina), Holy Conduit (Conduíte Sagrado); defende menos",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/v205025211220021-0530210221310152_t0/0BEFJDgKhqP1BECfHjjkMnqRss",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Raide (Retprot, cleave/AoE)",
+    "pontos": "0/21/30",
+    "chave": "Vindication (Vindicação), Champion of the Light (Campeão da Luz), Vengeance (Vingança), Deflection 5/5",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/v2-05302102213101-5223330120100035_t0/2AEDChJmFRbbS1BCEfHjjMknq",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Tanque secundário ofensivo (situacional)",
+    "pontos": "23/0/28",
+    "chave": "Sem árvore de Prot; Vengeance + Champion of the Light; o guia diz que é \"para diversão\" ou contra dano não bloqueável",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/v205025211220021--5523300120100033_t0/2ADCEhJmbbbRbbsss0BEDFghKJqP",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "Masmorra",
+    "pontos": "0/32/19",
+    "chave": "Pursuit of Justice, Vindication, Guardian's Favor (Estima do Guardião); ganho mínimo sobre a padrão",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/v2-05322102313001531-50233300201_t0/1BCEfHjjkMjqRSt2ACDEJmF1D",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   },
+   {
+    "spec": "Proteção",
+    "objetivo": "PvP",
+    "pontos": "23/28/0",
+    "chave": "Combo Shockadin: Consecration, Divine Favor, Holy Shock, Holy Strike e Swift Judgement (Julgamento Célere); Templar's Bulwark (Baluarte do Templário)",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/v250325210020021-503221300130215_t0/0AEFDgCKqP1ADEcfGccmkmmqRP",
+    "fonte": "Wowhead talentos Prot, 04/11"
+   },
+   {
+    "spec": "Retribuição",
+    "objetivo": "Upar 1-60 (= build de raide)",
+    "pontos": "12/8/31",
+    "chave": "Mesma build Unsealed Wrath da raide; o Shockadin fica fora do leveling",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/vkndmh050050002-503-05233011201301351_t0/2BCEhJddmNdRqgSt0BEJ1AC",
+    "fonte": "Wowhead leveling Ret, 23/11"
+   },
+   {
+    "spec": "Retribuição",
+    "objetivo": "Raide/masmorra (Unsealed Wrath)",
+    "pontos": "12/8/31",
+    "chave": "Unsealed Wrath (Ira Desatada, novo capstone que usa Seal of Command e Seal of Righteousness juntos), arma de 2 mãos lenta; Champion of the Light faz Poder Mágico e Intelecto escalarem forte",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/vkndmh050050002-503-05233011201301351_t0/2BCEhJddmNdRqgSt0BEJ1AC",
+    "fonte": "Wowhead talentos Ret, 24/11"
+   },
+   {
+    "spec": "Retribuição",
+    "objetivo": "Raide (Shockadin Sagrado)",
+    "pontos": "23/0/28",
+    "chave": "Holy Shock, Consecrated Ground, Purifying Power; arma de 2 mãos rápida + Seal of Righteousness; cura secundária melhor",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/vkndmh05025210221021--0523320120130033_t0/2BCDhEjmNjRffsss0BEDFgmJKqP",
+    "fonte": "Wowhead talentos Ret, 24/11"
+   },
+   {
+    "spec": "Retribuição",
+    "objetivo": "PvP",
+    "pontos": "12/8/31",
+    "chave": "Quase igual à de PvE: Deflection no lugar de Benediction; opção de Eye for an Eye",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/vkndmh050050002-503-50233011201301351_t0/2ACEhJddmdNqRgSt0BEJ1AC",
+    "fonte": "Wowhead talentos Ret, 24/11"
+   },
+   {
+    "spec": "Retribuição",
+    "objetivo": "PvP (Shockadin)",
+    "pontos": "21/0/30",
+    "chave": "Divine Favor + Holy Shock, Infusion of Light, Oath of Light, Repentance, Divine Precision; limitada pela mana",
+    "link": "https://www.wowhead.com/forever/talent-calc/paladin/vkndmh50025010222101--5023310120130135_t0/2ACDJheemNeqRfS0AEgJDKMnq",
+    "fonte": "Wowhead talentos Ret, 24/11"
+   }
+  ],
+  "mudancas": [
+   "O guia de Ret avisa que as builds \"mudaram massivamente entre o beta e o lançamento\", então qualquer build de Paladino do beta está velha. As builds de 26 pontos do Warcraft Tavern, por exemplo, são do beta.",
+   "Unsealed Wrath, o novo talento de 31 pontos de Ret (exige Repentance). O ataque corpo a corpo guarda uma cópia do seu Selo ativo por 15 s, até 3 cargas.",
+   "Shieldsworn, Stoicism, Oath of Light, Boundless Light e Turn Evil.",
+   "Champion of the Light: dano mágico escalando com Intelecto (12-60%).",
+   "Removidos: Salvation, Mass Salvation, Blessing of Light, Twist of Light, Instrument of Law e Improved Holy Strike.",
+   "Vengeance acumula até 5 vezes e exige Seal of Command.",
+   "Righteous Fury vem no nível 10, com +33% de ameaça.",
+   "Reckoning guarda até 4 cargas.",
+   "Paladino agora existe na Horda (Morto-vivo)."
+  ],
+  "fonte": "guias de talentos e de upar do Wowhead para o WoW Forever (patch 1.60.1, editados entre 04/11 e 26/11/2026) e notas de desenvolvimento da Blizzard. Builds de raide ainda são estimativa até as raides abrirem em 09/12."
+ },
+ "Sacerdote": {
+  "builds": [
+   {
+    "spec": "Disciplina",
+    "objetivo": "Upar 1-60",
+    "pontos": "28/18/5",
+    "chave": "Build de leveling e mundo aberto (o guia de masmorra diz que ela pega Spirit Tap e Improved Inner Fire)",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/v2520015031333011-30505110102-005_t0/0BaaaeffffMjkNkkrq1AccEf2C0Haa1cccgM0f1j",
+    "fonte": "Wowhead leveling Disc, 18/11"
+   },
+   {
+    "spec": "Disciplina",
+    "objetivo": "Raide",
+    "pontos": "31/20/0",
+    "chave": "Power Infusion (Infusão de Poder) + os talentos essenciais de Sagrado; ir fundo em Sombra para Dark Inspiration (Inspiração Sombria) custaria 23 pontos",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/v2005005031330011531-0350501303_t0/0CFMKjqhhrSThv1CEHbbKbg",
+    "fonte": "Wowhead talentos Disc, 23/11"
+   },
+   {
+    "spec": "Disciplina",
+    "objetivo": "Masmorra",
+    "pontos": "33/18/0",
+    "chave": "Tira Spirit Tap (Transfusão de Espírito) e Improved Inner Fire; põe Inspiration (Inspiração) para o tanque",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/v2025015021330011531-0150510303_t0/0BcccFeMjKqcrS1CEfHbK0Tcvhh",
+    "fonte": "Wowhead talentos Disc, 23/11"
+   },
+   {
+    "spec": "Disciplina",
+    "objetivo": "PvP",
+    "pontos": "29/17/5",
+    "chave": "Silent Resolve (Determinação Silenciosa), Martyrdom (Martírio), Blessed Recovery (Recuperação Abençoada), Blackout (Apagão) opcional",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/vkndmh0053002013332115-320500330001-05_t0/0CDGjKMqPNr1AbbDGh2B0ssss1hhn0s",
+    "fonte": "Wowhead talentos Disc, 23/11"
+   },
+   {
+    "spec": "Sagrado",
+    "objetivo": "Upar 1-60",
+    "pontos": "19/32/0",
+    "chave": "Prayer of Mending (Prece da Recomposição) no começo dos 40; depois Meditation (Meditação) e Inner Focus (Concentração Interior) em Disciplina",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/vkndmh02500500133-10505103230021531_t5/0B1CEHfaKJqRSPt0cccFjMccK",
+    "fonte": "Wowhead leveling Sagrado, 21/11"
+   },
+   {
+    "spec": "Sagrado",
+    "objetivo": "Raide",
+    "pontos": "18/33/0",
+    "chave": "Holy Nova (Nova Sagrada), Prayer of Mending, Inner Focus, Inspiration",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/vkndmh00500500133001-10505103230121531_t0/1n",
+    "fonte": "Wowhead talentos Sagrado, 24/11"
+   },
+   {
+    "spec": "Sagrado",
+    "objetivo": "Masmorra (híbrida Disc/Sagrado)",
+    "pontos": "21/30/0",
+    "chave": "Inner Focus, Penance (Penitência), Holy Nova, Wand Specialization (Especialização em Varinha)",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/v2025005001330011-0350510303002053_t0/0BcccFKjMqccr1CEHbbKfbPRS",
+    "fonte": "Wowhead talentos Sagrado, 24/11"
+   },
+   {
+    "spec": "Sagrado",
+    "objetivo": "PvP",
+    "pontos": "34/17/0",
+    "chave": "Inner Focus, Penance, Power Infusion + cura de Sagrado; prioriza sobreviver e controlar",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/v2005305201333011331-3020511302_t0/0CFKjMqNrsssTGv1AccEfgHkk0D",
+    "fonte": "Wowhead talentos Sagrado, 24/11"
+   },
+   {
+    "spec": "Sombra",
+    "objetivo": "Upar 1-60",
+    "pontos": "16/3/32",
+    "chave": "Depois do 53, pontos livres: Twilight Focus (Foco do Crepúsculo), Shadow Focus, Mental Strength (Força Mental), Dark Inspiration ou Silence",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/vkndmh02330500003-3-30542201201312051_t0/0B2CEFahJaaNmdQdddSt0cccDffM1A2p0fff",
+    "fonte": "Wowhead leveling Sombra, 08/11"
+   },
+   {
+    "spec": "Sombra",
+    "objetivo": "Raide (especulativa)",
+    "pontos": "15/3/33",
+    "chave": "Improved Mind Blast em 4/5 de propósito (o 5º ponto não rende); sem Spirit Tap; flexíveis: Twilight Focus, Mental Strength, Shadow Reach (Alcance Sombrio)",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/v200530400003-3-50042201251302051_t0/2AEFddddhJNmKQSt0CDffM1A0ff",
+    "fonte": "Wowhead talentos Sombra, 04/11"
+   },
+   {
+    "spec": "Sombra",
+    "objetivo": "Masmorra",
+    "pontos": "13/0/38",
+    "chave": "Igual à de raide + Spirit Tap para manter mana nos DoTs em vários alvos",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/v200530200003--50542201251302051_t0/2AEFddddhJNmKQSt0CDffM2C",
+    "fonte": "Wowhead talentos Sombra, 04/11"
+   },
+   {
+    "spec": "Sombra",
+    "objetivo": "PvP",
+    "pontos": "16/3/32",
+    "chave": "Blackout (Apagão), Improved Psychic Scream (Grito Psíquico Aprimorado), Martyrdom, Twilight Focus",
+    "link": "https://www.wowhead.com/forever/talent-calc/priest/v200530020033-3-55002221201312051_t0/2B0CDGKmm2EFahGJmN1A2aQpaaSt0m2a",
+    "fonte": "Wowhead talentos Sombra, 04/11"
+   }
+  ],
+  "mudancas": [
+   "Disciplina e Sombra foram muito refeitas (16/10).",
+   "Talentos novos e refeitos: Dark Inspiration (linha 4), Penance refeito, Prayer of Mending como talento de 31 pontos de Sagrado e Holy Binding no lugar do Binding Heal.",
+   "Removidos: Improved Fade e Shadow Infinity.",
+   "Outra mudança: Shadow Word: Death tira 30% da vida máxima de quem conjura se falhar.",
+   "Sacerdote agora existe para Gnomo.",
+   "Fonte: Blizzard dev notes (16/10 e 03/11)."
+  ],
+  "fonte": "guias de talentos e de upar do Wowhead para o WoW Forever (patch 1.60.1, editados entre 04/11 e 26/11/2026) e notas de desenvolvimento da Blizzard. Builds de raide ainda são estimativa até as raides abrirem em 09/12."
+ },
+ "Ladino": {
+  "builds": [
+   {
+    "spec": "Assassinato",
+    "objetivo": "Upar 1-60",
+    "pontos": "21/30/0",
+    "chave": "Respec no 30, quando libera o talento de Assassinato (o Wowhead não mostrou o nome); depois Opportunity (Oportunidade) e Puncturing Wounds (Feridas Perfurantes)",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh02500321201401-320033011201232115_t0/1B0BCFJGhmnnnnq1AEffjKfhPQsRntV",
+    "fonte": "Wowhead leveling Assassinato, 18/11"
+   },
+   {
+    "spec": "Assassinato",
+    "objetivo": "Raide/masmorra (build única)",
+    "pontos": "31/19/1",
+    "chave": "O guia não descreve, só diz que é a build única",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh00530311231251031-32030302020103-001_t0",
+    "fonte": "Wowhead talentos Assassinato, 24/11"
+   },
+   {
+    "spec": "Assassinato",
+    "objetivo": "PvP (Cold Blood + Preparation)",
+    "pontos": "16/14/21",
+    "chave": "Cold Blood (Sangue Frio), Preparation (Preparação), Lethality (Letalidade), Opportunity, Improved Ambush, Improved Gouge, Master of Deception, Heightened Senses, Dirty Deeds (Vigarice)",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh32501020201-3203002202-023213231020101_t0",
+    "fonte": "Wowhead talentos Assassinato/Combate/Sub, 24/11 (é a mesma build nas 3 páginas)"
+   },
+   {
+    "spec": "Assassinato",
+    "objetivo": "PvP (variante de Assassinato)",
+    "pontos": "31/8/12",
+    "chave": "O guia não descreve; só traz o segundo link",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh30520021251301231-3203-0250300011_t0",
+    "fonte": "Wowhead talentos Assassinato, 24/11"
+   },
+   {
+    "spec": "Combate",
+    "objetivo": "Upar 1-60",
+    "pontos": "16/35/0",
+    "chave": "Respec no 20 para Riposte (Ripostar: fora do GCD, barato, desarma por 6 s)",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh02510320201-3200330112012321551_t0/1B0B1AffEjKfhPQsRntVwtttt0cccFccGJdm",
+    "fonte": "Wowhead leveling Combate, 18/11"
+   },
+   {
+    "spec": "Combate",
+    "objetivo": "Raide/masmorra (Sinister Strike, arma lenta na mão principal)",
+    "pontos": "16/35/0",
+    "chave": "Sinister Strike (Golpe Sinistro) + Hack and Slash (Carnificina)",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh00530320201-3200132202012321551_t0",
+    "fonte": "Wowhead talentos Combate, 24/11"
+   },
+   {
+    "spec": "Combate",
+    "objetivo": "Raide/masmorra (Backstab com adaga)",
+    "pontos": "13/33/5",
+    "chave": "Backstab (Punhalada pelas Costas), Puncturing Wounds, Opportunity; adaga na mão principal + maça na secundária é forte",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh005303002-3203030202012221451-005_t0",
+    "fonte": "Wowhead talentos Combate, 24/11"
+   },
+   {
+    "spec": "Combate",
+    "objetivo": "Raide/masmorra (Venom)",
+    "pontos": "21/30/0",
+    "chave": "Troca Adrenaline Rush (Adrenalina) por Venom (Peçonha)",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh00530320241001-320013220201232115_t0",
+    "fonte": "Wowhead talentos Combate, 24/11"
+   },
+   {
+    "spec": "Combate",
+    "objetivo": "PvP",
+    "pontos": "16/14/21",
+    "chave": "Mesma build de PvP do Assassinato (Cold Blood + Preparation)",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh32501020201-3203002202-023213231020101_t0",
+    "fonte": "Wowhead talentos Combate, 24/11"
+   },
+   {
+    "spec": "Subterfúgio",
+    "objetivo": "Upar 1-60",
+    "pontos": "2/27/22",
+    "chave": "Respec no 18, quando chega o Ambush (Emboscar), para fortalecer o Ambush",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh02-320033021201212122-0250230313010011_t0/1B0B2CFbeKhhnhjebsr1AffEjKfhPnhqsRttvv",
+    "fonte": "Wowhead leveling Sub, 18/11"
+   },
+   {
+    "spec": "Subterfúgio",
+    "objetivo": "Raide/masmorra (Death Mark)",
+    "pontos": "12/8/31",
+    "chave": "Death Mark (Marca da Morte) + Boot Knife (Faca de Bota)",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh00530301-320003-005233031321001151_t0",
+    "fonte": "Wowhead talentos Sub, 24/11"
+   },
+   {
+    "spec": "Subterfúgio",
+    "objetivo": "Raide/masmorra (fundo em Assassinato)",
+    "pontos": "28/2/21",
+    "chave": "Relentless Strikes (Golpes Implacáveis), Venom (Peçonha), Seal Fate (Selar o Destino)",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh0053031121135102-02-0052030313210001_t0",
+    "fonte": "Wowhead talentos Sub, 24/11"
+   },
+   {
+    "spec": "Subterfúgio",
+    "objetivo": "PvP",
+    "pontos": "16/14/21",
+    "chave": "Mesma build de PvP do Assassinato (Cold Blood + Preparation)",
+    "link": "https://www.wowhead.com/forever/talent-calc/rogue/vkndmh32501020201-3203002202-023213231020101_t0",
+    "fonte": "Wowhead talentos Sub, 24/11"
+   }
+  ],
+  "mudancas": [
+   "Habilidades novas: Shank (nível 24) e Death Mark.",
+   "Talentos novos: Venom, Boot Knife, Coup de Grace, Puncturing Wounds e Hack and Slash (agora vale por tipo de arma).",
+   "Removidos: Murder, Quietus, Cutthroat e Thousand Cuts.",
+   "Refeitos: Lethality, Mutilate, Relentless Strikes, Setup e Hemorrhage.",
+   "Raça: o Ladino não ganhou combinação nova além do Skyborne."
+  ],
+  "fonte": "guias de talentos e de upar do Wowhead para o WoW Forever (patch 1.60.1, editados entre 04/11 e 26/11/2026) e notas de desenvolvimento da Blizzard. Builds de raide ainda são estimativa até as raides abrirem em 09/12."
+ },
+ "Xamã": {
+  "builds": [
+   {
+    "spec": "Elemental",
+    "objetivo": "Upar até o 31 (\"Spellhance\", fase 1)",
+    "pontos": "0/11/11 (22 pts)",
+    "chave": "Mindfulness (Atenção Plena), Water Shield (Escudo de Água), Tidal Focus (Concentração das Marés), até Mental Dexterity (Destreza Mental)",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/vkndmh-05203001-053020001_t0/2BCeej1BEcch",
+    "fonte": "Wowhead leveling Elemental, 04/11"
+   },
+   {
+    "spec": "Elemental",
+    "objetivo": "Upar depois do respec (\"Spellhance\", fase 2)",
+    "pontos": "18/25/8",
+    "chave": "Corre para Improved Stormstrike (Ataque da Tempestade Aprimorado), depois Mental Quickness, Spirit Weapons e Tidal Focus, e fecha no Elemental",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/vkndmh35300310201-0500333100212122-053_t0/1BEffhGfPnmmSRq2BC0BFccgcaaaJm",
+    "fonte": "Wowhead leveling Elemental, 04/11"
+   },
+   {
+    "spec": "Elemental",
+    "objetivo": "Upar como conjurador (\"True Elemental\")",
+    "pontos": "33/7/11",
+    "chave": "Elemental Alacrity (Diligência Elemental) no 28, Elemental Focus (Concentração Elemental)",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/vkndmh5500331023101351-052-053020001_t0/2BCeej0BEffgfaaaKmjpQaRsja1Bcc",
+    "fonte": "Wowhead leveling Elemental, 04/11"
+   },
+   {
+    "spec": "Elemental",
+    "objetivo": "Raide (com Mana Tide)",
+    "pontos": "31/4/16",
+    "chave": "Mana Tide Totem (Totem de Vagalhão de Mana), Totemic Focus, Water Shield",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/vkndmh5500331013001351-04-053150001001_t0/0BEffgfaaaKaapQjRs2BCeejeeedn1bbbb",
+    "fonte": "Wowhead talentos Elemental, 16/11"
+   },
+   {
+    "spec": "Elemental",
+    "objetivo": "Raide e masmorra (Shamanistic Focus)",
+    "pontos": "32/11/8",
+    "chave": "Shamanistic Focus (Concentração Xamanística) + Ancestral Knowledge (Conhecimento Ancestral); +1 Thundering Strikes e Trial by Fire (Prova de Fogo)",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/v25500331023001351-05500001-053_t0/0BEFgaaaKaapQjRs2BC1bbbb0j1bCh",
+    "fonte": "Wowhead talentos Elemental, 16/11"
+   },
+   {
+    "spec": "Elemental",
+    "objetivo": "PvP (Lightning Mastery)",
+    "pontos": "33/17/1",
+    "chave": "Lightning Mastery (Maestria em Raio), Earthbound (Prisão Terrena), Earth's Grasp (Domínio da Terra); 4 pontos em Tidal Focus",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/v25500331003121351-2502020130002-01_t0/0BEFgKpQrr1BA0nman1h0aaaarrr1DJ2b0s1ffP",
+    "fonte": "Wowhead talentos Elemental, 16/11"
+   },
+   {
+    "spec": "Elemental",
+    "objetivo": "PvP (híbrido Ele-Resto)",
+    "pontos": "30/0/21",
+    "chave": "Nature's Swiftness (Rapidez da Natureza) + cura",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/v2350033101311135--05302233100101_t0/2bbbbC0BEFgmKjpQrr2eejHGnF0naaarrr2bq",
+    "fonte": "Wowhead talentos Elemental, 16/11"
+   },
+   {
+    "spec": "Aperfeiçoamento",
+    "objetivo": "Upar até o 60 (e farmar pré-BiS)",
+    "pontos": "17/26/8",
+    "chave": "É a mesma build de masmorra",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/vkndmh053303102-05303031002121221-053_t0/1BEcchGcnPmmSRqt2BC0BFCgdddJ",
+    "fonte": "Wowhead leveling Aperf., 18/11"
+   },
+   {
+    "spec": "Aperfeiçoamento",
+    "objetivo": "Raide",
+    "pontos": "17/34/0",
+    "chave": "Todo o Aperfeiçoamento relevante + dano mágico do Elemental; Rage of the Farseer (Fúria do Clarividente), Maelstrom Weapon (Arma da Voragem), Elemental Focus, Improved Stormstrike; Reverberation 3/5 só para passar de linha",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/v2053303102-053030310051212251_t0_r2/1BEcchGcMnPSRqTv0BFCgdddJ",
+    "fonte": "Wowhead talentos Aperf., 19/11"
+   },
+   {
+    "spec": "Aperfeiçoamento",
+    "objetivo": "Masmorra",
+    "pontos": "17/26/8",
+    "chave": "Sem Rage of the Farseer, 1 ponto em Maelstrom Weapon; Mindfulness + acerto em Resto",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/vkndmh053303102-05303031002121221-053_t0/1BEcchGcnPmmSRqt2BC0BFCgdddJ",
+    "fonte": "Wowhead talentos Aperf., 19/11"
+   },
+   {
+    "spec": "Aperfeiçoamento",
+    "objetivo": "PvP (controle)",
+    "pontos": "18/26/7",
+    "chave": "Mais dano mágico e controle, mais fundo no Elemental",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/v205350310001-2502300130212122-050002_t0_r2/1ABDEhjjPn0BFDCgm2BF1jmSRqm",
+    "fonte": "Wowhead talentos Aperf., 19/11"
+   },
+   {
+    "spec": "Aperfeiçoamento",
+    "objetivo": "PvP (sustentação)",
+    "pontos": "0/19/32",
+    "chave": "Fundo em Resto, para aguentar mais tempo que o adversário",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/v2-0512300131012-0530523315003101_t0_r2/1BDEhJcPn2BCEFGHKqjPs1k",
+    "fonte": "Wowhead talentos Aperf., 19/11"
+   },
+   {
+    "spec": "Restauração",
+    "objetivo": "Upar 1-60",
+    "pontos": "0/17/34",
+    "chave": "Tidal Focus, Mindfulness e Water Shield cedo; depois só cura (fraco para upar sozinho)",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/vkndmh-0550301100002-1530023315013151_t0/2BCFjHankkkkqPkRs1BEcchcccgP2G",
+    "fonte": "Wowhead leveling Resto, 04/11"
+   },
+   {
+    "spec": "Restauração",
+    "objetivo": "Raide/masmorra/PvP (com Ghost Wolf)",
+    "pontos": "0/17/34",
+    "chave": "Riptide (Contracorrente), Nature's Swiftness, Mana Tide Totem, Improved Ghost Wolf (Lobo Fantasma Aprimorado: instantâneo e em ambiente fechado); para PvP: Guardian Totems, Shamanistic Focus",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/vkndmh-2552000100002-5330003315013151_t0/2ACbbHjGKnqPRs1BC2b1DhAP",
+    "fonte": "Wowhead talentos Resto, 24/11"
+   },
+   {
+    "spec": "Restauração",
+    "objetivo": "Raide (sem Ghost Wolf)",
+    "pontos": "0/10/41",
+    "chave": "Troca a mobilidade por Restorative Totems (Totens Restauradores) e mais cura",
+    "link": "https://www.wowhead.com/forever/talent-calc/shaman/vkndmh-055-5530003315513151_t0/2ACbbHjGKnqPRs1BC2Mbbb",
+    "fonte": "Wowhead talentos Resto, 24/11 (o Warcraft Tavern também dá 0/10/41)"
+   }
+  ],
+  "mudancas": [
+   "Lava Burst foi removido e Call of Thunder entrou no lugar.",
+   "Elemental Mastery foi renomeado para Lightning Mastery.",
+   "Lightning Overload foi para 10/20/30%.",
+   "Lightning Bolt e Chain Lightning foram refeitos.",
+   "Stormstrike causa 150% do dano da arma, com recarga de 6 s.",
+   "Rage of the Farseer e Maelstrom Weapon são talentos.",
+   "Em 10/11, a Blizzard ajustou o Aperfeiçoamento porque ele estava indo demais para gear de Poder Mágico e Intelecto.",
+   "Restauração: o novo Riptide tem recarga de 12 s e não cura na hora.",
+   "Outras: Water Shield é talento; Totemic Projection virou Totemic Call.",
+   "Xamã agora existe na Aliança (Anão) e para Skyborne da Horda.",
+   "Warcraft Tavern dá Elemental 31/9/11 e Aperfeiçoamento 8/35/8, sem link e sem data. São builds diferentes das do Wowhead, então não entraram na tabela."
+  ],
+  "fonte": "guias de talentos e de upar do Wowhead para o WoW Forever (patch 1.60.1, editados entre 04/11 e 26/11/2026) e notas de desenvolvimento da Blizzard. Builds de raide ainda são estimativa até as raides abrirem em 09/12."
+ },
+ "Bruxo": {
+  "builds": [
+   {
+    "spec": "Suplício",
+    "objetivo": "Upar 1-60",
+    "pontos": "41/7/3",
+    "chave": "Corruption instantânea primeiro, Suppression (Supressão), Unholy Power antes da Sayaad no 20, talentos de Drain Life; Wrack (Destruição) no 47",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/vkndmh25500323135201351-00050002-03_t0/0Cbbb1DH0FjGbbKaqRaStMHN2bbb",
+    "fonte": "Wowhead leveling Suplício, 11/11"
+   },
+   {
+    "spec": "Suplício",
+    "objetivo": "Upar (Wrack mais cedo: respec no 40)",
+    "pontos": "31/0/0 (31 pts)",
+    "chave": "Tudo em Suplício para chegar ao Wrack no 40",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/vkndmh25500320130001351",
+    "fonte": "Wowhead leveling Suplício, 11/11"
+   },
+   {
+    "spec": "Suplício",
+    "objetivo": "Raide (Wrack, a mais forte)",
+    "pontos": "35/11/5",
+    "chave": "Wrack (Destruição; enquanto você canaliza, os DoTs tickam 2x mais rápido) + Soul Siphon (Sifão da Alma), Siphon Life, Demonic Sacrifice no Diabrete, Shadow Mastery (Maestria em Sombras), Pandemic (Pandemia), Malevolence (Malevolência), Nightfall",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v225500020135201351-0050203001-05_t0/",
+    "fonte": "Wowhead talentos Suplício, 11/11"
+   },
+   {
+    "spec": "Suplício",
+    "objetivo": "Raide (SM Ruin, com Sayaad fora)",
+    "pontos": "30/0/21",
+    "chave": "Shadow Bolt como principal: Bane (Ruína), Improved Shadow Bolt, Ruin (Ruína), Agonizing Flames (Chamas Agonizantes), Pandemic, Malevolence",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v22550001013520105--0550305003_t0/",
+    "fonte": "Wowhead talentos Suplício, 11/11"
+   },
+   {
+    "spec": "Suplício",
+    "objetivo": "Masmorra",
+    "pontos": "30/0/21",
+    "chave": "É a SM Ruin com 1 ponto de Cataclysm (Cataclismo) passado para Shadowburn (Sombra Ardente), porque Wrack não canaliza andando",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v22550001013520105--0550205103_t0/",
+    "fonte": "Wowhead talentos Suplício, 11/11"
+   },
+   {
+    "spec": "Suplício",
+    "objetivo": "PvP (SM/Soul Link, BG solo)",
+    "pontos": "30/21/0",
+    "chave": "Soul Link (Vínculo Anímico), Demonic Embrace, Fel Vitality; flexível: Improved Felhunter (Caçador Vil Aprimorado)",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v22252002013421105-0050233201201101_t0/",
+    "fonte": "Wowhead talentos Suplício, 11/11"
+   },
+   {
+    "spec": "Suplício",
+    "objetivo": "PvP (SM/Ruin, explosão em grupo)",
+    "pontos": "29/0/22",
+    "chave": "Ruin + Malevolence, Conflagrate (Conflagrar) + Aftermath (Consequência)",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v22152002013521104--20500551031_t0/",
+    "fonte": "Wowhead talentos Suplício, 11/11"
+   },
+   {
+    "spec": "Suplício",
+    "objetivo": "PvP (drenos)",
+    "pontos": "31/7/13",
+    "chave": "Wrack, Soul Siphon, Fel Concentration (Concentração Vil), Improved Drains (Drenagens Aprimoradas); o guia diz que é a mais fraca e precisa de gear",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v200520303131211351-00502-25050001_t0/",
+    "fonte": "Wowhead talentos Suplício, 11/11"
+   },
+   {
+    "spec": "Demonologia",
+    "objetivo": "Upar 1-60",
+    "pontos": "20/31/0",
+    "chave": "Pontos no demônio: Demonic Brand (Marca Demoníaca) do 25 ao 27, Demonic Pact (Pacto Demoníaco) no 40; os últimos 20 em Suplício; sem respec",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/vkndmh25500300131-0015003231201301351_t0/1DHGMJQkpsTcVw0CABFKjm",
+    "fonte": "Wowhead leveling Demo, 06/11"
+   },
+   {
+    "spec": "Demonologia",
+    "objetivo": "Raide (Fogo: Diabrete fora, Sayaad sacrificada) + masmorra",
+    "pontos": "2/31/18",
+    "chave": "Demonic Pact (mantém o bônus de Sacrifice com um demônio fora), Master Demonologist, Demonic Knowledge, Improved Imp, Demonic Energies, Searing Pain (Dor Lancinante) como principal; melhor em luta longa e em AoE",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v2011-0305003201220301351-0050055003_t0/",
+    "fonte": "Wowhead talentos Demo, 04/11"
+   },
+   {
+    "spec": "Demonologia",
+    "objetivo": "Raide (Sombra: Sayaad fora, Diabrete sacrificado)",
+    "pontos": "2/31/18",
+    "chave": "Shadow Bolt como principal, Improved Sayaad (Sayaad Aprimorado), Bane, Demonic Brand 3/3; melhor em luta curta",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v2011-0005003231220301351-0550005003_t0/",
+    "fonte": "Wowhead talentos Demo, 04/11"
+   },
+   {
+    "spec": "Demonologia",
+    "objetivo": "PvP (duelo/mundo, demônio contra a classe)",
+    "pontos": "20/31/0",
+    "chave": "Demonic Pact + Master Demonologist (Voidwalker contra corpo a corpo, Felhunter contra conjurador), Improved Drains, Fel Concentration",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v20052030313021-0050233201201131151_t0/",
+    "fonte": "Wowhead talentos Demo, 04/11"
+   },
+   {
+    "spec": "Demonologia",
+    "objetivo": "PvP (Soul Link/Shadowburn)",
+    "pontos": "7/33/11",
+    "chave": "Demonic Knowledge cheio, Bane, Shadowburn, Molten Skin (Pele Derretida), Grim Reach (Borda Sinistra)",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v20052-0050233201201131351-00550001_t0/",
+    "fonte": "Wowhead talentos Demo, 04/11"
+   },
+   {
+    "spec": "Demonologia",
+    "objetivo": "PvP (BG, lentidão em grupo)",
+    "pontos": "16/24/11",
+    "chave": "Soul Link, Curse of Exhaustion (Maldição da Exaustão), Improved Felhunter, Molten Skin",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v22252000013001-0050203201221231-20530001_t0/",
+    "fonte": "Wowhead talentos Demo, 04/11"
+   },
+   {
+    "spec": "Destruição",
+    "objetivo": "Upar solo (quest/grind)",
+    "pontos": "23/5/23",
+    "chave": "Sem respec. O guia separa a build Solo da de Masmorra; o 2º link (17/3/31) é a versão com dicas para servidor PvP",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/vkndmh250003201350002-0005-00523501031003_t0/2CFhEdmKdQ1D0BAFjKGMrr",
+    "fonte": "Wowhead leveling Destro, 06/11"
+   },
+   {
+    "spec": "Destruição",
+    "objetivo": "Upar (masmorra / servidor PvP)",
+    "pontos": "17/3/31",
+    "chave": "Destructive Reach (Alcance Destrutivo), Grim Reach, Curse of Exhaustion, Demonic Embrace",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/vkndmh25500000131-03-0050353103101351_t0/2CFhEgmKgpQgRs1B0BCjKAm",
+    "fonte": "Wowhead leveling Destro, 06/11"
+   },
+   {
+    "spec": "Destruição",
+    "objetivo": "Raide (Sayaad fora, a mais forte)",
+    "pontos": "14/4/33",
+    "chave": "Incinerate (Incinerar, a nova principal: +25% com Immolate), Shadow and Flame (Sombra e Chama), Conflagrate + Shadowburn no CD, Fire and Brimstone (Fogo e Enxofre), Bane, Ruin, Aftermath, Unholy Power 4/5",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v22530000013-0004-0050355103101351_t0/",
+    "fonte": "Wowhead talentos Destro, 04/11"
+   },
+   {
+    "spec": "Destruição",
+    "objetivo": "Raide (Diabrete fora)",
+    "pontos": "14/6/31",
+    "chave": "Improved Imp 3/3, Demonic Energies, Blood Pact (Pacto de Sangue) para o grupo",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v22530000013-03020001-0050335103101351_t0/",
+    "fonte": "Wowhead talentos Destro, 04/11"
+   },
+   {
+    "spec": "Destruição",
+    "objetivo": "Raide (Demonic Sacrifice, sem demônio)",
+    "pontos": "7/11/33",
+    "chave": "Sacrifica a Sayaad para ganhar +15% de dano de Fogo; fica atrás das outras duas",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v2205-0050203001-0050355103101351_t0/",
+    "fonte": "Wowhead talentos Destro, 04/11"
+   },
+   {
+    "spec": "Destruição",
+    "objetivo": "Masmorra",
+    "pontos": "14/4/33",
+    "chave": "É a da Sayaad com 2 pontos de Suppression passados para Corruption instantânea",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v22350000013-0004-0050355103101351_t0/",
+    "fonte": "Wowhead talentos Destro, 04/11"
+   },
+   {
+    "spec": "Destruição",
+    "objetivo": "PvP (Soul Link/Conflagrate)",
+    "pontos": "0/21/30",
+    "chave": "Soul Link, Molten Skin, Ruin, Conflagrate, Fire and Brimstone, Shadowburn",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v2-1050203201221101-20550551031003_t0/",
+    "fonte": "Wowhead talentos Destro, 04/11"
+   },
+   {
+    "spec": "Destruição",
+    "objetivo": "PvP (Destro funda, máxima explosão)",
+    "pontos": "0/16/35",
+    "chave": "Conflagrate, Fire and Brimstone, Shadow and Flame, Incinerate, Fel Domination (Dominância Vil), Intensity (Intensidade)",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v2-0050203201201-2050055133101351_t0/",
+    "fonte": "Wowhead talentos Destro, 04/11"
+   },
+   {
+    "spec": "Destruição",
+    "objetivo": "PvP (Nightfall/Conflagrate, kite)",
+    "pontos": "18/0/33",
+    "chave": "Curse of Exhaustion, Nightfall (Martelo do Ocaso), Corruption instantânea + Destro cheia",
+    "link": "https://www.wowhead.com/forever/talent-calc/warlock/v22252000013021--2051055103101351_t0/",
+    "fonte": "Wowhead talentos Destro, 04/11"
+   }
+  ],
+  "mudancas": [
+   "Wrack (Suplício, exige 30 pontos e Siphon Life) e Soul Siphon.",
+   "Incinerate (Destruição, exige 30 pontos) e Shadow and Flame (bônus de 4-20%).",
+   "Demonic Pact (Demonologia, exige 30 pontos), Demonic Brand, Demonic Energies, Pandemic, Fire and Brimstone e Grim Reach (no lugar de Malediction).",
+   "As maldições de dano viraram Banes (Bane of Agony, Bane of Doom, Bane of Havoc).",
+   "A Súcubo se chama Sayaad.",
+   "Demônios tomam 50% menos dano de AoE de chefe.",
+   "As pedras de feitiço afetam só dano de Sombra.",
+   "Drain Soul tem chance menor de dar Fragmento de Alma.",
+   "O coeficiente do Wrack dobrou.",
+   "Bruxo agora existe para Troll.",
+   "Pontos conferidos: o texto do guia de Demonologia diz \"2/31/18\", e o cálculo pelo código do link dá o mesmo valor. Isso confirma o método usado em todas as tabelas.",
+   "Fonte: Blizzard dev notes (16/10 e 03/11); guias do Wowhead."
+  ],
+  "fonte": "guias de talentos e de upar do Wowhead para o WoW Forever (patch 1.60.1, editados entre 04/11 e 26/11/2026) e notas de desenvolvimento da Blizzard. Builds de raide ainda são estimativa até as raides abrirem em 09/12."
+ }
+}

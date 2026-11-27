@@ -84,7 +84,7 @@ def build_classes():
         b = f"""    <section class="tool-head">
       <p class="kicker">Classe · WoW Forever</p>
       <h1><img class="h1-ic" src="../../assets/classes/{en}.jpg" alt="" width="64" height="64">{E(nome)} no WoW Forever</h1>
-      <p class="lead">Tudo que o {E(nome)} precisa saber no Forever: o conjunto de raide fabricado de cada especialização, a profissão que faz, os bônus e os conjuntos de masmorra que servem pra você enquanto upa.</p>
+      <p class="lead">Tudo que o {E(nome)} precisa saber no Forever: as builds de talento de cada especialização (upar, raide e PvP), o conjunto de raide fabricado, a profissão que faz, os bônus e os conjuntos de masmorra que servem pra você enquanto upa.</p>
       <p class="facts">Armadura: <b>{arm}</b> · Profissão do conjunto de raide: <b>{r["prof"]}</b> no 300 · Raides abrem em <b>09/12/2026</b></p>
     </section>
 """
@@ -110,7 +110,7 @@ def build_classes():
         b += f'    <p class="other">Outras classes: ' + " · ".join(f'<a href="../{s}/">{E(n)}</a>' for n, s, _, _ in CLASSES if s != slug) + "</p>"
         d = R / "classes" / slug; d.mkdir(parents=True, exist_ok=True)
         (d / "index.html").write_text(page(f"{nome} no WoW Forever: tier set, conjuntos e talentos — O MURLOC",
-                                           f"{nome} no WoW Forever: conjunto de raide fabricado de cada especialização ({r['prof']}), bônus, conjuntos de masmorra e onde cai cada peça.",
+                                           f"{nome} no WoW Forever: builds de talento, conjunto de raide fabricado ({r['prof']}), bônus, conjuntos de masmorra e onde cai cada peça.",
                                            f"classes/{slug}/", b, 2, nav_extra=nav_extra().replace("{up}", "../../")), encoding="utf-8")
     body = f"""    <section class="tool-head">
       <p class="kicker">Classes · WoW Forever</p>
@@ -125,14 +125,68 @@ def build_classes():
 
 
 def render_talentos(nome, t):
-    rows = ""
+    from collections import OrderedDict
+    g = OrderedDict()
     for x in t.get("builds", []):
-        link = f'<a class="btn ghost" href="{E(x["link"])}" target="_blank" rel="noopener">Abrir a build</a>' if x.get("link") else ""
-        rows += f'<article class="set"><h3>{E(x["spec"])}</h3><p class="tag">{E(x["objetivo"])}{" · " + E(x["pontos"]) if x.get("pontos") else ""}</p><p>{E(x.get("chave", ""))}</p>{link}</article>'
+        g.setdefault(x["spec"], []).append(x)
+    html_specs = ""
+    for spec, bs in g.items():
+        rows = ""
+        for x in bs:
+            bt = f'<a class="btn ghost" href="{E(x["link"])}" target="_blank" rel="noopener">Abrir a build</a>' if x["link"] else ""
+            rows += f'<tr><td>{E(x["objetivo"])}</td><td class="pts">{E(x["pontos"])}</td><td>{E(x["chave"])}</td><td>{bt}</td></tr>'
+        html_specs += (f'<h3 class="spec-h">{E(spec)}</h3><div class="table-wrap"><table class="camp tal"><thead><tr>'
+                       f'<th>Pra quê</th><th>Pontos</th><th>Talentos-chave</th><th></th></tr></thead><tbody>{rows}</tbody></table></div>')
     notas = "".join(f"<li>{E(n)}</li>" for n in t.get("mudancas", []))
-    return (f'    <section class="block" id="talentos"><div class="block-head"><h2>Talentos</h2><span class="hint">Builds dos guias do Forever, com link pra abrir pronta</span></div>\n'
-            f'      <div class="sets">{rows}</div>' + (f'<ul class="rules">{notas}</ul>' if notas else "") +
-            (f'<p class="sources">Fonte dos talentos: {E(t["fonte"])}</p>' if t.get("fonte") else "") + "</section>\n")
+    out = ['    <section class="block" id="talentos"><div class="block-head"><h2>Talentos</h2>'
+           '<span class="hint">Cada build abre pronta no calculador do Wowhead</span></div>', "      " + html_specs]
+    if notas:
+        out.append(f'<h3 class="spec-h">O que mudou no Forever</h3><ul class="rules">{notas}</ul>')
+    if t.get("fonte"):
+        out.append(f'<p class="sources">Fonte dos talentos: {E(t["fonte"])}</p>')
+    out.append("</section>")
+    out.append("    " + AD)
+    return "\n".join(out) + "\n"
+
+
+def build_talentos():
+    f = R / "data" / "talentos.json"
+    if not f.exists():
+        return
+    t = json.load(open(f, encoding="utf-8"))
+    blocos = []
+    for nome, slug, en, arm in CLASSES:
+        if nome not in t:
+            continue
+        specs = []
+        for x in t[nome]["builds"]:
+            if x["spec"] not in specs:
+                specs.append(x["spec"])
+        rows = ""
+        for sp in specs:
+            links = " ".join(f'<a class="chip-link" href="{E(x["link"])}" target="_blank" rel="noopener" title="{E(x["chave"])}">{E(x["objetivo"])} · {E(x["pontos"])}</a>'
+                             for x in t[nome]["builds"] if x["spec"] == sp and x["link"])
+            rows += f"<tr><td><b>{E(sp)}</b></td><td>{links}</td></tr>"
+        blocos.append(f'<section class="block" id="{slug}"><div class="block-head"><h2><img class="h1-ic" src="../assets/classes/{en}.jpg" alt="" width="44" height="44">{E(nome)}</h2>'
+                      f'<a class="more" href="../classes/{slug}/#talentos">Ver detalhes e o que mudou</a></div>'
+                      f'<div class="table-wrap"><table class="camp tal"><tbody>{rows}</tbody></table></div></section>')
+        if nome in ("Mago", "Ladino"):
+            blocos.append("    " + AD)
+    idx = " · ".join(f'<a href="#{s}">{E(n)}</a>' for n, s, _, _ in CLASSES)
+    head = ('    <section class="tool-head"><p class="kicker">Talentos · WoW Forever</p><h1>Talentos do WoW Forever: builds de todas as classes</h1>'
+            '<p class="lead">As builds de talento das 9 classes e 27 especializações do Forever, pra upar do 1 ao 60, raide, masmorra e PvP. Clique na build e ela abre pronta no calculador do Wowhead.</p>'
+            '<ul class="rules"><li>O Forever mudou muitos talentos em relação ao Classic: build do Classic original não serve. Na página de cada classe tem o que mudou.</li>'
+            '<li>As builds de raide ainda são estimativa: as raides abrem em 09/12/2026 e os guias devem mudar depois disso.</li>'
+            '<li>Raça nova no Forever: Skyborne (Horda: Druida, Caçador, Ladino, Xamã e Guerreiro; Aliança: Druida, Caçador, Mago, Ladino e Guerreiro). '
+            'Combinações novas: Orc Mago, Troll Bruxo, Morto-vivo Paladino, Humano Caçador, Gnomo Sacerdote e Anão Xamã.</li></ul>'
+            f'<p class="other">Pular para: {idx}</p></section>')
+    foot = ('    <p class="sources">Fonte: guias de talentos e de upar do Wowhead para o WoW Forever (patch 1.60.1, editados entre 04/11 e 26/11/2026) '
+            'e notas de desenvolvimento da Blizzard. O O MURLOC organiza e traduz; as builds são dos guias citados.</p>')
+    body = "\n".join([head] + blocos + [foot])
+    (R / "talentos").mkdir(exist_ok=True)
+    (R / "talentos" / "index.html").write_text(page("Talentos do WoW Forever: builds de todas as classes (upar, raide e PvP) — O MURLOC",
+        "Builds de talento do WoW Forever para as 9 classes e 27 especializações: upar 1-60, raide, masmorra e PvP, com link pronto no calculador.",
+        "talentos/", body, 1, nav_extra=nav_extra().replace("{up}", "../")), encoding="utf-8")
 
 
 def build_guias():
@@ -191,5 +245,6 @@ if __name__ == "__main__":
     build_classes()
     build_guias()
     build_addons()
+    build_talentos()
     build_home()
     print("ok classes")

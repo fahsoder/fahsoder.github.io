@@ -73,3 +73,9 @@
 .other a, .note a { color: var(--yellow); }
 .muted { color: var(--muted); }
 .addons td:first-child a { color: var(--yellow); font-weight: 800; } .addons td:last-child { font-size: 13px; }
+.spec-h { font: italic 900 20px var(--font); color: var(--yellow); text-transform: uppercase; margin: 22px 0 8px; -webkit-text-stroke: 1px var(--brown); paint-order: stroke fill; }
+.tal td.pts { white-space: nowrap; font-weight: 800; color: var(--text); }
+.tal td .btn { white-space: nowrap; padding: 6px 12px; font-size: 12px; }
+.chip-link { display: inline-block; margin: 3px 6px 3px 0; padding: 5px 10px; border: 1px solid var(--line); border-radius: 999px; color: var(--text); text-decoration: none; font-size: 13px; }
+.chip-link:hover { border-color: var(--yellow); color: var(--yellow); }
+h2 .h1-ic { width: 40px; height: 40px; margin-right: 10px; }
